@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJs</title>
+    <style>
+        p {
+            font-size: 18.5px;
+            letter-spacing: 0.4px;
+            word-spacing: 0.4px;
+            font-weight: 540;
+            font-family: 'Times New Roman';
+        }
+        h4 {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body style="background-color: #d1cefa;">
+    <h1 style="text-align: center;"> Node/Express Interview Questions</h1>
+
+    <h3>1. What is Node.JS...? Imp</h3>
+    <p>
+         Node.js is an open-source JavaScript runtime environment executing JavScript code on the server side. <br>
+         Node.js is built on the V8 JavaScript engine, which developed by Google, written in C++ and compiles with JavaScript code. <br>
+         Node.js uses event-driven, non-blocking I/O model, which makes lightweight and efficient for building scalable network applications. <br>
+         Node.js is neither a language nor a framework or library. 
+    </p>
+
+    <h3>2. Explain the main advantages of using NodeJs...?</h3>
+    <p>
+         Node.js allows developers to write client-side as well as server-side JavaScript code. <br>
+         Node.js has a inbuild and widely used packaging manager, called NPM. <br>
+         Node.js uses an event-driven, non-blocking I/O model that makes application lightweight and efficient. <br>
+         Node.js uses a single-threaded architecture with event looping. <br>
+         Node.js runs on cross-platform, like Windows, macOS, Linux, Android, and iOS. <br>
+         Node.js is open-source and free to use.
+    </p>
+
+    <h3>3. What is the difference between Nodejs and JavaScript...?</h3>
+    <p> 
+         Node.js is a runtime environment, while JavaScript is a programming language.  <br>
+         Node.js provides a platform for executing JavaScript code on the server-side, while JavaScript is primarily used on the client-side. <br>
+         Node.js is commonly used developing APIs, but JavaScript access and manipulate the APIs by adding functionality. <br>
+         Express is the popular framework of Nodejs, but in JavaScript React library is popular. 
+    </p>
+
+    <h3>4. Difference between require and import in Nodejs...?</h3>
+    <p>
+         By require, we can't load selectively, but with import, we can load selective way. <br>
+         Require is synchronous in nature, but import load asynchronously. <br>
+         Require is traditional, but import available after introduction of ES6. <br>
+         For import availability, we have to add "type": "module" in package.json.
+    </p>
+
+    <h3>2. What are the HTTP status codes and explain about types…?</h3>
+    <p>
+       HTTP status codes provide information about the outcome of a request i.e. success, failure or other status. <br>
+       Categories of HTTP status code: <br>
+       1xx Informational: <br>
+      > 100 Continue: The server connected and the client should proceed to send the request body. <br>
+       2xx Success: <br>
+      > 200 OK: The request was successful. <br>
+      > 201 Created: The request was successful and a new resource was created. <br>
+      > 204 No Content: The server successfully processed but no content to send in the response. <br>
+       3xx Redirection: <br>
+      > 301 Moved Permanently: The requested resource has been permanently moved to a new location. <br>
+      > 302 Found or Moved Temporarily: The requested resource has been temporarily moved to a different location. <br>
+       4xx Client Error: <br>
+      > 400 Bad Request: The server did not understand the request. <br>
+      > 401 Unauthorized: The request requires user authentication. <br>
+      > 403 Forbidden: The server understood the request, but it refuses to authorize it. <br>
+      > 404 Not Found: The requested resource could not be found on the server. <br>
+      > 429 Too Many Request: <br>
+       5xx Server Error: <br>
+      > 500 Internal Server Error: A error message indicating a server failure. <br>
+      > 501 Not Implemented: The server does not support the functionality required to fulfill the request. <br>
+      > 502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from an upstream server. <br>
+      > 503 Service Unavailable: The server is not ready to handle the request due to down for maintenance or overloaded. 
+    </p>
+
+    <h3>4. What is the difference between Runtime environment and Framework...?</h3>
+    <p>
+         Runtime environment primarily focuses on providing the necessary infrastructure for code execution, including memory management and input output operations. <br>
+         Framework simplifying the development process by offering a pre-defined architecture, libraries and best practice.
+    </p>
+    
+    <h3>5. What is Express.JS...?</h3>
+    <p>
+         Express.js is a framework built on the top of NodeJs. <br>
+         It is designed to simplify the process of building web application and APIs by providing a set of features like simple routing system, middleware support.
+    </p>
+
+    <h3>6. What are the differences between Client side and Server side...?</h3>
+    <p>
+         Client-Side(Browser): <br>
+        > It runs on the user's web browser. <br>
+        > The primary languages are HTML, CSS and JavaScript. <br>
+        > Responsibility to handle UI display, user interactions and client side logics. <br><br>
+         Server-Side(Node): <br>
+        > It runs on the server. <br>
+        > Primary language is JavaScript. <br>
+        > Handle business logic, data storage/access, authentication, authorization etc.
+    </p>
+
+    <h3>8. What are Events, Event Emitter, Event Queue, Event Loop and Event Driven in Node.js...?</h3>
+    <p>
+         Event: Events are objects that represent actions or occurrences that happened in a program. <br>
+         Event Emitter: Event Emitter is a core module in Node.js that allows to emit and handle events. <br>
+         Event Queue: Event queue holds event listeners/callbacks until they are processed by the event loop. <br> 
+         Event Handler(Listener): Function that responds to specific events. <br>
+         Event Loop: Event loop manage asynchronous operations in a non-blocking manne by tracking events from event queue and executes in loop. <br>
+         Event Driven Architecture: Actions and responses are driven by events rather than a linear flow of code execution.
+    </p>
+
+    <h3>9. What is Middleware and how it works in Node.js...?</h3>
+    <p>
+         Middleware is a powerful tool that executes functionalities between the request and response cycle without modifying the core code in the application. <br>
+         Middleware is used to implement a series of functionality, like authentication, logging, error handling and data transformation. <br>
+         It takes three arguments: request object, response object and next function. Next is used to call the next middleware function. 
+    </p>
+
+    <h3>10. What is the difference between Authentication and Authorization in Node.js...?</h3>
+    <p>
+         Authentication and authorization are two important concepts for application security. <br>
+         Authentication is the process of verifying a user's identity. <br>
+         Common authentication mechanisms include username/password authentication, token-based authentication and Social login. <br> 
+         Authorization is the process of determining permissions to access resource or perform specific action by user. <br>
+         Authorization can be role-based(e.g., admin, user, guest) or attribute-based (e.g., user's age, location, subscription status).
+    </p>
+
+    <h3>11. What is Bcrypt and explain the use of bcrypt library in Node.js...?</h3>
+    <p>
+         Bcrypt is a hashing algorithm, that convert a simple password into hashed password before storing in database. <br>
+         It applies salt (a unique random string value) to the password before hashed to makes the hash unpredictable. <br>
+         It use bcrypt.compare function internally to extracts the salt from the stored hashed password and uses it to hash the entered password for comparison during user login. <br>
+         Bcrypt library is a valuable tool for purpose of security, ease of use and performance.  
+    </p>
+
+    <h3>12. What is JWT and its importance in Nodejs...?</h3>
+    <p>
+         JSON Web Token is an open standard for securely transferring data within parties using a JSON object. <br>
+         JWT is used for stateless authentication mechanisms for users and providers, means maintaining sessions on the client side instead of storing sessions on the server. <br>
+         JWTs consist of three parts: header, payload, and signature. <br>
+          ● Header: Contains metadata about the type of token and the cryptographic algorithms used to secure the token. <br>
+          ● Payload: Contains the statements about the user and additional data. <br>
+          ● Signature: Verifies the integrity of the token and ensures that it has not been tampered with during transmission.  <br>
+         Jsonwebtoken library provide two crucial functions jwt.sign() and jwt.verify() for handling JWT in Node.js. <br>
+          ● jwt.sign(): This function is used to generate a new JWT token based on the provided payload and options. <br>
+          ● jwt.verify(): This function is used to verify and decode a JWT token to retrieve the original payload.
+    </p>
+
+    <h3>12. What is Buffer in Nodejs?</h3>
+    <p>
+         A buffer is a region of memory that is used to store data temporarily in a computer. <br>
+         In Node.js, buffers are used to store and manipulate binary data. <br>
+         Binary data is data that is made up of bytes, which includes images, audio and video files. <br>
+         Node.js provides methods for working with buffers. <br>
+          > Buffer.alloc(): Creates a new buffer of a specified size. <br>
+          > Buffer.from(): Creates a new buffer from an existing string or array. <br>
+          > Buffer.write(): Writes data to a buffer. <br>
+          > Buffer.read(): Reads data from a buffer. <br>
+          > Buffer.toString(): Converts a buffer to a string.
+    </p>
+
+    <h3>13. What is MongoDB and why it is different from others...?</h3>
+    <p>
+         MongoDB is a popular open-source, NoSQL database management system. <br>
+         It stores data in a flexible, document-based format called BSON (Binary JSON). <br>
+         Traditional databases use tables and rows format, where MongoDB uses collections and documents.
+         
+         
+    </p>
+
+    <h3>14. What is Mongoose...?</h3>
+    <p>
+         Mongoose is an Object Document Mapper(ODM), that allow developers to define objects/models with strongly-typed schema.
+         Mongoose
+    </p>
+
+    <h3>15. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>16. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>17. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>18. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>19. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>20. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>21. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>22. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>23. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>24. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>25. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>26. What is the importance of dotenv in NodeJs...?</h3>
+    <p>
+         Dotenv helps keep sensitive information such as API keys, database passwords, and other secrets out of your code. <br>
+         Dotenv makes it easy to manage your environment variables in one place. <br>
+         It allows you to easily switch configurations between development, testing, and production environments by modifying the .env file. 
+    </p>
+
+    <h3>4. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>4. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>4. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>4. ...?</h3>
+    <p>
+        
+    </p>
+
+    <h3>4. ...?</h3>
+    <p>
+        
+    </p>
+    
+</body>
+</html>

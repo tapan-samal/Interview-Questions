@@ -27,12 +27,12 @@
     <h2>A. JavaScript Basic :</h2>
     <h3>1. What is JavaScript ...?</h3>
     <p>
-       JavaScript is scripting language for converting static pages to interactive and dynamic web pages. <br />
-       Dynamic language means the data types of variaables can change during runtime. <br>
+       JavaScript is a scripting language for converting static pages to interactive and dynamic web pages. <br />
        It is commonly used for adding functionality to websites, enhancing user interfaces, and developing web applications. <br>
        It is a versatile programming language for both client-side(front-end) and server-side(back-end) development. <br>
        JavaScript was invented by Brendan Eich in 1995. <br> <br>
-       JavaScript Engine : A JavaScript engine is a crucial component in web browsers where code is executed. Examplea: V8(Chrome), Spider-Monkey(Firefox), JavaScript-Core(Safari).
+       Dynamic language means the data types of variaables can change during runtime. <br>
+       JavaScript Engine : A JavaScript engine is a crucial component in web browsers where code is executed. Example: V8(Chrome), Spider-Monkey(Firefox), JavaScript-Core(Safari).
     </p>
 
     <h3>2. What is JavaScript used for...?</h3>
@@ -100,7 +100,7 @@
 
     <h3>9. What are the rules of naming a variable in JavaScript...?</h3>
     <p>
-       Identifier must be an meaningful unique name, because of case-sensitive(a =! A). <br />
+       Identifier must be meaningful with unique name, because of case-sensitive(a =! A). <br />
        Name always begin with letter, underscore and dollar sign. <br />
        Name can only conatain letters, underscore, dollar-sigh and numbers. <br />
        Reserved words by JavaScript cannot be used as name. <br />
@@ -590,7 +590,7 @@
     <h3>48. What are "array like" objects in  JavaScript…?</h3>
     <p>
        In JavaScript, an "array-like" object has some similar characteristics to arrays, i.e. length property and indexed elements. <br>
-       Here are types of array like object:
+       Here are types of array like object: <br>
        Arguments: When a function called, it gets access all parameters passed to a function by a special keyword "arguments". <br>
        Strings: Strings can be treated as array-like objects because length property and individual element can access by index. <br>
        HTML Collections: DOM selectors such as querySelectorAll and getElementsByClassName can use length property and access by index.
@@ -740,7 +740,8 @@
        The event loop is a mechanism in JavaScript that allows to execute code asynchronously. <br>
        The event loop continuously checks the call stack and the callback queue. <br>
        When call stack is empty, the event loop takes the first function from the callback queue and pushes it to call stack for execution. <br>
-       The event loop is responsible for making JavaScript feel responsive and interactive.
+       After completing execution, it removed from the stack in a last-in-first-out (LIFO) manner.
+       The event loop is responsible for making JavaScript responsive and interactive.
     </p>
 
     <h3>61. What is Browser Object Model(BOM)...?</h3>
@@ -769,7 +770,7 @@
     
     <h3>62. What is Promises in JavaScript...? Imp</h3>
     <p>
-       A Promise is an object in JavaScript that represents the eventual completion or failure of an asynchronous operations. <br />
+       A Promise is an object in JavaScript, which represents the eventual completion or failure of an asynchronous operations. <br />
        It is an alternative approach for callbacks by reducing the callback hell and writing the cleaner code. <br>
        A promise represents a value that may not be available yet but will be available at some point in the future.<br />
        Promise can be in one of 3 states : pending, resolved or rejected. <br />
@@ -816,9 +817,9 @@
        Objects have properties(variables) and methods(functions) are used to represent and manipulate data. <br />
        OOP in JavaScript is based on the concept of prototypes. <br><br>
        There are 4 main principles in OOP : <br />
-      > Abstraction: Abstraction is the act of hiding unnecessary details from the user. Abstraction can achieved by creating classes and objects. <br />
-      > Encapsulation: Encapsulation is the act of bundling data and methods together into a single unit and protect data from outside to access & modify.<br />
-      > Inheritance: Inheritance is the act of creating a new class from an existing class by inheriting all of the properties and methods of the existing class and promoting code reuse. <br />
+      > Abstraction: Abstraction is the act of hiding unnecessary details about user by creating classes and objects. <br />
+      > Encapsulation: Encapsulation is the act of bundling data and methods together into a single unit and protect data from outside to get access & modify.<br />
+      > Inheritance: Inheritance is the act of creating new class from an existing class by inheriting properties and methods and promoting code reusability. <br />
       > Polymorphim: Polymorphism allows objects of different types to be treated as objects of a common type.
     </p>
     
@@ -886,7 +887,7 @@
     <h3>75. What is a strict mode in javascript...? Imp</h3>
     <p>
        Strict Mode is introduced in ES5 that allows a program in a “strict” operating context. <br />
-       It enhance the language by catching errors, preventing global variables, restrict the use of reserved keywords and prohibit duplicate name etc.<br />
+       It enhance the language by catching errors in advance, preventing global variables, restrict the use of reserved keywords and prohibit duplicate name etc.<br />
        The "use strict" directive is used to enable strict mode in code.
     </p>
     
@@ -919,7 +920,7 @@
     
     <h3>78. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
     <p>
-       Local storage and Session storage are two web storage by HTML5 that allow to store data by the users. <br />
+       Local storage and Session storage are two web storage by HTML5 that allow to store data by the users locally. <br />
        They are similar in many ways but have some few key differences: <br /><br />
        Local Storage: <br>
       > Data stored in localStorage is accessible across multiple windows and tabs of same origin(domain). <br />
@@ -949,7 +950,22 @@
     <p>
        Cookies are the small piece of data that is stored in the user's browser. <br />
        Cookies are saved as key/value pairs. <br />
-       Cookies are used to remember information about the user profile.
+       It is commonly used by websites to remember information about the user's browsing activity, preferences, and interactions with site. <br>
+       Types: Session cookies are romoved when close the browser, and Persistent cookies are stored for a longer period.
+    </p>
+
+    <h3>3. What is IndexedDB and explain about the basic patterns...?</h3>
+    <p>
+         IndexedDB is a web browser API, that allows web applications to store and retrieve large amounts of structured data locally. <br>
+         It create and manage client-side databases asynchronously. <br>
+         It enable offline storing, that improved performance and better user experiences. <br>
+         It is more powerful than local storage. <br><br>
+         Basic Patterns: <br>
+        > Open a database using the indexedDB.open() method. <br>
+        > Create an object store in the database using createObjectStore() method. <br>
+        > Start transaction and make a request to do some database operation using transaction(['objName'], 'readwrite/readonly') method. <br>
+        > Wait for the operation to complete by listening to the right kind of DOM event. <br>
+        > Provide response with result.
     </p>
     
     <h3>81. What is Debugging in JavaScript...?</h3>
@@ -998,32 +1014,6 @@
       > Provide Descriptive Error Messages: When catching an exception, display a descriptive error message. This helps providing useful information about the nature of the error. <br>
       > Throwing Custom Errors: Use the throw statement to create and throw custom error objects. It provide additional information about the context and nature of the error.<br>
       > Logging Errors: Log errors to a centralized logging system or console. This helps in tracking and diagnosing issues in a production environment.
-    </p>
-
-    <h3>86. What are the HTTP status codes and explain about types…?</h3>
-    <p>
-       HTTP status codes provide information about the outcome of a request i.e. success, failure or other status. <br>
-       Categories of HTTP status code: <br>
-       1xx Informational: <br>
-      > 100 Continue: The server connected and the client should proceed to send the request body. <br>
-       2xx Success: <br>
-      > 200 OK: The request was successful. <br>
-      > 201 Created: The request was successful and a new resource was created. <br>
-      > 204 No Content: The server successfully processed but no content to send in the response. <br>
-       3xx Redirection: <br>
-      > 301 Moved Permanently: The requested resource has been permanently moved to a new location. <br>
-      > 302 Found or Moved Temporarily: The requested resource has been temporarily moved to a different location. <br>
-       4xx Client Error: <br>
-      > 400 Bad Request: The server did not understand the request. <br>
-      > 401 Unauthorized: The request requires user authentication. <br>
-      > 403 Forbidden: The server understood the request, but it refuses to authorize it. <br>
-      > 404 Not Found: The requested resource could not be found on the server. <br>
-      > 429 Too Many Request: <br>
-       5xx Server Error: <br>
-      > 500 Internal Server Error: A error message indicating a server failure. <br>
-      > 501 Not Implemented: The server does not support the functionality required to fulfill the request. <br>
-      > 502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from an upstream server. <br>
-      > 503 Service Unavailable: The server is not ready to handle the request due to down for maintenance or overloaded. 
     </p>
     
     <h3>87. What are the difference between JavaScript and Java...?</h3>
@@ -1105,8 +1095,8 @@
        var: <br />
        The var keyword is used to declared a variable with function scope or global scope. <br />
        Var allows to re-declare and re-assign the value. <br />
-       Variables declared with var are hoisted, means can access before it declaration. <br />
-       var is not recommended to use, after ES6 due to naming conflict.<br />
+       Variables declared with var are hoisted, means can access before it's declaration. <br />
+       Var is not recommended to use, after ES6 due to naming conflict.<br /><br>
       <script>
         var username = "Dhoni";
         if (true) {                                 //Here block scope is not working and overriding
@@ -1139,7 +1129,7 @@
     <p>
        The Temporal Dead Zone(TDZ) refers to a specific behavior related to the hoisting of variables declared with the let and const keywords. <br>
        When we declare a variable using var, it gets hoisted to the top of its scope and return undefined. <br> 
-       Where let and const declarations also get hoisted, but not the initialization and return reference error. <br>
+       Where let and const declarations also get hoisted, but not the initialization and return reference error, this behavior called TDZ. <br>
        The TDZ is the time between entering the scope where the variable is declared and the actual initialization of the variable. 
     </p>
 
@@ -1172,7 +1162,7 @@
     <p>
        Arrow functions and Regular functions in JavaScript have some key differences in their syntax, behavior, and use cases. <br /><br />
        Arrow Function : <br />
-      > Arrow functions is also known as Fat arrow function use a concise syntax with the => arrow operator without using 'function' keyword. <br />
+      > Arrow functions is also known as Fat arrow function use a concise syntax with the => arrow operator. <br />
       > It allow to use single expression with an implicit(without) return keyword. <br />
       > Arrow functions do not have their own this context, so inherit from global context. <br />
       > Arrow functions do not have their own arguments object, so inherit from global scope. <br />
