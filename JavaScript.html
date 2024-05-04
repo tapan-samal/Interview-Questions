@@ -17,6 +17,9 @@
         font-size: 19px;
         font-weight: 500;
       }
+      .vvi{
+        color: rgb(0, 138, 0);
+      }
     </style>
   </head>
   <body>
@@ -25,7 +28,7 @@
     </h1>
 
     <h2>A. JavaScript Basic :</h2>
-    <h3>1. What is JavaScript ...?</h3>
+    <h3 class="vvi">1. What is JavaScript ...?</h3>
     <p>
        JavaScript is a scripting language for converting static pages to interactive and dynamic web pages. <br />
        It is commonly used for adding functionality to websites, enhancing user interfaces, and developing web applications. <br>
@@ -98,16 +101,16 @@
        A variable declared without a value will have the value undefined.
     </p>
 
-    <h3>9. What are the rules of naming a variable in JavaScript...?</h3>
+    <h3 class="vvi">9. What are the rules of naming a variable in JavaScript...?</h3>
     <p>
-       Identifier must be meaningful with unique name, because of case-sensitive(a =! A). <br />
+       Identifier must be meaningful with unique name. <br />
        Name always begin with letter, underscore and dollar sign. <br />
        Name can only conatain letters, underscore, dollar-sigh and numbers. <br />
        Reserved words by JavaScript cannot be used as name. <br />
-       conventions- Writting format should be camelCase.
+       Conventions- Writting format should be camelCase.
     </p>
     
-    <h3>10. What is scopes in JavaScript…? Imp</h3>
+    <h3 class="vvi">10. What is scopes in JavaScript…? Imp</h3>
     <p>
        Scope is the accessibility of variables, functions and objects in some particular part of code during runtime.<br />
        It determine the visibility and lifetime of variables and functions in code. <br /><br />
@@ -141,7 +144,7 @@
        Expression : An Expression is a combination of values, variables and operators, which computes to a value.
     </p>
     
-    <h3>12. What is the difference between == and === in JavaScript…? Imp</h3>
+    <h3 class="vvi">12. What is the difference between == and === in JavaScript…? Imp</h3>
     <p>
        Both are the comparison operator. <br>
        == operator used for "loose equality", that compare the values between variables and return a logical value, either true or false.<br />
@@ -182,7 +185,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     <h2>C. Data Types :</h2>
-    <h3>15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…? Imp</h3>
+    <h3 class="vvi">15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…? Imp</h3>
     <p>
       Data Type: A data type determines the type of values that can be stored in a variable. <br />
       <br />
@@ -249,7 +252,7 @@
       the value/output of the function.
     </p>
 
-    <h3>20. What is the difference between Params and Arguments in function...? Imp</h3>
+    <h3 class="vvi">20. What is the difference between Params and Arguments in function...? Imp</h3>
     <p>
        Parameters : <br />
        Parameters are variables listed in the function definition within the parentheses. <br />
@@ -272,7 +275,7 @@
        IIFE: IIFE stands for Immediately Invoked Function Expression.
     </p>
 
-    <h3>22. What is Callback Function and it's uses in real application in JavaScript...? Imp</h3>
+    <h3 class="vvi">22. What is Callback Function and it's uses in real application in JavaScript...? Imp</h3>
     <p>
        A callback function is a function that passed into another function as an argument.<br />
        It is invoked inside the outer function to complete the task. <br />
@@ -320,14 +323,14 @@
       > Math.random
     </p>
 
-    <h3>26. What is Currying Function in JavaScript...? Imp</h3>
+    <h3 class="vvi">26. What is Currying Function in JavaScript...? Imp</h3>
     <p>
        Currying is the process of taking a function with multiple arguments and transformed into a sequence of functions, each taking a single argument.<br />
        It allows to apply partial arguments to the function and create new function. <br />
        Currying is useful for creating more reusable, modularity, clarity and create functional pipelines.
     </p>
 
-    <h3>27. Explain Hoisting in JavaScript with example...? Imp</h3>
+    <h3 class="vvi">27. Explain Hoisting in JavaScript with example...? Imp</h3>
     <p>
        Hoisting is the default behavior in JavaScript to be assumed, that moving all the declarations at the top of the scope before code execution.<br />
        Before hoisting, we have to know the Code execution process. <br>
@@ -337,7 +340,7 @@
        JavaScript allow only the declaration to be hoisted, not the initialization (assignment). <br>
     </p>
 
-    <h3>28. What is Closures in JavaScript...? Imp</h3>
+    <h3 class="vvi">28. What is Closures in JavaScript...? Imp</h3>
     <p>
        A closure is the combination of a function and the lexical environment within which that function is declared.<br />
        The closure can access variables and functions from its containing function, even after the outer function has completed its execution.<br />
@@ -386,7 +389,7 @@
       > Syntax: let xhr = new XMLHttpRequest();
     </p>  
     
-    <h3>31. What is call, apply and bind in JavaScript...? Imp</h3>
+    <h3 class="vvi">31. What is call, apply and bind in JavaScript...? Imp</h3>
     <p>
        Call, Apply and Bind are inbuilt methods of JavaScript, used for sharing the methods of object. <br>
        Call(): <br />
@@ -406,7 +409,7 @@
       > With the bind() method, an object can borrow a method from another object.
     </p>    
     
-    <h3>32. What is Recursive function in JavaScript…? Imp</h3>
+    <h3 class="vvi">32. What is Recursive function in JavaScript…? Imp</h3>
     <p>
        A functon that calls itself within the body during its execution is called a recursive function. <br>
        A recursive function can receive two inputs: a base case (ends recursion) or a recursive case (resumes recursion). <br>
@@ -414,7 +417,7 @@
        This function call itself untill it reaches a base case, where a condition under the function stops calling itself and returns a result. <br>
     </p>
     
-    <h3>33. What is Memoization in JavaScript...?</h3>
+    <h3 class="vvi">33. What is Memoization in JavaScript...?</h3>
     <p>
        Memoization is an optimization technique used to improve the performance of functions by caching their results. <br>
        This is particularly useful for functions that have heavy computation or involve repetitive calculations. <br>
@@ -461,7 +464,7 @@
       > Square bracket notation is more versatile when dealing with programmatically determined property names.
     </p>
     
-    <h3>37. Explain several ways to create objects in JavaScript…? Imp</h3>
+    <h3 class="vvi">37. Explain several ways to create objects in JavaScript…? Imp</h3>
     <p>
        In JavaScript, there are several ways to create objects as per their use cases and advantages. <br />
        Object Literal Notation: Simplest way by define properties and their values within curly braces. <br />
@@ -499,7 +502,7 @@
        It is used to skip the current iteration and move on to the next iteration.
     </p>
     
-    <h3>41. Explain the differences between foreach() and map() method in JavaScript…? Imp</h3>    
+    <h3 class="vvi">41. Explain the differences between foreach() and map() method in JavaScript…? Imp</h3>    
     <p>
        Foreach() and Map() methods are used to iterate over an array and perform an action for each element in the array. <br>
        In ForEach method doesn't craete a new array even not modify the original array. <br />
@@ -508,7 +511,7 @@
        map() method return a new array and leave the original array unchanged.
     </p>    
     
-    <h3>42. What is the difference among Map, Filter and Reduce method in JavaScript...? Imp</h3> 
+    <h3 class="vvi">42. What is the difference among Map, Filter and Reduce method in JavaScript...? Imp</h3> 
     <p>   
        Map() : <br />
       > map() is a method to iterate over an array and create a new array based on transformation of each element, without modifying original array.<br />
@@ -527,7 +530,7 @@
       adding each element to the accumulator.
     </p>
         
-    <h3>43. What is JSON and method of JSON in JavaScript…?</h3>
+    <h3 class="vvi">43. What is JSON and method of JSON in JavaScript…?</h3>
     <p>
        JSON stands for JavaScript Object Notation. <br />
        JSON is a lightweight data interchange format, which store and transporting data.<br />
@@ -549,7 +552,7 @@
        Automatically creates a new array with the transformed values.
     </p>
     
-    <h3>45. What is the difference between slice and splice method in JavaScript...? Imp</h3>  
+    <h3 class="vvi">45. What is the difference between slice and splice method in JavaScript...? Imp</h3>  
     <p>
       Both method used with arrays in JavaScript, but serve for different purposes. <br />
        Slice Method: <br />
@@ -563,7 +566,7 @@
       > Syntax: array.splice(startIndex, deleteCount, ...addElements)
     </p>
 
-    <h3>46. Explain the difference betwen shallow copy and deep copy in JavaScript…? Imp</h3>
+    <h3 class="vvi">46. Explain the difference betwen shallow copy and deep copy in JavaScript…? Imp</h3>
     <p>
        In JavaScript, the concepts of shallow copy and deep copy are related to copying objects and arrays. <br>
        Shallow Copy : <br>
@@ -701,7 +704,7 @@
         > lastChild: References the last child node of an element.
     </p>
 
-    <h3>56. What is the use of Event Handling in JavaScript...? Imp</h3>
+    <h3 class="vvi">56. What is the use of Event Handling in JavaScript...? Imp</h3>
     <p>
        Event Handling is the process of responding to user actions in a web page. <br />
        The addEventListener method of JavaScript allows to attach an event and with a function that event perform on the web page. <br />
@@ -721,13 +724,13 @@
 
     <h3>58. What is Event Delegation in JavaScript…? Imp</h3>
     <p>
-       Event delegation is a technique, that attaching a single event listener to a common ancestor of multiple elements. <br>
-       This is useful when a large number of similar elements, as it reduces the number of event listeners. <br>
+       Event delegation is a technique, which attach a single event handler to a common ancestor of multiple elements. <br>
+       This is useful when a large number of similar elements, as it reduces the number of event handlers. <br>
        The benefits of event delegation include reduced memory consumption, improved performance, and the ability to handle dynamically. <br>
        Event delegation is particularly useful when dealing with lists, tables, or other collections of elements.
     </p>
     
-    <h3>59. What is Event Propagation/Flow in JavaScript...? Imp</h3>
+    <h3 class="vvi">59. What is Event Propagation/Flow in JavaScript...? Imp</h3>
     <p>
        Event Propagation is a way of defining the element order when an event occurs in a web page. <br />
        There are two ways of Event Propagation in HTML DOM: <br />
@@ -735,16 +738,24 @@
       > Event Bubbling : In event bubbling the inner most element's event is handled first and then moving towards the outer elements.
     </p>
 
-    <h3>60. What is Event loop and how it works in JavaScript...? Imp</h3>
+    <h3 class="vvi">60. What is Event loop and how it works in JavaScript...? Imp</h3>
     <p>
        The event loop is a mechanism in JavaScript that allows to execute code asynchronously. <br>
        The event loop continuously checks the call stack and the callback queue. <br>
        When call stack is empty, the event loop takes the first function from the callback queue and pushes it to call stack for execution. <br>
-       After completing execution, it removed from the stack in a last-in-first-out (LIFO) manner.
+       After completing execution, it removed from the stack in a last-in-first-out (LIFO) manner. <br>
        The event loop is responsible for making JavaScript responsive and interactive.
     </p>
 
-    <h3>61. What is Browser Object Model(BOM)...?</h3>
+    <h3>61. What is the difference between Debouncing and Throttling in JavaScript…?</h3>
+    <p>
+       Debouncing is a technique where delay the execution of a function until after a certain amount of time has passed. <br>
+       This is useful for frequently used function, like search, scroll or resize event listener. <br>
+       Decreases the frequency of invoked function, which can enhance performance and avoid pointless effort. <br>
+       Throttling is a similar technique to debouncing, instead of delaying the execution of a function, it limits the rate at which a function <br>
+    </p>
+
+    <h3>62. What is Browser Object Model(BOM)...?</h3>
     <p>
       > The Browser Object Model (BOM) allows JavaScript to "talk to" the browser. <br />
       > It consists of the objects navigator, history, screen, location and document which are children of the window.<br />
@@ -754,7 +765,7 @@
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     <h2>G. Asynchronous :</h2>
-    <h3>61. What are differences between Asynchronous and Synchronous operations in JavaScript...? Imp</h3>  
+    <h3 class="vvi">61. What are differences between Asynchronous and Synchronous operations in JavaScript...? Imp</h3>  
     <p>
       Synchronous : <br />
        JavaScript is a single-threaded and synchronous by default. <br>
@@ -768,7 +779,7 @@
        JavaScript provides mechanisms like callbacks, setTimeout, setInterval, promises and Async/await with asynchronous code. <br /><br />
     </p>  
     
-    <h3>62. What is Promises in JavaScript...? Imp</h3>
+    <h3 class="vvi">62. What is Promises in JavaScript...? Imp</h3>
     <p>
        A Promise is an object in JavaScript, which represents the eventual completion or failure of an asynchronous operations. <br />
        It is an alternative approach for callbacks by reducing the callback hell and writing the cleaner code. <br>
@@ -798,7 +809,7 @@
        On the other hand, Promise also used more widely and useful, where async/await is not applicable or necessary.
     </p>
 
-    <h3>65. What is SetTimeout and SetInterval in JavaScript…?</h3>
+    <h3 class="vvi">65. What is SetTimeout and SetInterval in JavaScript…?</h3>
     <p>
        SetTimeout : The setTimeout() is a built-in JavaScript function that allow to schedule the execution of a function after a specified delay asynchronously. <br>
        SetInterval : The setInterval() is a built-in JavaScript function that allow to repeatedly execute a function at a specified intervals asynchronously. <br>
@@ -810,10 +821,10 @@
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     <h2>H. OOP (Object Oriented Programming) :</h2>
-    <h3>66. What is OOP in JavaScript...?</h3>
+    <h3 class="vvi">66. What is OOP in JavaScript...?</h3>
     <p>
        OOP stands for Object-Oriented Programming. <br />
-       OOP is a programming paradigm that uses objects and classes to organize and structure code. <br />
+       OOP is a programming paradigm that uses objects and classes to organize and structure the code. <br />
        Objects have properties(variables) and methods(functions) are used to represent and manipulate data. <br />
        OOP in JavaScript is based on the concept of prototypes. <br><br>
        There are 4 main principles in OOP : <br />
@@ -823,7 +834,7 @@
       > Polymorphim: Polymorphism allows objects of different types to be treated as objects of a common type.
     </p>
     
-    <h3>67. What is "this" keyword and its purposes in JavaScript...? Imp</h3>
+    <h3 class="vvi">67. What is "this" keyword and its purposes in JavaScript...? Imp</h3>
     <p>
        "this" keyword refers to the current execution context or scope. <br />
        It clearify the confusion between the key and the parameter. <br />
@@ -849,7 +860,7 @@
       > The subclass can reuse and extend the functionality of the super class by using 'extends' keyword.
     </p>  
     
-    <h3>70. What is Prototype in JavaScript ...?</h3>
+    <h3 class="vvi">70. What is Prototype in JavaScript ...?</h3>
     <p>
        Every object in JavaScript has a built-in property, which is called its prototype. <br>
        The prototype is a fundamental concept that allows objects to inherit properties and methods from other objects. <br>
@@ -884,7 +895,7 @@
        TypeScript is designed by Microsoft.
     </p>
 
-    <h3>75. What is a strict mode in javascript...? Imp</h3>
+    <h3 class="vvi">75. What is a strict mode in javascript...? Imp</h3>
     <p>
        Strict Mode is introduced in ES5 that allows a program in a “strict” operating context. <br />
        It enhance the language by catching errors in advance, preventing global variables, restrict the use of reserved keywords and prohibit duplicate name etc.<br />
@@ -918,7 +929,7 @@
       > Storing client side Tokens.
     </p>
     
-    <h3>78. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
+    <h3 class="vvi">78. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
     <p>
        Local storage and Session storage are two web storage by HTML5 that allow to store data by the users locally. <br />
        They are similar in many ways but have some few key differences: <br /><br />
@@ -946,7 +957,7 @@
        In Session Storage also the same methods, like local storage, only the 'local' keyword will replace to 'session'.
     </p>
     
-    <h3>80. What is a Cookie...?</h3>
+    <h3 class="vvi">80. What is a Cookie...?</h3>
     <p>
        Cookies are the small piece of data that is stored in the user's browser. <br />
        Cookies are saved as key/value pairs. <br />
@@ -968,7 +979,7 @@
         > Provide response with result.
     </p>
     
-    <h3>81. What is Debugging in JavaScript...?</h3>
+    <h3 class="vvi">81. What is Debugging in JavaScript...?</h3>
     <p>
        Debugging is the process of testing, finding and fixing errors, bugs or unexpected behaviour in code. <br />
        Programming code might contain syntax errors or logical errors or reference errors or type error etc. <br />
@@ -1090,7 +1101,7 @@
       > ES6 introduced the spread operator to spread the contents and rest operator to collects the remaining infinite arguments into an array.
     </p>
     
-    <h3>93. What are the differences between var, let and const…? Imp</h3>
+    <h3 class="vvi">93. What are the differences between var, let and const…? Imp</h3>
     <p>
        var: <br />
        The var keyword is used to declared a variable with function scope or global scope. <br />
@@ -1125,7 +1136,7 @@
        Variables declared with const are also hoisted, but not initialized.
     </p>
 
-    <h3>94. What is Temporal Dead Zone in JavaScript…?</h3>
+    <h3 class="vvi">94. What is Temporal Dead Zone in JavaScript…?</h3>
     <p>
        The Temporal Dead Zone(TDZ) refers to a specific behavior related to the hoisting of variables declared with the let and const keywords. <br>
        When we declare a variable using var, it gets hoisted to the top of its scope and return undefined. <br> 
@@ -1133,7 +1144,7 @@
        The TDZ is the time between entering the scope where the variable is declared and the actual initialization of the variable. 
     </p>
 
-    <h3>95. What are Template Literals and String Interpolation in JavaScript...?</h3>
+    <h3 class="vvi">95. What are Template Literals and String Interpolation in JavaScript...?</h3>
     <p>
        Template literals, introduced in ES6, provide a convenient way to concatenation strings in JavaScript by using backticks``. <br>
        Template literals allow Inject variables & functions, Multiline strings, Expression evaluation, use conditional statement and use quotations inside. <br>
@@ -1143,7 +1154,7 @@
       > Tagged Templates: Template literals can be tagged with a function and receives the literals and interpolated values as arguments.
     </p>
   
-    <h3>96. What are the differences between Spread Operator and Rest Operator in JavaScript…? Imp</h3>  
+    <h3 class="vvi">96. What are the differences between Spread Operator and Rest Operator in JavaScript…? Imp</h3>  
     <p>
        Spread Operator and Rest Operator introduced in ES6. <br>
        Both parameter, denoted by "...". <br>
@@ -1158,7 +1169,7 @@
       > Rest operator always keep at the end of parameter. <br> 
     </p>  
 
-    <h3>97. What is the difference between Arrow function and Regular function in JavaScript…? Imp</h3>
+    <h3 class="vvi">97. What is the difference between Arrow function and Regular function in JavaScript…? Imp</h3>
     <p>
        Arrow functions and Regular functions in JavaScript have some key differences in their syntax, behavior, and use cases. <br /><br />
        Arrow Function : <br />

@@ -31,7 +31,7 @@
     <h3>2. Explain the main advantages of using NodeJs...?</h3>
     <p>
          Node.js allows developers to write client-side as well as server-side JavaScript code. <br>
-         Node.js has a inbuild and widely used packaging manager, called NPM. <br>
+         Node.js has a in-built and widely used packaging manager, called NPM. <br>
          Node.js uses an event-driven, non-blocking I/O model that makes application lightweight and efficient. <br>
          Node.js uses a single-threaded architecture with event looping. <br>
          Node.js runs on cross-platform, like Windows, macOS, Linux, Android, and iOS. <br>
@@ -54,7 +54,7 @@
          For import availability, we have to add "type": "module" in package.json.
     </p>
 
-    <h3>2. What are the HTTP status codes and explain about types…?</h3>
+    <h3>5. What are the HTTP status codes and explain about types…?</h3>
     <p>
        HTTP status codes provide information about the outcome of a request i.e. success, failure or other status. <br>
        Categories of HTTP status code: <br>
@@ -89,7 +89,8 @@
     <h3>5. What is Express.JS...?</h3>
     <p>
          Express.js is a framework built on the top of NodeJs. <br>
-         It is designed to simplify the process of building web application and APIs by providing a set of features like simple routing system, middleware support.
+         It is designed to simplify the process of building web application and APIs. <br> 
+         It provides a set of features like simple routing system, middleware support, error handling and serve static files (HTML, CSS, JavaScript, images).
     </p>
 
     <h3>6. What are the differences between Client side and Server side...?</h3>
@@ -164,29 +165,26 @@
           > Buffer.toString(): Converts a buffer to a string.
     </p>
 
-    <h3>13. What is MongoDB and why it is different from others...?</h3>
+    <h3>15. What are Streaming in NodeJS...?</h3>
     <p>
-         MongoDB is a popular open-source, NoSQL database management system. <br>
-         It stores data in a flexible, document-based format called BSON (Binary JSON). <br>
-         Traditional databases use tables and rows format, where MongoDB uses collections and documents.
-         
-         
-    </p>
+         Streaming is the process of reading or writing data in small, without loading the entire data set into memory at once. <br>
+         This is especially important when working with large files or handling real-time data. <br>
+         It helps conserve memory and improves performance by processing data asynchronously. <br><br>
+         There are are 4 types of strems: <br>
+        > Readable streams: Allow data to be read from a source. <br>
+        > Writable streams: Allow data to be written to a destination. <br>
+        > Duplex streams: Allowing data to be both read from and written to the same stream. <br>
+        > Transform streams: Allow to modify or transform the data as it is read and written.
+    </p> 
 
-    <h3>14. What is Mongoose...?</h3>
+    <h3>16. Name some of the events fired by Streams...?</h3>
     <p>
-         Mongoose is an Object Document Mapper(ODM), that allow developers to define objects/models with strongly-typed schema.
-         Mongoose
-    </p>
-
-    <h3>15. ...?</h3>
-    <p>
-        
-    </p>
-
-    <h3>16. ...?</h3>
-    <p>
-        
+         Streams in Node.js emit several events for handling various operations and scenarios. <br>
+         Here are some of the common events fired by streams: <br>
+        > data: Fired when data is available to be read from the stream. <br>
+        > end: Fired when there is no more data to be read from the stream. <br>
+        > error: Fired when an error occurs while reading or writing to the stream. <br>
+        > close: Fired when the stream and its underlying resources have been closed.
     </p>
 
     <h3>17. ...?</h3>
@@ -236,32 +234,104 @@
 
     <h3>26. What is the importance of dotenv in NodeJs...?</h3>
     <p>
-         Dotenv helps keep sensitive information such as API keys, database passwords, and other secrets out of your code. <br>
-         Dotenv makes it easy to manage your environment variables in one place. <br>
-         It allows you to easily switch configurations between development, testing, and production environments by modifying the .env file. 
+         Dotenv helps keep sensitive information such as API keys, database passwords, and other secrets out of the code. <br>
+         Dotenv makes it easy to manage environment variables in one place. <br>
+         It allows to easily switch configurations between development, testing, and production environments by modifying the .env file. 
     </p>
 
-    <h3>4. ...?</h3>
+    <h3>30. What is MongoDB and How does it differ from relational databases...?</h3>
+    <p>
+         MongoDB is a open-source and document-oriented NoSQL database management system. <br>
+         It stores data in a flexible and JSON-like documents called BSON (Binary JSON). <br>
+         Traditional databases are used tables and rows format, where MongoDB uses collections and documents to organize data.
+    </p>
+    
+    <h3>31. What is indexing in MongoDB? Why is it important...?</h3>
+    <p>
+        Indexing in MongoDB improves query performance by allowing the database to quickly locate documents based on indexed fields.
+    </p>
+    
+    <h3>31. Differentiate between single-field and compound indexes. When would you use each...?</h3>
+    <p>
+         Single-field indexes index a single field, while compound indexes index multiple fields together. 
+    </p>
+    
+    <h3>40. Explain the concept of covered queries and how they improve performance....?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. What is the MongoDB Aggregation Framework? How does it differ from basic queries?...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. Give an example of using aggregation pipelines in MongoDB to perform complex operations...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. Explain the use of aggregation stages like $match, $group, $project, and $sort...?</h3>
+    <p>
+         The MongoDB Aggregation Framework is used for data aggregation operations like grouping, filtering, and transforming data. It allows for complex data processing and analysis.
+    </p>
+    
+    <h3>40. Describe the differences between embedding and referencing in MongoDB schema design...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. When would you use embedding versus referencing for relationships between documents...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. How do you handle denormalization in MongoDB...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. Does MongoDB support transactions? Explain the concept of multi-document transactions...?</h3>
     <p>
         
     </p>
 
-    <h3>4. ...?</h3>
+    <h3>40. What is MongoDB replication? Describe the roles of primary and secondary nodes in a replica set....?</h3>
     <p>
         
     </p>
-
-    <h3>4. ...?</h3>
+    
+    <h3>40. How do you ensure data consistency and fault tolerance in MongoDB replication...?</h3>
     <p>
         
     </p>
-
-    <h3>4. ...?</h3>
+    
+    <h3>40. What are the security features available in MongoDB? How do you secure a MongoDB deployment...?</h3>
     <p>
         
     </p>
-
-    <h3>4. ...?</h3>
+    
+    <h3>40. Explain sharding in MongoDB and how it contributes to scalability...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. What factors would you consider when designing a sharded MongoDB cluster?...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. ...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. ...?</h3>
+    <p>
+        
+    </p>
+    
+    <h3>40. ...?</h3>
     <p>
         
     </p>
