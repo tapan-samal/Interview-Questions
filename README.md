@@ -16,8 +16,7 @@
       and MongoDB for the database. Previously, I was engaged in the Internal Automation of the Employee Management System.      
        Apart from this, I am also developing an Educational Management System from scratch, where I am utilizing all my skills and 
       technologies and trying to explore more. This is a brief overview of myself.   
-    </p>
- 
+    </p> 
     <h3>2. Explain about your role and reponsibility in current project...?</h3>
     <p>
        As a Front-end Developer, my responsibilities include ensuring the stability of web pages by implementing UI designs and development free of bugs, 
