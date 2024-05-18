@@ -9,13 +9,11 @@
       Currently, I am employed as a Front-End Developer at Amrutha Infotech Private Limited, with my payroll company being Sarag Systems. 
       I have accumulated 4.1 years of valuable IT experience within the company.
        I take pride in my excellent problem-solving skills and showcase a quick adaptability to new technologies, taking responsibilities in any given
-      situation and consistently meeting targets, both independently and as part of a team. <br />
-      
+      situation and consistently meeting targets, both independently and as part of a team.      
        Regarding my work experience and projects, I am currently involved in a web-based project called Task-Tracker. The purpose of this app is to 
       facilitate collaboration, improve performance, and enhance productivity among employees with respect to their assigned tasks. 
       We are using HTML, CSS, and Bootstrap for layout and design, React for UI development, Redux for state management, for the server using Node and Express.js 
-      and MongoDB for the database. Previously, I was engaged in the Internal Automation of the Employee Management System. <br> 
-      
+      and MongoDB for the database. Previously, I was engaged in the Internal Automation of the Employee Management System.      
        Apart from this, I am also developing an Educational Management System from scratch, where I am utilizing all my skills and 
       technologies and trying to explore more. This is a brief overview of myself.   
     </p>
