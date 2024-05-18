@@ -5,9 +5,9 @@
        It is a versatile programming language for both client-side(front-end) and server-side(back-end) development. <br>
        JavaScript was invented by Brendan Eich in 1995. <br> <br>
        Dynamic language means the data types of variaables can change during runtime. <br>
-       JavaScript Engine : A JavaScript engine is a crucial component in web browsers where code is executed. Example: V8(Chrome), Spider-Monkey(Firefox), JavaScript-Core(Safari).
+       JavaScript Engine : A JavaScript engine is a crucial component in web browsers where code is executed. Example: V8(Chrome), 
+      Spider-Monkey(Firefox), JavaScript-Core(Safari).
     </p>
-
     <h3>2. What is JavaScript used for...?</h3>
     <p>
        DOM (Document Object Model) manipulation <br />
@@ -19,15 +19,14 @@
        SPA (Single Page Application) <br />
        Creating APIs & Web Servers (Node.js, Deno)
     </p>
-
     <h3>3. Why we prefer first language as JavaScript...?</h3>
     <p>
        Popularity: One of the most widely used language in the world. <br />
        Versatility: Used for many different things, such as dynamic web pages, APIs, mobile and even desktop applications. <br />
-       Relatively Easy to Learn: Compared to other lower languages, JavaScript is pretty easy to learn and a great language to start with. <br />
+       Relatively Easy to Learn: Compared to other lower languages, JavaScript is pretty easy to learn and a great language to start  
+      with. <br />
        Community: Great community, support, resources and tools.
     </p>
-
     <h3>4. How many ways JavaScript can display data…?</h3>
     <p>
       JavaScript can display data in 4 ways: <br />
@@ -36,14 +35,13 @@
        Writing into an alert box, using window.alert(). <br />
        Writing into the browser console, using console.log(). (For debugging purpose)
     </p>
-
     <h3>5. What is Statement in JavaScript...?</h3>
     <p>
        In JavaScript, a statement is a unit of code that performs a specific task or action. <br />
        It is a complete instruction that JavaScript can execute. <br />
-       Statements can be used to control the flow of executions, perform calculations, assign values to variables, declare functions and many more.
+       Statements can be used to control the flow of executions, perform calculations, assign values to variables, declare functions 
+      and many more.
     </p>
-
     <h3>6. Explain JavaScript comments…?</h3>
     <p>
        JavaScript comments can be used to explain JavaScript code and to make it more readable. <br />
@@ -51,17 +49,14 @@
        Single line comment : // <br />
        Multi-line comment : /*…..*/
     </p>
-    
     <h3>7. Explain about JavaScript history in short...?</h3>
     <p>
-       JavaScript was invented by Brendan Eich in 1995 -> work for Netscape Navigator -> "Mocha" -> "LiveScript" -> "JavaScript". <br />
+       JavaScript was invented by Brendan Eich in 1995 -> work for Netscape Navigator -> "Mocha" -> "LiveScript" -> "JavaScript". <br>
        ECMAscript standardise the JavaScript -> ES1 in 1997 -> ES5 in 2009(lots of new features). <br />
        ES6 in 2015 (Biggest update in the history of JavaScript) -> tc39 decide JavaScript's features. <br />
        ES7 : ES2015 -> ES8 : ES2017.
     </p>
-    
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
     <h2>B. Variables and Operators :</h2>
     <h3>8. What is Variable in JavaScript...?</h3>
     <p>
@@ -70,8 +65,7 @@
        The variables must be identified with a unique names because of case-sensitive. <br />
        A variable declared without a value will have the value undefined.
     </p>
-
-    <h3 class="vvi">9. What are the rules of naming a variable in JavaScript...?</h3>
+    <h3>9. What are the rules of naming a variable in JavaScript...?</h3>
     <p>
        Identifier must be meaningful with unique name. <br />
        Name always begin with letter, underscore and dollar sign. <br />
@@ -79,33 +73,28 @@
        Reserved words by JavaScript cannot be used as name. <br />
        Conventions- Writting format should be camelCase.
     </p>
-    
-    <h3 class="vvi">10. What is scopes in JavaScript…? Imp</h3>
+        <h3 class="vvi">10. What is scopes in JavaScript…? Imp</h3>
     <p>
        Scope is the accessibility of variables, functions and objects in some particular part of code during runtime.<br />
        It determine the visibility and lifetime of variables and functions in code. <br /><br />
-      
        Global Scope: <br />
       > Variables and functions declared in the global scope are accessible throughout the entire JavaScript program.<br />
       > It is not limited to any specific function or block of code. <br />
       > Global scope lead to naming conflicts, so harder to maintain and debug the code. <br /><br />
-      
        Function Scope(Local): <br />
       > Variables declared inside a function have local scope, that accessible only within that function. <br />
       > Local scopes are not accessible by outside function, so it not create any naming conflicts. <br /><br />
-      
        Block Scope(ES6): <br />
       > Introduced in ES6, block scope allows variables to be scoped to the nearest enclosing block, that is { }. <br />
       > Variables declared with let and const have block scope, meaning they are only accessible within the block. <br />
     </p>
-    
     <h3>11. What is Operator in JavaScript and Explain types of Operators...?</h3>
     <p>
        Operators are symbols used to perform operations on values and variables. <br /><br />
        Types of Operator : <br />
       > Arithmetic Operators: Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(%) and Exponentiation(**). <br />
       > Assignment Operators: Assignment(=), Add & assign(+=), Subtraction & assign(-=), (*=), (/=), (%=) and (**=).<br />
-      > Comparison Operators: Equal(==), Strict Equal(===), Inequal(!=), Strict Inequal(!==), Greater than(>), Less than(<), (>=) and (<=). <br />
+      > Comparison Operators: Equal(==), Strict Equal(===), Inequal(!=), Strict Inequal(!==), Greater than(>), Less than(<), (>=) and 
       > Logical Operators: Logical AND(&&), Logical OR(||) and Logical NOT(!).<br />
       > Bitwise Operators: Bitwise AND(&), Bitwise OR(|), Left Shift(<<) and Right Shift(>>). <br />
       > Unary Operators: Unary Plus(+), Unary Minus(-), Increment(++) and Decrement(--). <br />
@@ -113,37 +102,34 @@
       > Type Operators: typeof and instanceof. <br><br>
        Expression : An Expression is a combination of values, variables and operators, which computes to a value.
     </p>
-    
     <h3 class="vvi">12. What is the difference between == and === in JavaScript…? Imp</h3>
-    <p>
+    p>
        Both are the comparison operator. <br>
-       == operator used for "loose equality", that compare the values between variables and return a logical value, either true or false.<br />
+       == operator used for "loose equality", that compare the values between variables and return a logical value, either true or 
+       false.<br />
        === operator is used for "strict equality", that compares the values as well as the data type of value. <br />
-       == operator also called Type Conversion(Coercion), because it convert the operands to a common data type before comparison. <br />
+       == operator also called Type Conversion(Coercion), because it convert the operands to a common data type before comparison. 
+      <br/>
        === operator does not perform any type coercion or type conversion. <br>
        Use strict equality is a good practice for most comparisons for a predictable result and less error-prone behavior.
     </p>
-
     <h3>13. What are the types of Conditional statements in JavaScript...?</h3>
     <p>
-       JavaScript supports various types of conditional statements that allow to control the flow of code based on different conditions. <br>
+       JavaScript supports various types of conditional statements that allow to control the flow of code based on different 
+      conditions. <br>
        If-else Statement: <br>
-      > The if-else statement allows to execute one block of code if the condition is true and another block if the condition is false. <br>
+      > The if-else statement allows to execute one block of code if the condition is true and another block if the condition is false.         <br>
       > It use when the codes are complex and multiline executions. <br>
       > Syntax: if (condition1) { code } else if (condition2) { code} else { code }<br><br>
-
        Switch Statement: <br> 
       > The switch statement is used to perform different actions based on different conditions. <br>
       > It is more structured way to write the codes. <br>
-      > Syntax: switch(expression) {case value1: //code; break; case value2: //code; break; default: //code;}<br><br>
-      
+      > Syntax: switch(expression) {case value1: //code; break; case value2: //code; break; default: //code;}<br><br>    
        Ternary Operator: <br>
       > The ternary operator is a shorthand way of writing an if-else statement in a single line. <br>
       > It use when the code has simple condition and single value evaluation. <br>
       > Syntax: condition ? expressionIfTrue : expressionIfFalse;
-
     </p>
-
     <h3>14. What is short-circuit evaluation in JavaScript…?</h3>
     <p>
        Short-circuit is a concept where the evaluation stops the execution after the initial argument determined the result. <br>
@@ -151,21 +137,17 @@
        In AND operator, If the first operand is false, the remaining operands are not evaluated, and the result is false. <br>
        In OR operator, If the first operand is true, the remaining operands are not evaluated, and the result is true.
     </p>
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>C. Data Types :</h2>
-    <h3 class="vvi">15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…? Imp</h3>
+    <h3>15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…? Imp</h3>
     <p>
-      Data Type: A data type determines the type of values that can be stored in a variable. <br />
-      <br />
+      Data Type: A data type determines the type of values that can be stored in a variable. <br /> <br />
        Primitive Data Type : <br />
       > Primitive data types are immutable, which means their value cannot be changed or modified once they are assigned. <br />
       > It can hold only single value. <br />
       > Primitive data type compare by value. <br />
       > Data Stored directly in the stack memory.<br />
       > Primitive data types are : Number, String, Booleans, undefined, Null, BigInt and Symbol.<br /><br />
-
        Reference/Non-Primitive Data Type : <br />
       > Non-Primitive data types are mutable and their values can be changed at any time.<br />
       > It can hold multiple values with methods. <br />
@@ -173,7 +155,6 @@
       > Data Stored in the heap memory and accessed by reference.<br />
       > Non-Primitive data type : Object(Array, Function and Date).
     </p>
-
     <h3>16. What are the different data types exist in JavaScript…?</h3>
     <p>
        There are 8 types of data types. Seven are primitives and one is non-primitive.  <br>
@@ -186,7 +167,6 @@
        Symbol: <br>
        Object: An object is a complex data type that represents a collection of key-value pairs. <br />
     </p>
-    
     <h3>17. What is NaN property in JavaScript…? Imp</h3>
     <p>
        NaN stands for "Not-a-Number" and is a special value in JavaScript to indicate that a value is not a valid number. <br>
@@ -194,7 +174,6 @@
        Typeof of NaN will return a number. <br>
        Use the isNaN() function to check if a value is NaN.
     </p>
-    
     <h3>18. Why the data type of null is an object even after primitive data type...?</h3>
     <p>
        It is a bug in JavaScript that typeof null is an object.<br />
