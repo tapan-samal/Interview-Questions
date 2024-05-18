@@ -1,4 +1,4 @@
-<h31. What is JavaScript ...?</h3>
+<h3>1. What is JavaScript ...?</h3>
     <p>
        JavaScript is a scripting language for converting static pages to interactive and dynamic web pages. <br />
        It is commonly used for adding functionality to websites, enhancing user interfaces, and developing web applications. <br>
