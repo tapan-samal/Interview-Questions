@@ -1,7 +1,4 @@
- Interview questions for HTML, CSS, JavaScript and ReactJS. <br/>
- Manager and HR Round Questions
-
- <h1>Interview General Questions</h1>
+  *Manager and HR Round Questions
     <h2>Technical: </h2>
     <h3>1. Tell me about yourself...?</h3>
     <p>
