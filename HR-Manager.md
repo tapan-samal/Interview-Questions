@@ -24,13 +24,22 @@
     </p>
     <h3>3. What are the day to day activities...?</h3>
     <p>
-       A typical day begins with a scrum call where we discuss pending tasks, bugs, or any complexities that team members are facing. 
+       A typical day begins with a scrum call where we discuss pending tasks, bugs, or any issues that team members are facing. 
       We also discuss potential solutions. Following this, we review the tasks scheduled for the day and their implementation strategies. 
       After the meeting, we start coding, and if any issues arise, we collaborate with team members to resolve them.  
     </p>
     <h3>4. Explain any challenges face in your project...?</h3>
     <p>
-       
+       As developers, we face daily challenges, errors, and bugs. Sometimes we fix them the same day, but other challenges take longer. 
+      This is just part of coding. I want to share two interesting real-life experiences with similar issues. <br><br>
+       In my personal project, I struggled to display the entire student list on the UI. It was quite challenging, and I had no idea
+     about the ag-Grid library at the time. After 4-5 days of searching, I found a solution on YouTube, which was really amazing.<br><br>
+       A similar situation happened with another team, which I noticed from our WhatsApp group. I suggested they use ag-Grid, 
+      but they mentioned that ag-Grid has some limitations with huge data sets. I wasn't sure what the exact limitations were, 
+      so I thought of an alternative approach to handle such challenges. <br><br>
+       After some thought, I realized that we could handle this issue on the backend. Since the data comes from the database to the UI 
+      through the server, I suggested they create a custom pagination function on the server. This way, they could manage the data more 
+      efficiently and they appreciated my suggestion greatly.
     </p>
     <h3>5. What is your approach for handle a new assignment or functionality...? </h3>
     <p>
