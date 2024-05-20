@@ -104,7 +104,7 @@
        Expression : An Expression is a combination of values, variables and operators, which computes to a value.
     </p>
     <h3 class="vvi">12. What is the difference between == and === in JavaScript…? Imp</h3>
-    p>
+    <p>
        Both are the comparison operator. <br>
        == operator used for "loose equality", that compare the values between variables and return a logical value, either true or 
        false.<br />
@@ -183,8 +183,7 @@
        The type tag for null was erroneously set to the same value as objects, which is why typeof null reports "object."
     </p>
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>D. Function :</h2>
     <h3>18. What is function in JavaScript…?</h3>
     <p>
@@ -192,55 +191,52 @@
        JavaScript function is executed when something invoke or call it. <br />
        The main purpose of function is to reuse code/method for different arguments and to produce different results.<br />
     </p> 
-
     <h3>19. What is function Declaration in javascript...?</h3>
     <p>
        A function declaration is a way to define a reuseable block of code that can be executed when it invoked. <br />
        Function declarations are hoisted in JavaScript. <br />
-       Syntax: It is defined with the 'function' keyword, followed by a name and followed by parentheses (…). The parentheses may include parameter
-      names separated by commas. The code to be executed by the function, is placed inside curly brackets {…}. The 'return' keyword also used to return
-      the value/output of the function.
+       Syntax: It is defined with the 'function' keyword, followed by a name and followed by parentheses (…). The parentheses may     
+      include parameter names separated by commas. The code to be executed by the function, is placed inside curly brackets {…}. The 
+      'return' keyword also used to return the value/output of the function.
     </p>
-
-    <h3 class="vvi">20. What is the difference between Params and Arguments in function...? Imp</h3>
+    <h3> 20. What is the difference between Params and Arguments in function...? Imp</h3>
     <p>
        Parameters : <br />
        Parameters are variables listed in the function definition within the parentheses. <br />
        They act as placeholders for values that will be passed into the function when it is called. <br /><br>
-
        Arguments : <br />
        Arguments are the actual values or expressions within the parentheses that are passed to a function when it is invoked. <br />
        Argument values passed to function to be used as the values for the parameters. <br />
        The number and order of arguments must match the number and order of parameters in the function definition.
     </p>
-
     <h3>21. What are the types of functions…?</h3>
     <p>
-       Named Function: Functions declared with a unique and meaningful name are referred to as Named Function.<br />
-       Anonymous Function: A function declared without any name. This function is used for small logics and single time execution.<br />
-       Function Expression: A function expression is a way to define a function in JavaScript by assigning it to a variable. Mostly used for anonymous function and not allow to hoisting.<br />
-       Arrow Function: Arrow functions, also known as fat arrow functions, are a concise syntax for defining functions in modern JavaScript. <br />
+      Named Function: Functions declared with a unique and meaningful name are referred to as Named Function.<br />
+      Anonymous Function: A function declared without any name. This function is used for small logics and single time execution.<br />
+      Function Expression: A function expression is a way to define a function in JavaScript by assigning it to a variable. Mostly 
+     used for anonymous function and not allow to hoisting.<br />
+      Arrow Function: Arrow functions, also known as fat arrow functions, are a concise syntax for defining functions in modern 
+     JavaScript. <br />
        Callback Function: A callback function is a function that is passed as an argument to another function. <br />
-       Higher-order Function: A Higher-Order function in JavaScript either takes another functions as arguments or returns a function as its result.<br />
+       Higher-order Function: A Higher-Order function in JavaScript either takes another functions as arguments or returns a function 
+      as its result.<br />
        IIFE: IIFE stands for Immediately Invoked Function Expression.
     </p>
-
-    <h3 class="vvi">22. What is Callback Function and it's uses in real application in JavaScript...? Imp</h3>
+    <h3>22. What is Callback Function and it's uses in real application in JavaScript...? Imp</h3>
     <p>
        A callback function is a function that passed into another function as an argument.<br />
        It is invoked inside the outer function to complete the task. <br />
-       Callback functions are a fundamental concept in asynchronous programming, allowing to work with events, timers, fetch API and more.<br /><br>
-
+       Callback functions are a fundamental concept in asynchronous programming, allowing to work with events, timers, fetch API and 
+      more.<br /><br>
        Uses of Callback Function: <br />
       > Iteration(forEach, map, filter, reduce) <br />
       > Event handling <br />
       > Asynchronous operations(setTimeout, setInterval) <br />
       > Higher-order functions <br />
       > Promises <br /><br />
-       Callback Hell : The term Callback Hell is used to describe a situation where multiple nested callbacks make the code difficult to read and
-      maintain during asynchronous operations.
+       Callback Hell : The term Callback Hell is used to describe a situation where multiple nested callbacks make the code difficult 
+      to read and maintain during asynchronous operations.
     </p>
-    
     <h3>23. What is IIFE and why IIFE used in JavaScript...? Imp</h3>
     <p>
        IIFE stands for Immediately Invoked Function Expression. <br />
@@ -249,16 +245,16 @@
        It wrap the function within parentheses to turn it into an expression and then invoke it. <br />
        IIFE function must be ended with semicolon.
     </p>
-
     <h3>24. What are First-Class functions in JavaScript…? Imp</h3>
     <p>
        In a programming language is said to have first-class functions if fuctions are treated like variables. <br> 
        Implication of first-class functions: <br>
       > Functions as Values: Functions can be assigned to variables and stored in data structures. <br>
-      > Functions as Arguments: Functions can pass as arguments. This is commonly used in higher-order functions and callback patterns. <br>
-      > Functions as Return values: Functions can be returned from other functions, allowing for the creation of closures and the ability to encapsulate state.
+      > Functions as Arguments: Functions can pass as arguments. This is commonly used in higher-order functions and callback patterns. 
+      <br>
+      > Functions as Return values: Functions can be returned from other functions, allowing for the creation of closures and the 
+      ability to encapsulate state.
     </p>
-    
     <h3>25. What is Pure Function and what are the possible side-effect in JavaScript...? Imp</h3>
     <p>
        A Pure function is a function where the return value is only determined by its arguments without any side effects. <br />
@@ -272,50 +268,49 @@
       > Fetching Current time <br />
       > Math.random
     </p>
-
     <h3 class="vvi">26. What is Currying Function in JavaScript...? Imp</h3>
     <p>
-       Currying is the process of taking a function with multiple arguments and transformed into a sequence of functions, each taking a single argument.<br />
+       Currying is the process of taking a function with multiple arguments and transformed into a sequence of functions, each taking 
+      a single argument.<br />
        It allows to apply partial arguments to the function and create new function. <br />
        Currying is useful for creating more reusable, modularity, clarity and create functional pipelines.
     </p>
-
     <h3 class="vvi">27. Explain Hoisting in JavaScript with example...? Imp</h3>
     <p>
-       Hoisting is the default behavior in JavaScript to be assumed, that moving all the declarations at the top of the scope before code execution.<br />
+       Hoisting is the default behavior in JavaScript to be assumed, that moving all the declarations at the top of the scope before 
+      code execution.<br />
        Before hoisting, we have to know the Code execution process. <br>
-       It follows two phases, first is the creation phase where hoisting happen and second is the execution phase where we get output. <br>
+       It follows two phases, first is the creation phase where hoisting happen and second is the execution phase where we get output. 
+      <br>
        After ES6, only regular function can hoisted . <br />
-       Variables declared by var can hoisted and through undefined, but in case let and const the hoisting not work properly and return error. <br>
+       Variables declared by var can hoisted and through undefined, but in case let and const the hoisting not work properly and 
+      return error. <br>
        JavaScript allow only the declaration to be hoisted, not the initialization (assignment). <br>
     </p>
-
     <h3 class="vvi">28. What is Closures in JavaScript...? Imp</h3>
     <p>
        A closure is the combination of a function and the lexical environment within which that function is declared.<br />
-       The closure can access variables and functions from its containing function, even after the outer function has completed its execution.<br />
+       The closure can access variables and functions from its containing function, even after the outer function has completed its 
+      execution.<br />
        The closure preserves the outer scope reference inside its inner scope. <br />
        Closures are especially useful for preserving data privacy and creating functions with encapsulated state.<br />
- 
-       Data Encapsulation : Closures allow to create private variables and encapsulate data within a function, protecting it from being accessed or
-      modified from outside the function.
+       Data Encapsulation : Closures allow to create private variables and encapsulate data within a function, protecting it from 
+      being accessed or modified from outside the function.
     </p>
-
     <h3>29. What are the differences between Laxical Scope and Closure in JavScript...? Imp</h3>
     <p>
        Laxical Scope <br />
       > Lexical scope is called static scope, is about how variables and functions are organized based on the code structure. <br />
       > Lexical scope defines the accessibility and visibility of variables based on their location in nested(inner) functions. <br />
       > Laxical scope act as a provider.<br /> <br>
-
        Closures<br />
       > A closure is the combination of a function and the lexical environment within which that function is declared.<br />
-      > The closure can access variables and functions from its containing function, even after the outer function has completed its execution.<br />
+      > The closure can access variables and functions from its containing function, even after the outer function has completed its 
+      execution.<br />
       > Closure act as Consumer. <br>
-      
-       In simple word, Laxical scope giving a structure and authority to access data from outer scope to closure and Closure preserves the same data.
+       In simple word, Laxical scope giving a structure and authority to access data from outer scope to closure and Closure preserves 
+      the same data.
     </p>
-
     <h3>30. What is API and explain about it's method in JavaScript...?</h3>
     <p>
        API stands for Application Programming Interface. <br>
@@ -323,22 +318,22 @@
        Some common methods and concepts related to working with APIs in JavaScript: <br><br>
        Fetch Method: <br>
       > The fetch() is a modern API function that provides an interface for fetching(sending/receiving) data from resorces. <br />
-      > Fetch() is a global method for network(https) request and returning a promise which is fulfilled once the response is available. <br />
+      > Fetch() is a global method for network(https) request and returning a promise which is fulfilled once the response is 
+      available. <br />
       > A fetch() promise only rejects when a network error is encountered.<br>
-      > It uses Request[method(get, post, put, delete), heder, body] and Respose[response.json(), response.text(), response.status, response.ok] objects. <br>
+      > It uses Request[method(get, post, put, delete), heder, body] and Respose[response.json(), response.text(), response.status, 
+      response.ok] objects. <br>
       > Syntax: let promise = fetch(url, [option]).then(response).catch(error); <br><br>
-
        Axios Method: <br>
       > Axios is a popular third-party library for making HTTP requests. <br> 
-      > It is used in both browser and Node.js environments and provides a clean and concise syntax for handling asynchronous operations. <br> 
+      > It is used in both browser and Node.js environments and provides a clean and concise syntax for handling asynchronous 
+      operations. <br> 
       > Syntax: axios.get/post/put/delete(url[, config]).then(response).catch(error); <br>
       > Configuration options include: params, headers, timeout properties.<br><br>
-
        XMLHttpRequest Method: <br>
       > The traditional way to make HTTP requests in JavaScript is using XMLHttpRequest. <br> 
       > Syntax: let xhr = new XMLHttpRequest();
-    </p>  
-    
+    </p>    
     <h3 class="vvi">31. What is call, apply and bind in JavaScript...? Imp</h3>
     <p>
        Call, Apply and Bind are inbuilt methods of JavaScript, used for sharing the methods of object. <br>
@@ -347,36 +342,30 @@
       > It immediately invokes the function. <br />
       > With call(), an object can use a method belonging to another object.
       <br /><br />
-      
        Apply(): <br />
       > Apply is used to invoke a function with a specified 'this' value, but it takes arguments as an array. <br />
       > It also immediately invokes the function. <br />
       > With the apply(), we can write a method that can be used on different objects. <br /><br />
-      
        Bind(): <br />
       > Bind is used to create a new function with a specified 'this' value and potentially pre-set arguments. <br />
       > It does not invoke the function immediately. <br />
       > With the bind() method, an object can borrow a method from another object.
     </p>    
-    
     <h3 class="vvi">32. What is Recursive function in JavaScript…? Imp</h3>
     <p>
        A functon that calls itself within the body during its execution is called a recursive function. <br>
        A recursive function can receive two inputs: a base case (ends recursion) or a recursive case (resumes recursion). <br>
        The base case is what stops the recursion from continuing on forever. It act like a terminating condition. <br>
-       This function call itself untill it reaches a base case, where a condition under the function stops calling itself and returns a result. <br>
+       This function call itself untill it reaches a base case, where a condition under the function stops calling itself and returns 
+      a result. <br>
     </p>
-    
     <h3 class="vvi">33. What is Memoization in JavaScript...?</h3>
     <p>
        Memoization is an optimization technique used to improve the performance of functions by caching their results. <br>
        This is particularly useful for functions that have heavy computation or involve repetitive calculations. <br>
        It doesn't repeat all the work, instead, retrieving the same information from cache and gives the answer quickly. 
     </p>
-
-
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>E. Array & Objects :</h2>
     <h3>34. What in Array in JavaScript...?</h3>
     <p>
@@ -388,7 +377,6 @@
        Elements in an array are ordered. <br>
        Arrays are denoted by square bracket [].
     </p>  
-    
     <h3>35. What is object in JavaScript...?</h3>
     <p>
        An object is a complex data type that represents a collection of key-value pairs. <br />
@@ -398,7 +386,6 @@
        Properties in an object are unordered. <br>
        Objects are denoted by curly braces {}.
     </p>  
-
     <h3>36. What are the differences between dot notation and bracket notation in Object...?</h3>
     <p>
        Dot notation and Bracket notation are both used to access properties and methods of an object. <br> 
@@ -413,7 +400,6 @@
       > Square bracket notation is the only way to access properties with names containing spaces or special characters. <br>
       > Square bracket notation is more versatile when dealing with programmatically determined property names.
     </p>
-    
     <h3 class="vvi">37. Explain several ways to create objects in JavaScript…? Imp</h3>
     <p>
        In JavaScript, there are several ways to create objects as per their use cases and advantages. <br />
@@ -421,18 +407,19 @@
        Object Constructor: Use the "new" keyword with a constructor function. <br />
        Object.create(): Object.create method allows to create a new object with the specified prototype object. <br />
     </p>  
-
     <h3>38. What is loop…? What are the types of loops in JavaScript…?</h3>
     <p>
        A loop is a programming way to run a set of instruction or code repeatedly until a certain condition is met.<br />
        Types of Loop: <br />
-      > For loop : Loops through a block of code for a specific number of iterations.(Initialization, Condition, Increment/Decrement in single line).<br />
+      > For loop : Loops through a block of code for a specific number of iterations.(Initialization, Condition, Increment/Decrement in 
+      single line).<br />
       > For/In loop : Loops through the properties of an object. It access the values associated by using keys as the index. <br />
-      > For/Of loop : Loops through the values of an iterable object like arrays and strings. It access each value directly without using index. <br />
+      > For/Of loop : Loops through the values of an iterable object like arrays and strings. It access each value directly without 
+      using index. <br />
       > While loop : Loops through a block of code while a certain condition is true. <br />
-      > Do-while loop : It is similar to while loop, except that the block of code is executed at least once, even if the condition is false.
+      > Do-while loop : It is similar to while loop, except that the block of code is executed at least once, even if the condition is 
+      false.
     </p>    
-
     <h3>39. What is the main difference to use for of loop and forEach loop in JavaScript…? Imp</h3>
     <p>
        for of Loop: <br>
@@ -443,15 +430,13 @@
       > It is used to iterate over an array and perform an action for each element in the array. <br>
       > Here we can not use break and continue statement.
     </p>
-
     <h3>40. What is the difference between Break and Continue statement in JavaScript…?</h3>
     <p>
        Break: The break statement is used to terminate the loop, when the certain condition is met. <br> 
        It is used to exit a loop prematurely. <br>
        Continue: The continue statement is used to skip the current iteration, if the condition is met. <br>
        It is used to skip the current iteration and move on to the next iteration.
-    </p>
-    
+    </p>   
     <h3 class="vvi">41. Explain the differences between foreach() and map() method in JavaScript…? Imp</h3>    
     <p>
        Foreach() and Map() methods are used to iterate over an array and perform an action for each element in the array. <br>
@@ -460,26 +445,28 @@
        map() method is used to create a new array based on transformed values without modifying original array. <br />
        map() method return a new array and leave the original array unchanged.
     </p>    
-    
     <h3 class="vvi">42. What is the difference among Map, Filter and Reduce method in JavaScript...? Imp</h3> 
     <p>   
        Map() : <br />
-      > map() is a method to iterate over an array and create a new array based on transformation of each element, without modifying original array.<br />
+      > map() is a method to iterate over an array and create a new array based on transformation of each element, without modifying 
+      original array.<br />
       > Syntax: <br>
-      > Example: If we have a list of numbers and want to square each number, we can use the "map" operation to apply the square function to each element in the list. <br /><br />
-
+      > Example: If we have a list of numbers and want to square each number, we can use the "map" operation to apply the square 
+      function to each element in the list. <br /><br />
        Filter() : <br />
-      > Filter is a higher-order array method is used to filter the elements from an array according to given conditions and contain in a new array.<br />
+      > Filter is a higher-order array method is used to filter the elements from an array according to given conditions and contain in 
+      a new array.<br />
       > Syntax: <br>
-      > Example: If you have a list of numbers and you want to filter out all even numbers, you can use the "filter" operation with a predicate function that checks if a number is even. <br /><br />
-      
+      > Example: If you have a list of numbers and you want to filter out all even numbers, you can use the "filter" operation with a 
+      predicate function that checks if a number is even. <br /><br />
        Reduce() : <br />
-      > Reduce is a powerful array method used to iterate through an array and accumulate a single value based on specified conditions applied to the original array. <br />
+      > Reduce is a powerful array method used to iterate through an array and accumulate a single value based on specified conditions 
+      applied to the original array. <br />
       > Syntax: <br>
-      > Example: If you have a list of numbers and you want to find their sum, you can use the "reduce" operation with an addition function. It starts with an initial accumulator value (e.g., 0) and iterates through the list,
+      > Example: If you have a list of numbers and you want to find their sum, you can use the "reduce" operation with an addition 
+      function. It starts with an initial accumulator value (e.g., 0) and iterates through the list,
       adding each element to the accumulator.
     </p>
-        
     <h3 class="vvi">43. What is JSON and method of JSON in JavaScript…?</h3>
     <p>
        JSON stands for JavaScript Object Notation. <br />
@@ -492,7 +479,6 @@
       * JSON.parse(): Convert data to object. <br />
       * JSON.stringify(): Convert data to string.
     </p>  
-
     <h3>44. What are benefits of using map() instead of loops...? Imp</h3>
     <p>
        The map method provides a concise and expressive syntax for transforming each element of an array. <br>
@@ -500,8 +486,7 @@
        It emphasizes immutability by creating a new array with the transformed values instead of modifying the existing array. <br>
        The map method can easily parallelized by JavaScript engines and allowing for better performance in certain scenarios. <br>
        Automatically creates a new array with the transformed values.
-    </p>
-    
+    </p> 
     <h3 class="vvi">45. What is the difference between slice and splice method in JavaScript...? Imp</h3>  
     <p>
       Both method used with arrays in JavaScript, but serve for different purposes. <br />
@@ -509,13 +494,11 @@
       > The slice method is used to extract a portion of an array. <br />
       > It returns a new subset of original array without modifying source array. <br />
       > Syntax: array.slice(start index, end index(excluded)). <br /><br />
-      
        Splice Method: <br />
       > The splice method is used to change the elements of an array by removing, replacing or adding elements to it.<br />
       > It returns the deleted elements as an array and modifies the original array. <br />
       > Syntax: array.splice(startIndex, deleteCount, ...addElements)
     </p>
-
     <h3 class="vvi">46. Explain the difference betwen shallow copy and deep copy in JavaScript…? Imp</h3>
     <p>
        In JavaScript, the concepts of shallow copy and deep copy are related to copying objects and arrays. <br>
@@ -524,14 +507,12 @@
        Changes made to the nested objects or arrays in the copy are reflected in the original, and vice versa. <br>
        Shallow copying is generally faster than deep copying because it only involves copying references. <br>
        Shallow copy using : Object.assign({}, originalObject). <br><br>
-
        Deep Copy : <br>
        A deep copy creates a new object or array along with copies of all nested objects or arrays. <br>
        Changes made to the nested objects or arrays in the copy do not affect the original. <br>
        Deep copying is necessary when we want complete independence between the original and the clone. <br>
        Deep copy using: JSON.parse(JSON.stringify(originalObject)).
     </p>
-
     <h3>47. What is Set Object in JavaScript…?</h3>
     <p>
        The Set object is a collection of unique values, means it is not allowed duplicate values. <br>
@@ -539,16 +520,15 @@
        Set method provides properties like add, delete, size and has for data manipulation. <br> 
        Set can be used to remove duplicate values from arrays. 
     </p>
-
     <h3>48. What are "array like" objects in  JavaScript…?</h3>
     <p>
-       In JavaScript, an "array-like" object has some similar characteristics to arrays, i.e. length property and indexed elements. <br>
+       In JavaScript, an "array-like" object has some similar characteristics to arrays, i.e. length property and indexed elements. 
+      <br>
        Here are types of array like object: <br>
        Arguments: When a function called, it gets access all parameters passed to a function by a special keyword "arguments". <br>
        Strings: Strings can be treated as array-like objects because length property and individual element can access by index. <br>
        HTML Collections: DOM selectors such as querySelectorAll and getElementsByClassName can use length property and access by index.
     </p>
-
     <h3>49. Explain important String methods in JavaScript…?</h3>
     <p>
        String.length(): Returns the length of a string.  <br>
@@ -562,7 +542,6 @@
        String.indexOf(): Returns the index of the first occurrence of the specified substring. <br>
        String.includes(): Check if a string contains a specified substring and returns true/false.
     </p>
-
     <h3>50. Explain some important Array methods in JavaScript…?</h3>
     <p>
        Array.push(): Adds elements to the end of an array. <br>
@@ -580,7 +559,6 @@
        Array.find(): Return the first element that satisfies the condition and if not return undefined. <br>
        Array.filter(): Return an array of elements that satisfies the condition.
     </p>
-
     <h3>51. Explain some important Math methods in JavaScript…?</h3>
     <p>
        Math.random(): Returns a pseudo-random number between 0 and 1 (inclusive of 0, but not 1). <br>
@@ -590,31 +568,30 @@
        Math.max(): Returns the largest numbers. <br>
        Math.min(): Returns the smallest numbers. 
     </p>
-
     <h3>52. Explain some important methods of Object on JavaScript…?</h3>
     <p>
        Object.keys(objName): Returns an array of a given object's own enumerable property names. <br>
        Object.values(objName): Returns an array of a given object's own enumerable property values. <br>
        Object.entries(objName): Returns an array of a given object's own enumerable property [key, value] pairs. <br>
        Object.assign(objName): Copies the values of all enumerable properties from one or more source objects to a target object. <br>
-       Object.freeze(objName): Freezes an object, preventing new properties from being added and existing properties from being removed or modified.
+       Object.freeze(objName): Freezes an object, preventing new properties from being added and existing properties from being 
+    removed or modified.
     </p>
-
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>F. DOM and Events :</h2>
     <h3>53. What is DOM and it uses in JavaScript…? Imp</h3>
     <p>
        DOM stands for Document Object Model. The document object represents the whole HTML document. <br>
        DOM is a programming interface that represents and interacts with the structure and content of a web page. <br>
-       It creates a tree-like representation of document, where each element, attribute and content in the document is a node in the tree. <br>
+       It creates a tree-like representation of document, where each element, attribute and content in the document is a node in the 
+      tree. <br>
        DOM allow to access, manipulate, update and respond to user actions on a web page, called DOM Manipulation. <br>
        It plays a crucial role in web development and enables the creation of dynamic and interactive web applications.
     </p>
-
     <h3>54. What are the Selectors in JavaScript…?</h3>
     <p>
-       Selectors in JavaScript refer to a mechanism used to select specific HTML elements from DOM based on IDs, class and tag names. <br>
+       Selectors in JavaScript refer to a mechanism used to select specific HTML elements from DOM based on IDs, class and tag names. 
+      <br>
        Methods of DOM selector : <br>
       > document.getElementById("idName"): Access single element(First default) <br>
       > document.getElementsByClassName("className"): Access multiple elements(HTML Collections) <br>
@@ -622,7 +599,6 @@
       > document.querySelector("#idName / .className / tagName"): Access single(default first) <br>
       > document.querySelectorAll(".className / tagName"): Access multiple elements <br>
     </p>
-
     <h3>55. What are the Properties and Methods in DOM manipulation...?</h3>
     <p>
        DOM properties provide information about and allow manipulation of objects. <br> 
@@ -653,58 +629,58 @@
         > firstChild: References the first child node of an element. <br>
         > lastChild: References the last child node of an element.
     </p>
-
     <h3 class="vvi">56. What is the use of Event Handling in JavaScript...? Imp</h3>
     <p>
        Event Handling is the process of responding to user actions in a web page. <br />
-       The addEventListener method of JavaScript allows to attach an event and with a function that event perform on the web page. <br />
+       The addEventListener method of JavaScript allows to attach an event and with a function that event perform on the web page. <br 
+      />
        It play a crucial role in creating interactive and dynamic web applications. <br>
        Syntax: selectedElement.addEventListener('click', function() {//codes}); <br>
        Some Important Event Handlers are : <br />
-       Mouse Events(click, dblclick, mouseover), Keyboard Events(keyup, keydown), Form Events(submit, change, focus), Window Events(load, resize, scroll).
+       Mouse Events(click, dblclick, mouseover), Keyboard Events(keyup, keydown), Form Events(submit, change, focus), Window 
+      Events(load, resize, scroll).
     </p>  
-
     <h3>57. What is Event Objcet in JavaScript…? Imp</h3>
     <p>
        An event object is an object that contains information about an event that has occurred. <br>
-       Event objects are automatically created by the browser and passed as a parameter to event handler functions when an event occurs. <br>
+       Event objects are automatically created by the browser and passed as a parameter to event handler functions when an event 
+      occurs. <br>
        The event object has various properties and methods: event.type, event.target, event.clientX, event.clientY. <br>
        It has a preventDefault method that can be called to prevent the default behavior[event.preventDefault()].
     </p>
-
     <h3>58. What is Event Delegation in JavaScript…? Imp</h3>
     <p>
        Event delegation is a technique, which attach a single event handler to a common ancestor of multiple elements. <br>
        This is useful when a large number of similar elements, as it reduces the number of event handlers. <br>
-       The benefits of event delegation include reduced memory consumption, improved performance, and the ability to handle dynamically. <br>
+       The benefits of event delegation include reduced memory consumption, improved performance, and the ability to handle 
+      dynamically. <br>
        Event delegation is particularly useful when dealing with lists, tables, or other collections of elements.
     </p>
-    
     <h3 class="vvi">59. What is Event Propagation/Flow in JavaScript...? Imp</h3>
     <p>
        Event Propagation is a way of defining the element order when an event occurs in a web page. <br />
        There are two ways of Event Propagation in HTML DOM: <br />
-      > Event Capturing : In event capturing the outer most element's event is handled first and then moving towards the inner elements. <br />
+      > Event Capturing : In event capturing the outer most element's event is handled first and then moving towards the inner 
+      elements. <br />
       > Event Bubbling : In event bubbling the inner most element's event is handled first and then moving towards the outer elements.
     </p>
-
     <h3 class="vvi">60. What is Event loop and how it works in JavaScript...? Imp</h3>
     <p>
        The event loop is a mechanism in JavaScript that allows to execute code asynchronously. <br>
        The event loop continuously checks the call stack and the callback queue. <br>
-       When call stack is empty, the event loop takes the first function from the callback queue and pushes it to call stack for execution. <br>
+       When call stack is empty, the event loop takes the first function from the callback queue and pushes it to call stack for 
+      execution. <br>
        After completing execution, it removed from the stack in a last-in-first-out (LIFO) manner. <br>
        The event loop is responsible for making JavaScript responsive and interactive.
     </p>
-
     <h3>61. What is the difference between Debouncing and Throttling in JavaScript…?</h3>
     <p>
        Debouncing is a technique where delay the execution of a function until after a certain amount of time has passed. <br>
        This is useful for frequently used function, like search, scroll or resize event listener. <br>
        Decreases the frequency of invoked function, which can enhance performance and avoid pointless effort. <br>
-       Throttling is a similar technique to debouncing, instead of delaying the execution of a function, it limits the rate at which a function <br>
+       Throttling is a similar technique to debouncing, instead of delaying the execution of a function, it limits the rate at which a 
+      function <br>
     </p>
-
     <h3>62. What is Browser Object Model(BOM)...?</h3>
     <p>
       > The Browser Object Model (BOM) allows JavaScript to "talk to" the browser. <br />
@@ -712,8 +688,7 @@
       > There are no official standards for the Browser Object Model (BOM). .
     </p>
 
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
     <h2>G. Asynchronous :</h2>
     <h3 class="vvi">61. What are differences between Asynchronous and Synchronous operations in JavaScript...? Imp</h3>  
     <p>
@@ -722,13 +697,13 @@
        Synchronous is a process of executing the code one after another in a sequential order. <br />
        This operation block the main program flow untill the current task is completed. <br />
        Synchronous operations are predictable and straightforward because they occur in order they are written.<br /><br />
-      
       Asynchronous : <br />
-       Asynchronous operations allow the program to executing multiple tasks parallelly without waiting for the current task to complete. <br />
+       Asynchronous operations allow the program to executing multiple tasks parallelly without waiting for the current task to 
+      complete. <br />
        Asynchronous operation is essential for resposive web applications and avoid time consuming. <br />
-       JavaScript provides mechanisms like callbacks, setTimeout, setInterval, promises and Async/await with asynchronous code. <br /><br />
+       JavaScript provides mechanisms like callbacks, setTimeout, setInterval, promises and Async/await with asynchronous code. <br /> 
+      <br />
     </p>  
-    
     <h3 class="vvi">62. What is Promises in JavaScript...? Imp</h3>
     <p>
        A Promise is an object in JavaScript, which represents the eventual completion or failure of an asynchronous operations. <br />
