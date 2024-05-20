@@ -711,20 +711,22 @@
        A promise represents a value that may not be available yet but will be available at some point in the future.<br />
        Promise can be in one of 3 states : pending, resolved or rejected. <br />
        Use of promise in real applications: API Calls, File Handling, Data Fetching, Event Handling and Animations. <br> 
-       Syntax : const promise = new Promise((resolve, reject) => { //Asynchronous operations //If successful, call resolve(value) //If failed, call reject(error)}); <br>
+       Syntax : const promise = new Promise((resolve, reject) => { //Asynchronous operations //If successful, call resolve(value) //If 
+      failed, call reject(error)}); <br>
        Promise.all() method is used to handle multiple promises concurrently. <br>
-       Promise Chaining : The process of executing a sequence of asynchronous tasks one after another using promises is known as Promise chaining.
+       Promise Chaining : The process of executing a sequence of asynchronous tasks one after another using promises is known as 
+      Promise chaining.
     </p>
-
     <h3>63. What is Async/await in JavaScript…? </h3>  
     <p>
-       The async keyword is used to define a asynchronous function, which means the code inside async function will not block the execution of other code.<br>
-       The await keyword is used only inside an async function to pause the execution of the function until the promise is resolved or rejected. <br>
+       The async keyword is used to define a asynchronous function, which means the code inside async function will not block the 
+      execution of other code.<br>
+       The await keyword is used only inside an async function to pause the execution of the function until the promise is resolved or 
+      rejected. <br>
        An async function always returns a promise. <br> 
        It provides more concise and synchronous-looking syntax for working with promises. <br>
        An async function can contain zero or more await expressions.
     </p>
-
     <h3>64. What is purpose of Async/Await, compare with promises...? Imp</h3>
     <p>
        Async/await and Promises are both features in JavaScript that deal with asynchronous programming. <br>
@@ -733,18 +735,17 @@
        Error handling in async/await is done by using try-catch blocks and make more similar to synchronous error handling. <br>
        On the other hand, Promise also used more widely and useful, where async/await is not applicable or necessary.
     </p>
-
     <h3 class="vvi">65. What is SetTimeout and SetInterval in JavaScript…?</h3>
     <p>
-       SetTimeout : The setTimeout() is a built-in JavaScript function that allow to schedule the execution of a function after a specified delay asynchronously. <br>
-       SetInterval : The setInterval() is a built-in JavaScript function that allow to repeatedly execute a function at a specified intervals asynchronously. <br>
+       SetTimeout : The setTimeout() is a built-in JavaScript function that allow to schedule the execution of a function after a 
+      specified delay asynchronously. <br>
+       SetInterval : The setInterval() is a built-in JavaScript function that allow to repeatedly execute a function at a specified 
+      intervals asynchronously. <br>
        Syntax: setTimeout/setInterval(function, delay, param1, param2, ...); <br>
        Both functions return timer ID to clear the scheduled function executions using clearTimeout and clearInterval. <br>
        Both setTimeout and setInterval functons are used milliseconds for delaying time.
     </p>
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
     <h2>H. OOP (Object Oriented Programming) :</h2>
     <h3 class="vvi">66. What is OOP in JavaScript...?</h3>
     <p>
@@ -754,11 +755,12 @@
        OOP in JavaScript is based on the concept of prototypes. <br><br>
        There are 4 main principles in OOP : <br />
       > Abstraction: Abstraction is the act of hiding unnecessary details about user by creating classes and objects. <br />
-      > Encapsulation: Encapsulation is the act of bundling data and methods together into a single unit and protect data from outside to get access & modify.<br />
-      > Inheritance: Inheritance is the act of creating new class from an existing class by inheriting properties and methods and promoting code reusability. <br />
+      > Encapsulation: Encapsulation is the act of bundling data and methods together into a single unit and protect data from outside 
+      to get access & modify.<br />
+      > Inheritance: Inheritance is the act of creating new class from an existing class by inheriting properties and methods and 
+      promoting code reusability. <br />
       > Polymorphim: Polymorphism allows objects of different types to be treated as objects of a common type.
     </p>
-    
     <h3 class="vvi">67. What is "this" keyword and its purposes in JavaScript...? Imp</h3>
     <p>
        "this" keyword refers to the current execution context or scope. <br />
@@ -770,47 +772,42 @@
       > Inside Object, return the object property and value. <br>
       > Inside DOM, reference to HTML element.
     </p>  
-    
     <h3>68. What is class in JavaScript...?</h3>
     <p>
        A Class is a template for creating objects with similar properties and methods. <br />
        ECMAScript 2015, also known as ES6, introduced JavaScript Classess.<br />
        Syntax: Use the keyword class to create a class and always add a method named constructor(). <br>
-       A Constructor is a special type of method within classes that are automatically called when an object is created using new keyword.
+       A Constructor is a special type of method within classes that are automatically called when an object is created using new 
+      keyword.
     </p>  
-
     <h3>69. What is Class inheritance in JavaScript...?</h3>
     <p>
-      > Class inheritance in JavaScript allows to create a subclass that inherits properties and methods from a base class or supper class. <br />
+      > Class inheritance in JavaScript allows to create a subclass that inherits properties and methods from a base class or supper 
+      class. <br />
       > The subclass can reuse and extend the functionality of the super class by using 'extends' keyword.
     </p>  
-    
     <h3 class="vvi">70. What is Prototype in JavaScript ...?</h3>
     <p>
        Every object in JavaScript has a built-in property, which is called its prototype. <br>
        The prototype is a fundamental concept that allows objects to inherit properties and methods from other objects. <br>
        It's a way to share and reuse functionality among objects.
     </p>
-
     <h3>71. What is a Prototype chain in JavaScript...?</h3>
     <p>
-      > The prototype chain is a mechanism that allows objects to inherit properties and methods from other objects through their prototype objects.<br />
+      > The prototype chain is a mechanism that allows objects to inherit properties and methods from other objects through their 
+      prototype objects.<br />
       > Every object has a property called __proto__ or [Prototype]. <br />
-      > Access a property or method on an object, JavaScript checks that property exists or not. If not looks up the prototype chain to find in the prototype object. <br />
+      > Access a property or method on an object, JavaScript checks that property exists or not. If not looks up the prototype chain to 
+      find in the prototype object. <br />
       > This process continues until it reaches the end of the prototype chain or finds the desired property/method.
     </p>  
-    
     <h3>72. What is the difference between prototype and __proto__ in JavaScript...?</h3>
     <p>
        prototype is a property of constructor functions that defines the methods and properties to be shared among instances. <br>
-       __proto__ is an internal property of objects used to access their prototype and is generally not recommended for direct use. <br>
-      
-    </p>
-
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+       __proto__ is an internal property of objects used to access their prototype and is generally not recommended for direct use. 
+     </p>
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>Advanced :</h2>
-
     <h3>74. Explain Static type vs Dynamic type...?</h3>
     <p>
        JavaScript is a dynamic type language, where type can be changed.<br />
@@ -819,14 +816,13 @@
        The Static-type makes code more verbose and less prone to errors. <br />
        TypeScript is designed by Microsoft.
     </p>
-
     <h3 class="vvi">75. What is a strict mode in javascript...? Imp</h3>
     <p>
        Strict Mode is introduced in ES5 that allows a program in a “strict” operating context. <br />
-       It enhance the language by catching errors in advance, preventing global variables, restrict the use of reserved keywords and prohibit duplicate name etc.<br />
+       It enhance the language by catching errors in advance, preventing global variables, restrict the use of reserved keywords and 
+      prohibit duplicate name etc.<br />
        The "use strict" directive is used to enable strict mode in code.
     </p>
-    
     <h3>76. What is Call Stack and Heap memory in JavaScript...?</h3>
     <p>
       JavaScript uses automatic memory management through a mechanism called the "heap" and "call stack." <br />
@@ -835,13 +831,11 @@
       > The primitive data types are stored directly in stack memory. <br />
       > When a JavaScript function is called, it added to the top of the call stack. <br />
       > As function completed execution, it removed from the stack in a last-in-first-out (LIFO) manner. <br /><br />
-      
        Heap Memory : <br />
       > The heap is a region of memory where JavaScript engines allocate memory for objects. <br />
       > Objects like arrays, objects, functions, and other complex data types are stored in the heap. <br />
       > Heap allocating memory for new objects and releasing memory when objects are no longer referenced or needed.<br />
     </p>
-
     <h3>77. What is Web Storage and its uses...?</h3>
     <p>
        The Web Storage is used to store data locally within the browser. <br>
@@ -853,8 +847,7 @@
       > Implementing Offline functionality. <br>
       > Storing client side Tokens.
     </p>
-    
-    <h3 class="vvi">78. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
+    <h3>78. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
     <p>
        Local storage and Session storage are two web storage by HTML5 that allow to store data by the users locally. <br />
        They are similar in many ways but have some few key differences: <br /><br />
@@ -870,7 +863,6 @@
       > Session Storage has a smaller storage limit compared to Local Storage. <br>
       > Session storage may be a better option for projects that handle sensitive information.
     </p>
-    
     <h3>79. Explain about different methods applying to Local storage and Sessionstorage...?</h3>
     <p>
        Methods of Local Storage : <br />
@@ -881,29 +873,29 @@
       > localStorage.hasOwnProperty(key): Returns true if the key exists in local storage, otherwise false. <br /><br />
        In Session Storage also the same methods, like local storage, only the 'local' keyword will replace to 'session'.
     </p>
-    
-    <h3 class="vvi">80. What is a Cookie...?</h3>
+    <h3>80. What is a Cookie...?</h3>
     <p>
        Cookies are the small piece of data that is stored in the user's browser. <br />
        Cookies are saved as key/value pairs. <br />
-       It is commonly used by websites to remember information about the user's browsing activity, preferences, and interactions with site. <br>
+       It is commonly used by websites to remember information about the user's browsing activity, preferences, and interactions with 
+      site. <br>
        Types: Session cookies are romoved when close the browser, and Persistent cookies are stored for a longer period.
     </p>
-
     <h3>3. What is IndexedDB and explain about the basic patterns...?</h3>
     <p>
-         IndexedDB is a web browser API, that allows web applications to store and retrieve large amounts of structured data locally. <br>
+         IndexedDB is a web browser API, that allows web applications to store and retrieve large amounts of structured data locally. 
+        <br>
          It create and manage client-side databases asynchronously. <br>
          It enable offline storing, that improved performance and better user experiences. <br>
          It is more powerful than local storage. <br><br>
          Basic Patterns: <br>
         > Open a database using the indexedDB.open() method. <br>
         > Create an object store in the database using createObjectStore() method. <br>
-        > Start transaction and make a request to do some database operation using transaction(['objName'], 'readwrite/readonly') method. <br>
+        > Start transaction and make a request to do some database operation using transaction(['objName'], 'readwrite/readonly') 
+        method. <br>
         > Wait for the operation to complete by listening to the right kind of DOM event. <br>
         > Provide response with result.
     </p>
-    
     <h3 class="vvi">81. What is Debugging in JavaScript...?</h3>
     <p>
        Debugging is the process of testing, finding and fixing errors, bugs or unexpected behaviour in code. <br />
