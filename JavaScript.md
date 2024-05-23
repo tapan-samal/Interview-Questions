@@ -900,70 +900,74 @@
     <p>
        Debugging is the process of testing, finding and fixing errors, bugs or unexpected behaviour in code. <br />
        Programming code might contain syntax errors or logical errors or reference errors or type error etc. <br />
-       The goal of debugging is to understand how a program is executing, locate the source of a problem, and make corrections the code. <br>
+       The goal of debugging is to understand how a program is executing, locate the source of a problem, and make corrections the 
+      code. <br>
        Console.log() statements is a common practice for logging information to the console during debugging. <br />
        The debugger keyword use to stops execution of JavaScript and allowing to inspect the program's state.
     </p>    
-    
     <h3>82. What is happens behind the scenes when the "new" keyword is used in JavaScript…?</h3>  
     <p>
       > The new keyword initiates the creation of new object in JavaScript. <br />
       > The new object gets linked to the prototype property of the constructor function. <br />
       > The constructor function is called with specified arguments. <br />
-      > After the constructor function has been called, if it does not return a non-primitive value, then the newly created object is returned.
+      > After the constructor function has been called, if it does not return a non-primitive value, then the newly created object is 
+      returned.
     </p>  
-    
     <h3>83. Explain code execution process in JavaScript...?</h3>
     <p>
        Code execution follows a two-phase process: the creation phase (hoisting) and the execution phase. <br />
-       These phases are part of the JavaScript runtime's process for handling code. <br /><br />
-      
+       These phases are part of the JavaScript runtime's process for handling code. <br /><br /> 
        Creation Phase (Hoisting): <br />
       > During the creation phase, the JavaScript engine scans the code and sets up the following: <br />
       > Variable declared names are registered in the current scope, are initialized with the value undefined. <br />
       > Function declarations are also hoisted to the top of their containing scope. <br />
       > However, the assignments (the actual values) of variables are not hoisted, only the declarations. <br /><br />
        Execution Phase: <br />
-      > After the creation phase, the JavaScript engine proceeds to the execution phase, where it executes the code from top to bottom. <br />
+      > After the creation phase, the JavaScript engine proceeds to the execution phase, where it executes the code from top to bottom. 
+      <br />
       > Variables are assigned their actual values during the execution phase. <br />
       > Functions declared during the creation phase are available for execution. <br />
-      > Variables declared with let and const, do not exhibit the same hoisting behavior with var, but they are still subject to the two-phase process. <br />
-      > The JavaScript engine maintains a stack of execution contexts, called the "call stack." When a function is called, a new execution context is
+      > Variables declared with let and const, do not exhibit the same hoisting behavior with var, but they are still subject to the 
+      two-phase process. <br />
+      > The JavaScript engine maintains a stack of execution contexts, called the "call stack." When a function is called, a new 
+      execution context is
       pushed onto the stack. When the function completes, its execution context is popped off the stack.
     </p>
-    
     <h3>84. Explain about Exception/Error handling and best practices for handling error in JavaScript…?</h3>
     <p>
        Error handling in JavaScript is the process of dealing with errors that may occur during the execution of a program. <br>
        Errors can happen for various reasons, such as incorrect user input, network issues, or unexpected runtime conditions. <br> 
        Effective error handling is crucial for building robust and maintainable JavaScript applications. <br>
        Here are some best practices for error handling in JavaScript: <br>
-      > Use Try-Catch Blocks: Wrap code inside a try block for exception and handle exceptions using a catch block. This helps prevent from crashing application. <br>
-      > Provide Descriptive Error Messages: When catching an exception, display a descriptive error message. This helps providing useful information about the nature of the error. <br>
-      > Throwing Custom Errors: Use the throw statement to create and throw custom error objects. It provide additional information about the context and nature of the error.<br>
-      > Logging Errors: Log errors to a centralized logging system or console. This helps in tracking and diagnosing issues in a production environment.
+      > Use Try-Catch Blocks: Wrap code inside a try block for exception and handle exceptions using a catch block. This helps prevent 
+      from crashing application. <br>
+      > Provide Descriptive Error Messages: When catching an exception, display a descriptive error message. This helps providing 
+      useful information about the nature of the error. <br>
+      > Throwing Custom Errors: Use the throw statement to create and throw custom error objects. It provide additional information 
+      about the context and nature of the error.<br>
+      > Logging Errors: Log errors to a centralized logging system or console. This helps in tracking and diagnosing issues in a 
+      production environment.
     </p>
-    
     <h3>87. What are the difference between JavaScript and Java...?</h3>
     <p>
        JavaScript : <br>
       > JavaScript is an object-oriented scripting language. <br>
       > JavaScript is prototype-based, where objects can serve as prototypes for other objects. <br>
-      > JavaScript is dynamic-type, allow variables to hold values of any type without explicit type declarations and type checking is done at runtime. <br>
-      > JavaScript mainly used for enhancing the functionality of web pages. But the advent of Node.js can also use for server-side development. <br><br>
+      > JavaScript is dynamic-type, allow variables to hold values of any type without explicit type declarations and type checking is 
+      done at runtime. <br>
+      > JavaScript mainly used for enhancing the functionality of web pages. But the advent of Node.js can also use for server-side 
+      development. <br><br>
        Java : <br>
       > Java is an object-oriented programming language. <br>
       > Java is a class-based, object-oriented programming language. <br>
       > Java is a static-type language, means that variable types are explicitly declared and checked at compile-time. <br>
       > Java is used for building operating systems, mobile apps (Android), enterprise-level server-side applications.
     </p>
-    
     <h3>88. What is console and explain different methods of console...?</h3>
     <p>
        The console is an object that provides access to the browser's debugging console. <br />
        Console object is a property of window object. <br />
        Console Uses REPL, that is Read -> Evaluate -> Print -> Loop. <br /><br />
-      
       Some Important methods used in console are : <br />
       > console.log(): Used to log messages to the console and often used for debugging and display variables values.<br />
       > console.error(): Used to log error messages to the console with a distinctive appearance. <br />
@@ -975,7 +979,6 @@
       > console.info(): Provide additional informationabout data. <br />
       > console.dir(): Useful for inspecting the structure and properties of complex objects like arrays, objects or DOM elements.
     </p>  
-
     <h3>89. What is Git...?</h3>
     <p>
        Git is a version control system, it helps us to track the changes made in our code/projects. <br>
@@ -985,25 +988,23 @@
        It is use to track the history of code and help to collaborate. <br>
        Flow: GitHub repo => clone => changes => add => commit => push
     </p>
-
     <h3>90. What is GitHub...?</h3>
     <p>
        Github is a website used by developers to store and manage their codes/projects with the help of Git. <br>
        On GitHub, projects are stored in folder structure that is known as "repository" in sort called "repo".
     </p>
-    
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>ECMAScript 6</h2>
     <h3>91. What is ECMAScript(ES) and explain about important versions of ES introduced in JavaScript…?</h3>
     <p>
-       The name "ECMAScript" is derived from the organization that standardizes the specification, the European Computer Manufacturers Association (ECMA). <br>
-       ECMAScript provides the rules, guidelines and functionality that developers and browser vendors must follow to implement the scripting language. <br>
+       The name "ECMAScript" is derived from the organization that standardizes the specification, the European Computer Manufacturers 
+      Association (ECMA). <br>
+       ECMAScript provides the rules, guidelines and functionality that developers and browser vendors must follow to implement the 
+      scripting language. <br>
        ES5(2009) and ES6(2015) come with major features. <br> 
        ES6  was the major leap forward for JavaScript introducing many syntactic and structural enhancements. <br>
        The last and updated versionof ECMAScript is ES12(ECMAScript 2021).
     </p>
-    
     <h3>92. Explain some features in ES6...?</h3>
     <p>
        ES6 (ECMAScript 2015) a different versions of the ECMAScript standard with several new features and improvements. <br>
@@ -1011,13 +1012,15 @@
        Here are some key features introduced in ES6 : <br>
       > ES6 introduced let for reassignment and const for constant reference. <br> 
       > ES6 introduced arrow functions, providing a concise syntax for writing anonymous functions. <br>
-      > ES6 introduced template literals, a convenient way to work with strings and include variables by using backticks compared to traditional string concatenation. <br>
+      > ES6 introduced template literals, a convenient way to work with strings and include variables by using backticks compared to 
+      traditional string concatenation. <br>
       > ES6 allows to set default values for function parameters, but it has less priority than arguments. <br>
       > ES6 introduced a more familiar class syntax for creating objects and dealing with inheritance. <br>
-      > ES6 introduced destructuring assignment, allowing to extract values from arrays or properties from objects and assign them to variables in a concise manner. <br>
-      > ES6 introduced the spread operator to spread the contents and rest operator to collects the remaining infinite arguments into an array.
+      > ES6 introduced destructuring assignment, allowing to extract values from arrays or properties from objects and assign them to 
+      variables in a concise manner. <br>
+      > ES6 introduced the spread operator to spread the contents and rest operator to collects the remaining infinite arguments into 
+      an array.
     </p>
-    
     <h3 class="vvi">93. What are the differences between var, let and const…? Imp</h3>
     <p>
        var: <br />
@@ -1025,37 +1028,37 @@
        Var allows to re-declare and re-assign the value. <br />
        Variables declared with var are hoisted, means can access before it's declaration. <br />
        Var is not recommended to use, after ES6 due to naming conflict.<br /><br>
-
        let: <br />
        The let keyword is used to declare a variable with block-scoped.  <br />
        Let cannot be redeclared but can re-assign the value. <br />
        Variables declared with let are hoisted, but not initialized. <br /><br />
-
        Const: <br />
        The const keyword is used to declare a constant value with block scope.<br />
        Const does not allow to re-declare and re-assign the reference. But values in objects and arrays can modify.<br />
        Variables declared with const are also hoisted, but not initialized.
     </p>
-
     <h3 class="vvi">94. What is Temporal Dead Zone in JavaScript…?</h3>
     <p>
-       The Temporal Dead Zone(TDZ) refers to a specific behavior related to the hoisting of variables declared with the let and const keywords. <br>
+       The Temporal Dead Zone(TDZ) refers to a specific behavior related to the hoisting of variables declared with the let and const 
+      keywords. <br>
        When we declare a variable using var, it gets hoisted to the top of its scope and return undefined. <br> 
-       Where let and const declarations also get hoisted, but not the initialization and return reference error, this behavior called TDZ. <br>
+       Where let and const declarations also get hoisted, but not the initialization and return reference error, this behavior called 
+      TDZ. <br>
        The TDZ is the time between entering the scope where the variable is declared and the actual initialization of the variable. 
     </p>
-
     <h3 class="vvi">95. What are Template Literals and String Interpolation in JavaScript...?</h3>
     <p>
        Template literals, introduced in ES6, provide a convenient way to concatenation strings in JavaScript by using backticks``. <br>
-       Template literals allow Inject variables & functions, Multiline strings, Expression evaluation, use conditional statement and use quotations inside. <br>
+       Template literals allow Inject variables & functions, Multiline strings, Expression evaluation, use conditional statement and 
+      use quotations inside. <br>
        Template literals offer several advantages: <br>
-      > String Interpolation: Expressions inside ${} are evaluated and inserted into the string, making it easy to include variables or expressions. <br>
+      > String Interpolation: Expressions inside ${} are evaluated and inserted into the string, making it easy to include variables or 
+      expressions. <br>
       > Multiline Strings: Template literals allow multiline strings without the need for explicit line breaks. <br> 
-      > Tagged Templates: Template literals can be tagged with a function and receives the literals and interpolated values as arguments.
+      > Tagged Templates: Template literals can be tagged with a function and receives the literals and interpolated values as 
+       arguments.
     </p>
-  
-    <h3 class="vvi">96. What are the differences between Spread Operator and Rest Operator in JavaScript…? Imp</h3>  
+      <h3 class="vvi">96. What are the differences between Spread Operator and Rest Operator in JavaScript…? Imp</h3>  
     <p>
        Spread Operator and Rest Operator introduced in ES6. <br>
        Both parameter, denoted by "...". <br>
@@ -1069,17 +1072,16 @@
       > The rest operator simplifies the handling of infinite argument lists. <br />
       > Rest operator always keep at the end of parameter. <br> 
     </p>  
-
     <h3 class="vvi">97. What is the difference between Arrow function and Regular function in JavaScript…? Imp</h3>
     <p>
-       Arrow functions and Regular functions in JavaScript have some key differences in their syntax, behavior, and use cases. <br /><br />
+       Arrow functions and Regular functions in JavaScript have some key differences in their syntax, behavior, and use cases. <br /> 
+      <br />
        Arrow Function : <br />
       > Arrow functions is also known as Fat arrow function use a concise syntax with the => arrow operator. <br />
       > It allow to use single expression with an implicit(without) return keyword. <br />
       > Arrow functions do not have their own this context, so inherit from global context. <br />
       > Arrow functions do not have their own arguments object, so inherit from global scope. <br />
       > Arrow functions cannot be used as constructor functions with the new keyword. <br /><br />
-
        Regular Function : <br />
       > Regular functions are defined using the 'function' keyword. <br />
       > It is also allow single expression, but with explicit return (uses the return statement). <br />
@@ -1087,12 +1089,11 @@
       > Regular functions have their own arguments object. <br />
       > Regular functions can be used as constructor functions with new keyword and allow to create objects.
     </p>
-
-
     <h2>TypeScript :</h2>
     <h3>98. What is TypeScript...?</h3>
     <p>
-      > TypeScript is a free and open-source high-level programming language developed by Microsoft that adding static type definitions. <br>
+      > TypeScript is a free and open-source high-level programming language developed by Microsoft that adding static type 
+      definitions. <br>
       > TypeScript is a superset of JavaScript. <br>
       > TypeScript code is transpiled into JavaScript before execution.
     </p>
