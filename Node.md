@@ -77,6 +77,14 @@
     <p>
          The MongoDB Aggregation Framework is used for data aggregation operations like grouping, filtering, and transforming data. It allows for complex data processing and analysis.
     </p>
+<h3>38. What is GraphQl and how its important in programming language...?</h3>
+    <p> 
+         GraphQL is an open source query language that describes how a client should request information through an API. <br>
+         It optimize an application by batching multiple requests into a single network query. <br>
+         It allow clients to request only the data they require from the single end point. <br>
+         It simplifies the API interactions and reduces number of network requests. <br>
+         It provides more efficient, powerful, and flexible alternative to traditional RESTful APIs.
+    </p>
     
     <h3>12. Describe the differences between embedding and referencing in MongoDB schema design...?</h3>
     <p>
