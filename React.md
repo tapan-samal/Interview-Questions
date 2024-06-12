@@ -414,14 +414,6 @@
         > Natiive UI components(View, text) are used for UI. <br>
         > Deployed through app stores(App store, Google Play).
     </p>
-    <h3>38. What is GraphQl and how its important in programming language...?</h3>
-    <p> 
-         GraphQL is an open source query language that describes how a client should request information through an API. <br>
-         It optimize an application by batching multiple requests into a single network query. <br>
-         It allow clients to request only the data they require from the single end point. <br>
-         It simplifies the API interactions and reduces number of network requests. <br>
-         It provides more efficient, powerful, and flexible alternative to traditional RESTful APIs.
-    </p>
     <h2>Short Notes : </h2>
     <h4> Props in JSX: Props(properties) are a way to pass data from parent component to a child component.</h4>
     <h4> Callback Function: Parent component provide callback function to child component to invoke and pass data back to parent component.</h4>
