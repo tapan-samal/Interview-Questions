@@ -1,4 +1,4 @@
-##JS Variables and Keywords
+JS Variables and Keywords:
 Important question - Explain Difference between Var, Let and Const.
 1. Create a function that calculates the area of a rectangle. Inside the function, use Var to declare variables for the length and width, as they might change. Use Const to declare a variable for the formula used to calculate the area, as it remains constant.
 2. Write a for loop to iterate over an array of numbers. Use let to declare the loop variable as it needs to be re-assigned for each iteration.
