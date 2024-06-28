@@ -1,9 +1,10 @@
- <h1> Node/Express Interview Questions</h1>
+ <h2> Node/Express Interview Questions</h2>
     <h3>1. What is Node.JS...? Imp</h3>
     <p>
          Node.js is an open-source JavaScript runtime environment executing JavScript code on the server side. <br>
          Node.js is built on the V8 JavaScript engine, which developed by Google, written in C++ and compiles with JavaScript code. <br>
-         Node.js uses event-driven, non-blocking I/O model, which makes lightweight and efficient for building scalable network applications. <br>
+         Node.js uses event-driven, non-blocking I/O model, which makes lightweight and efficient for building scalable network       
+          applications. <br>
          Node.js is neither a language nor a framework or library. 
     </p>
     <h3>2. Explain the main advantages of using NodeJs...?</h3>
@@ -18,7 +19,8 @@
     <h3>3. What is the difference between Nodejs and JavaScript...?</h3>
     <p> 
          Node.js is a runtime environment, while JavaScript is a programming language.  <br>
-         Node.js provides a platform for executing JavaScript code on the server-side, while JavaScript is primarily used on the client-side. <br>
+         Node.js provides a platform for executing JavaScript code on the server-side, while JavaScript is primarily used on the  
+          client- side. <br>
          Node.js is commonly used developing APIs, but JavaScript access and manipulate the APIs by adding functionality. <br>
          Express is the popular framework of Nodejs, but in JavaScript React library is popular. 
     </p>
@@ -53,7 +55,8 @@
     <p>
          Dotenv helps keep sensitive information such as API keys, database passwords, and other secrets out of the code. <br>
          Dotenv makes it easy to manage environment variables in one place. <br>
-         It allows to easily switch configurations between development, testing, and production environments by modifying the .env file. 
+         It allows to easily switch configurations between development, testing, and production environments by modifying the .env  
+          file. 
     </p>
     <h3>7. What is MongoDB and How does it differ from relational databases...?</h3>
     <p>
@@ -75,9 +78,10 @@
     </p>
     <h3>11. Explain the use of aggregation stages like $match, $group, $project, and $sort...?</h3>
     <p>
-         The MongoDB Aggregation Framework is used for data aggregation operations like grouping, filtering, and transforming data. It allows for complex data processing and analysis.
+         The MongoDB Aggregation Framework is used for data aggregation operations like grouping, filtering, and transforming data. It 
+          allows for complex data processing and analysis.
     </p>
-<h3>38. What is GraphQl and how its important in programming language...?</h3>
+    <h3>12. What is GraphQl and how its important in programming language...?</h3>
     <p> 
          GraphQL is an open source query language that describes how a client should request information through an API. <br>
          It optimize an application by batching multiple requests into a single network query. <br>
@@ -85,46 +89,4 @@
          It simplifies the API interactions and reduces number of network requests. <br>
          It provides more efficient, powerful, and flexible alternative to traditional RESTful APIs.
     </p>
-    
-    <h3>12. Describe the differences between embedding and referencing in MongoDB schema design...?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>13. When would you use embedding versus referencing for relationships between documents...?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>40. How do you handle denormalization in MongoDB...?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>40. Does MongoDB support transactions? Explain the concept of multi-document transactions...?</h3>
-    <p>
-        
-    </p>
-
-    <h3>40. What is MongoDB replication? Describe the roles of primary and secondary nodes in a replica set....?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>40. How do you ensure data consistency and fault tolerance in MongoDB replication...?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>40. What are the security features available in MongoDB? How do you secure a MongoDB deployment...?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>40. Explain sharding in MongoDB and how it contributes to scalability...?</h3>
-    <p>
-        
-    </p>
-    
-    <h3>40. What factors would you consider when designing a sharded MongoDB cluster?...?</h3>
     
