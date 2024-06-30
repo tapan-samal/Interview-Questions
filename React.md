@@ -1,4 +1,4 @@
-<h1> React Interview Questions</h1>
+<h2> React Interview Questions</h2>
     <h3>1. What is React.js...? Imp</h3>
     <p>
          React is a lightweight open source JavaScript library for building user interfaces(UI). <br>
