@@ -1,4 +1,4 @@
- <h1 >HTML Interview Questions</h1>
+ <h2>HTML Interview Questions</h2>
     <h3>1. What is HTML...?</h3>
     <p>
          HTML stands for Hypertext Markup Language and is the language of the World Wide Web(WWW/Internet). <br>
