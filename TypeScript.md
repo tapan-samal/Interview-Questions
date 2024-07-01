@@ -45,54 +45,6 @@
        Object: Any JavaScript object. <br>
        Function: Denotes a function type.
     </p>
-    <script>
-      // Boolean
-      let isActive: boolean = true;
-      // Number
-      let age: number = 30;
-      // String
-     let title: string = "Manager";
-      // Array
-      let scores: number[] = [85, 90, 78];
-      // or use a compact form: let scores: Array<number> = [85, 90, 78];
-      // Tuple
-      let employee: [string, number, boolean] = ['John', 35, true];
-
-      // Enum
-      enum WeekDays { Monday, Tuesday, Wednesday, Thursday, Friday }
-      let today: WeekDays = WeekDays.Wednesday;
-
-      // Any
-      let dynamicData: any = 20;
-      dynamicData = "string";
-
-      // Void
-      function greet(): void {
-        console.log("Hello!");
-      }
-
-      // Null and Undefined
-      let data: null = null;
-      let user: undefined = undefined;
-
-      // Never
-      function errorMessage(message: string): never {
-        throw new Error(message);
-      }
-
-      // Object
-      let person: object = {
-        name: 'John',
-        age: 30
-      };
-
-      // Function
-      let calculate: Function;
-      calculate = function (x: number, y: number): number {
-        return x + y;
-      };
-    </script>
-
     <h3>06. What is "any" type in TypeScript...?</h3>
     <p>
        Any type in TypeScript is a special type that allows to opt-out of type checking for a variable. <br>
@@ -100,13 +52,11 @@
        It is useful in certain situations where need more flexibility, like when dealing with third-party libraries and dynamic content. <br>
        Here, we can re-assign any data type to a variables. 
     </p>
-
     <h3>07. What is tuples in TypeScript...?</h3>
     <p>
        Tuples are a special type of array that allows to specify mixed types of elements at specific positions within the array. <br> 
        It enforce a fixed length and order of elements with known types. <br>
-    </p>
-    
+    </p> 
     <h3>08. What is Enums in TypeScript...?</h3>
     <p>
        In TypeScript, an enum (enumeration) is a way of defining a set of named constants. <br> 
@@ -116,34 +66,29 @@
       > String enums: It allow to assign custom string values to the members. <br> 
       > Heterogeneous enums: It allows enums to have both string and numeric members.
     </p>
-    
     <h3>09. WHat is Never type in TypeScript...?</h3>
     <p>
        The never type in TypeScript represents values that never occur. <br>
        It is a type that indicates the absence of any value and is used to signify that a function never returns or always throws an error. 
     </p>
-    
     <h3>10. What is Union types in TypeScript...?</h3>
     <p>
        Union types allow a variable to hold more than one type of value. <br>
        It provide flexibility while maintaining type safety. <br>
        Union type using the "|" (pipe) symbol.
     </p>
-    
     <h3>11. What is interface in TypeScript...?</h3>
     <p>
        Interface is a feature of TypeScript that allows to define the structure or shape of an object. <br>
        It specify the properties and methods that an object has or should have. <br>
        Allow to extend an interface by using "extends" keyword and create a new interface.
     </p>
-    
     <h3>12. What is type aliases in TypeScript...?</h3>
     <p>
        Type aliases in TypeScript are a way to give a custom name to an existing type. <br>
        This can be useful for making code more readable and maintainable, especially when working with complex types. <br>
        It is used for wide range of type, i.e. primitive type, union type, function type etc.
     </p>
-
     <h3>13. What is Triple-slash(///) in TypeScript and its uses...? </h3>
     <p>
        Triple-slash directive is a special kind of single-line comment and containing a single XML tag. <br>
@@ -154,7 +99,6 @@
       > Used for adding type definitions for external libraries. <br>
       > Used to specify the set of libraries to be included.
     </p>
-
     <h3>14. What is Generics in TypeScript...?</h3>
     <p>
        Generics in TypeScript allow to create reusable components. <br>
@@ -163,7 +107,6 @@
        These parameters are specified within angle brackets and can be used throughout the code to define types. <br>
        This makes the code more flexible and scalable.
     </p>
-
     <h3>15. What is the "tsconfig.json" file?</h3>
     <p>
        It allow to list various settings in the tsconfig.json file, which is in JSON format. <br> 
