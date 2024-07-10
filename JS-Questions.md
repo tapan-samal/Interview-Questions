@@ -1,4 +1,5 @@
 JS Variables and Keywords:
+
 Important question - Explain Difference between Var, Let and Const.
 1. Create a function that calculates the area of a rectangle. Inside the function, use Var to declare variables for the length and width, as they might change. Use Const to declare a variable for the formula used to calculate the area, as it remains constant.
 2. Write a for loop to iterate over an array of numbers. Use let to declare the loop variable as it needs to be re-assigned for each iteration.
@@ -19,7 +20,8 @@ Scenario based Questions –
 8. How can you use let or const in try-catch blocks for error handling? Explain with an example how using these keywords helps manage variable scope and prevents unintended behavior.
 9. (I.Q) Describe the concept of hoisting in JavaScript variables. Provide an example where var behaves differently from let or const due to hoisting.
 10. Explain why it's beneficial to use const to declare global constants in JavaScript applications. Provide an example of a global constant and explain why it should not be re-assigned.
-JS Operators
+
+<---------------------JS Operators-------------------->
 1.	Basic Arithmetic Operator
 Create a function that takes two numbers as input and performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Allow the user to choose the operation they want to perform.
 2.	Comparison Operators Practice:
@@ -40,15 +42,14 @@ Present users with scenarios where they need to choose between two options based
 Provide a series of complex expressions involving multiple operators and ask users to determine the order of operations. This can help reinforce their understanding of operator precedence.
 10.	Mixed Operators Exercise:
 Create a program that combines various operators in one task. For example, calculate the area of a rectangle given its length and width using arithmetic operators and display the result along with a message
-JS Datatypes
+
+<-----------------------JS Datatypes-------------------->
 1.	String Manipulation Task:
 Given a string containing a sentence, create a function to count the number of vowels (a, e, i, o, u) in the string and return the count.
 2.	Array Operations Task:
 Write a function that takes an array of numbers as input and returns the sum of all the positive numbers in the array.
 3.	Object Manipulation Task:
 Create an object representing a student with properties like name, age, and grades. Write a function to calculate the average grade of the student based on the grades array.
-
-
 4.	Function as Data Task:
 Write a function that takes a callback function as an argument and applies it to every element of an array, returning a new array with the modified elements.
 5.	Date Manipulation Task:
@@ -63,14 +64,14 @@ Create a function that generates a counter. Each time the generated function is 
 Define a constructor function for a Person object with properties like name and age. Add a method to the prototype of Person objects to greet someone.
 10.	Type Conversion Task:
 Write a function that takes a number as input and returns it as a string with commas separating every three digits.
-Js Objects
+
+<-----------------------Js Objects----------------->
 1.	Object Creation Task:
 Create an object representing a car with properties such as make, model, year, and color. Write a function to display information about the car.
 2.	Object Methods Task:
 Define a person object with properties like name, age, and gender. Add a method to the object called introduce that prints a greeting message including the person's name.
 3.	Object Iteration Task:
 Given an object representing a shopping cart with items and their quantities, write a function to calculate the total price of the items in the cart.
-
 4.	Object Composition Task:
 Create two objects representing a rectangle and a circle. Write a function that takes these objects as arguments and calculates the total area covered by both shapes.
 5.	Object Inheritance Task:
@@ -86,13 +87,11 @@ Define an object representing a bank account with properties like balance and in
 10.	Object Extension Task:
 Given two objects representing student information and course enrollment, write a function to merge the two objects into a single object containing all the information.
 
-
-JS Strings
+<--------------------JS Strings--------------------------->
 1.String Manipulation Task:
 Write a function that takes a string as input and returns the reversed version of that string. Use string manipulation methods like split(), reverse(), and join().
 2. Substring Extraction Task:
 Create a function that extracts a substring from a given string based on specified start and end indices. Ensure that the function handles negative indices appropriately.
-
 3. String Search Task:
 Write a function that takes a string and a search term as input and returns the number of occurrences of the search term within the string. Use string search methods like indexOf() or regular expressions.
 4. Case Conversion Task:
@@ -109,7 +108,8 @@ String Splitting Task:
 Create a function that counts the number of occurrences of each character in a given string and returns an object mapping each character to its count.
 10 .String Validation Task:
 Write a function that validates whether a given string is a valid email address. Use regular expressions to perform the validation.
-JS Number Methods
+
+<----------------------JS Number Methods-------------------->
 1.	Number Conversion Task:
 Write a function that takes a string representing a numeric value and converts it into a number using the Number() method. Ensure it handles edge cases like non-numeric strings gracefully.
 2.	Number Rounding Task:
@@ -131,7 +131,8 @@ Create a function that returns the absolute value of a given number using the Ma
 Write a function that calculates the exponential value of a base raised to a given power using the Math.pow() method. Ensure it handles both positive and negative powers.
 10. Number Randomization Task:
 Implement a function that generates a random number within a specified range using the Math.random() method. Allow users to specify the minimum and maximum values for the range
-------------------------JS Array Methods----------------------------
+
+<------------------------JS Array Methods---------------------------->
 1.	Array Length Task:
 Write a function that takes an array as input and returns the length of the array using the length property.
 2.	Array toString() Task:
@@ -160,7 +161,8 @@ Implement a function that flattens a nested array to a single-level array and re
 Write a function that removes elements from an array and/or adds new elements in their place, returning the removed elements as a new array using the splice() method.
 14.	Array toSpliced() Task:
 Create a function that returns a copy of a portion of an array into a new array object selected from begin to end (end not included) where begin and end represent the index of items in that array to be copied using the slice() method.
-----------------Array Find and Search Methods----------------🡪
+
+<----------------Array Find and Search Methods----------------🡪
 1.	Array indexOf() Task:
 Write a function that takes an array of strings and a search string as input. Implement a search functionality using the indexOf() method to find the index of the first occurrence of the search string in the array. Return -1 if the search string is not found.
 2.	Array lastIndexOf() Task:
@@ -176,8 +178,8 @@ Implement a function that takes an array of strings and a search string as input
 7.	Array findLastIndex() Task:
 Write a function that takes an array of numbers and a target number as input. Use a loop along with the lastIndexOf() method to find the index of the last occurrence of the target number in the array. Return -1 if the target number is not found.
 
-           --------------JS Array Sorting Methods--------------
-1.	Array sort() Task:
+   <--------------JS Array Sorting Methods-------------->
+1.Array sort() Task:
 Write a function that takes an array of numbers as input and sorts it in ascending order using the sort() method. Test it with both positive and negative numbers. 
 2.	Array reverse() Task:
 Create a function that takes an array of strings as input and reverses the order of its elements using the reverse() method.
@@ -200,7 +202,8 @@ Write a function called homeMadeMin that takes an array of numbers as input and 
 
 11.	Home made Max() Task:
 Create a function called homeMadeMax that takes an array of numbers as input and returns the largest number in the array without using the Math.max() method.
-     --------------Js Array Iteration--------------------🡪
+  
+     <--------------Js Array Iteration--------------------🡪
 1.	Array forEach() Task:
 Write a function that takes an array of numbers as input and uses the forEach() method to log each element of the array to the console.
 2.	Array map() Task:
@@ -228,8 +231,7 @@ Implement a function that takes two arrays as input and uses the with() method t
 13.	Array Spread (...) Task:
 Write a function that takes two arrays as input and uses the spread (...) operator to concatenate them together and return the resulting array.
 
-
---------------------Js Array Iteration 2nd level---------------------🡪
+<--------------------Js Array Iteration 2nd level---------------------🡪
 1.	Task: Advanced Data Transformation with Objects
 You are building a data visualization tool. Given an array of data objects, each representing a data point with properties like x, y, and label, perform the following operations:
 Use map() to transform each data point into an object containing only the x and y coordinates.
@@ -286,3 +288,9 @@ Implement a function that takes a JavaScript Date object and a month (e.g., "Jan
 Create a function that takes a JavaScript Date object and a year as input and sets the date to the same day and month but in the specified year.
 10. Task: Calculate Age
 Write a function that takes a JavaScript Date object representing a birthdate as input and returns the age of the person as of the current date.
+
+<-------------React Interview Questions----------->
+1. Create a React component that includes a textarea. Display the count of characters entered in real-time below the textarea.
+2. In React write a component that accepts props that contains an array called data that contains integers. The output from the component needs to display the data arm in numerical order.
+3. Write a React component that receives an array of strings as a prop and renders an unordered list () containing list items () for each string in the array.
+4. In React write a component that displays a number and a button. When that button is pressed the number is increased by 3.
