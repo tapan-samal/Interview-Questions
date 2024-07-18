@@ -1,22 +1,28 @@
  <h2> Node/Express Interview Questions</h2>
-    <h3>1. What is Node.JS...? Imp</h3>
+   
+   <h3>1. What is Node.JS...? Imp</h3>
     <p>
          Node.js is an open-source JavaScript runtime environment executing JavScript code on the server side. <br>
          Node.js is built on the V8 JavaScript engine, which developed by Google, written in C++ and compiles with JavaScript code. <br>
-         Node.js uses event-driven, non-blocking I/O model, which makes lightweight and efficient for building scalable network applications. <br>
+         Node.js uses event-driven, non-blocking I/O model, which makes lightweight and efficient for building scalable network    
+          applications. <br>
          Node.js is neither a language nor a framework. 
     </p>
-    <h3>2. Explain the main advantages of using NodeJs...?</h3>
+   
+   <h3>2. Explain the advantages of using NodeJs...?</h3>
     <p>
          Versatile Language: Allows developers to write client-side as well as server-side JavaScript code. <br>
          NPM Ecosystem: It has built-in and widely used packaging manager, called NPM. <br>
-         Asynchronous & Non-blocking: Uses an event-driven, non-blocking I/O model that makes application lightweight and efficient. <br>
+         Asynchronous & Non-blocking: Uses an event-driven, non-blocking I/O model that makes application lightweight and efficient. 
+         <br>
          Single-threaded: Node.js uses a single-threaded architecture with event looping. <br>
          Cross-platform: Supports deployment on various operating syastems. Like Windows, macOS, Linux, Android, and iOS. <br>
-         Open-source: Being an open-source technology, It continuously benefits from community contributions, updates, and enhanced packages.
+         Open-source: Being an open-source technology, It continuously benefits from community contributions, updates, and enhanced  
+          packages.
          Real-time capabilities: 
     </p>
-    <h3>3. What is the difference between Nodejs and JavaScript...?</h3>
+   
+   <h3>3. What is the difference between Nodejs and JavaScript...?</h3>
     <p> 
          Node.js is a runtime environment, while JavaScript is a programming language.  <br>
          Node.js provides a platform for executing JavaScript code on the server-side, while JavaScript is primarily used on the client-side. <br>
@@ -24,14 +30,16 @@
          Express is the popular framework of Nodejs, but in JavaScript React library is popular.
          JavaScript running on spider monkey, V8 and JavaScript core engine, where Node js run only on V8. 
     </p>
-    <h3>4. Difference between require and import in Nodejs...?</h3>
+   
+   <h3>4. Difference between require and import in Nodejs...?</h3>
     <p>
          By require, we can't load selectively, but with import, we can load selective way. <br>
          Require is synchronous in nature, but import load asynchronously. <br>
          Require is traditional, but import available after introduction of ES6. <br>
          For import availability, we have to add "type": "module" in package.json.
     </p>
-    <h3>5. What are the HTTP status codes and explain about types…?</h3>
+   
+   <h3>5. What are the HTTP status codes and explain about types…?</h3>
     <p>
        HTTP status codes provide information about the outcome of a request i.e. success, failure or other status. <br>
        Categories of HTTP status code: <br>
@@ -56,7 +64,8 @@
       > 502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from an upstream server. <br>
       > 503 Service Unavailable: The server is not ready to handle the request due to down for maintenance or overloaded. 
     </p>
-        <h3>6. What are the differences between Client side and Server side...?</h3>
+   
+   <h3>6. What are the differences between Client side and Server side...?</h3>
     <p>
          Client-Side(Browser): <br>
         > It runs on the user's web browser. <br>
@@ -70,13 +79,13 @@
         > Handle business logic, data storage/access, authentication, authorization etc.
     </p>
 
-    <h3>7. What is the difference between Runtime environment and Framework...?</h3>
+   <h3>7. What is the difference between Runtime environment and Framework...?</h3>
     <p>
          Runtime environment primarily focuses on providing the necessary infrastructure for code execution, including memory management and input output operations. <br>
          Framework simplifying the development process by offering a pre-defined architecture, libraries and best practice.
     </p>
     
-    <h3>8. What are Events, Event Emitter, Event Queue, Event Loop and Event Driven in Node.js...?</h3>
+   <h3>8. What are Events, Event Emitter, Event Queue, Event Loop and Event Driven in Node.js...?</h3>
     <p>
          Event: Events are objects that represent actions or occurrences happened in a program. <br>
          Event Emitter: Event Emitter is a core module in Node.js that allows to emit and handle events. <br>
@@ -86,14 +95,14 @@
          Event Driven Architecture: Actions and responses are driven by events rather than a linear flow of code execution.
     </p>
     
-    <h3>9. What is Express.JS...?</h3>
+   <h3>9. What is Express.JS...?</h3>
     <p>
          Express.js is a framework built on the top of NodeJs. <br>
          It is designed to simplify the process of building web application and APIs. <br> 
          It provides a set of features like simple routing system, middleware support, error handling and serve static files (HTML, CSS, JavaScript, images).
     </p>
 
-    <h3>10. Explain the different types of methods use with "app" object ...?</h3>
+   <h3>10. Explain the different types of methods use with "app" object ...?</h3>
     <p>
          Routing methods used to define routes that respond to specific HTTP requests. <br>
         > app.get/post/put/delete(path, callback); <br>
@@ -107,7 +116,7 @@
         > app.listen(port, [hostname], [backlog], [callback]);
     </p>
 
-    <h3>11. Explain Serving static files in Express...?</h3>
+   <h3>11. Explain Serving static files in Express...?</h3>
     <p>
          Serving static files involves delivering files such as images, CSS files, JavaScript files, and other assets directly to the client. <br>
          Express provides a built-in middleware function, express.static, to serve static files. <br>
@@ -115,7 +124,7 @@
          Absolute/Different directory: app.use('/static', express.static(path.join(__dirname, 'public')));
     </p>
 
-    <h3>12. What is Middleware and how it works in Node.js...?</h3>
+   <h3>12. What is Middleware and how it works in Node.js...?</h3>
     <p>
          Middleware is a powerful tool that executes functionalities between the request and response cycle without modifying the core code in the application. <br>
          Middleware is used to implement a series of functionality, like authentication, logging, error handling and data transformation. <br>
@@ -129,7 +138,7 @@
         > Static Files Middleware: To serve static files such as images, CSS files, and JavaScript files.
     </p>
 
-    <h3>13. Explain about diffrent types of middleware in express...?</h3>
+   <h3>13. Explain about diffrent types of middleware in express...?</h3>
     <p>
          Application-level middleware <br>
         > Application-level middleware is bound to an instance of the express object. <br>
@@ -149,9 +158,35 @@
         > body-parser, cors, errorhandler, morgan, multer, helmet, passport etc.
     </p>
 
+   <h3>14. What is Module in NodeJS...?</h3>
+    <p>
+         Modules are the reusable block of codes that encapsulates specific functionality. <br>
+         Modules can be a single file or a collection of multiple files/folders. <br>
+         By using modules, we can create clean, maintainable, and reusable code to enhance functionality. <br><br>
+         Types of Modules: <br>
+        > Built-in Modules: Provide by Node.js core and access to essential functionalities like file system operations and network communication. Examples: fs, http, path, os. <br>
+        > Local Modules: Created by ourself within the application. <br>
+        > Third-party Modules: Created and maintained by the community and can be installed from the npm registr. Examples: express, lodash, mongoose.
+    </p>
 
+   <h3>15. What is Schema in NodeJS...?</h3>
+    <p>
+         Schema defines the structure and data types of documents stored in a database. <br>
+         It acts like a blueprint, specifying the fields, default values, validation rules and ensure data consistency and integrity. <br>
+         Mongoose is a popular ODM (Object Document Mapper) for MongoDB, helps to define schemas and interact with the database. <br>
+         Libraries like Joi and Yup are used for data validation in Node.js applications. <br>
+    </p>
 
-    <h3>11. What is the difference between Authentication and Authorization in Node.js...?</h3>
+   <h3>16. How to handle error in NodeJS...?</h3>
+    <p>
+         Express by-default comes with error-handling middleware function and added at the end of the middleware to take cares of any error. <br>  
+         The error written to the client with status code(500), status message and stack trace in default. <br>
+         For better error-handling, we should follow custom error-handling middlewar. <br> 
+         We create a custom error class and extends to deafault express Error with constructor function and it takes status and message as arguments. <br>
+         In production environment we send only the status message and code to client.
+    </p>
+
+   <h3>17. What is the difference between Authentication and Authorization in Node.js...?</h3>
     <p>
          Authentication and authorization are two important concepts for application security. <br>
          Authentication is the process of verifying a user's identity. <br>
@@ -159,8 +194,8 @@
          Authorization is the process of determining permissions to access resource or perform specific action by user. <br>
          Authorization can be role-based(e.g., admin, user, guest) or attribute-based (e.g., user's age, location, subscription status).
     </p>
-    
-    <h3>12. What is Bcrypt and explain the use of bcrypt library in Node.js...?</h3>
+
+   <h3>18. What is Bcrypt and explain the use of bcrypt library in Node.js...?</h3>
     <p>
          Bcrypt is a hashing algorithm, that convert a simple password into hashed password before storing in database. <br>
          It applies salt (a unique random string value) to the password before hashed to makes the hash unpredictable. <br>
@@ -168,20 +203,20 @@
          Bcrypt library is a valuable tool for purpose of security, ease of use and performance.  
     </p>
 
-    <h3>13. What is JWT and its importance in Nodejs...?</h3>
+   <h3>19. What is JWT and its importance in Nodejs...?</h3>
     <p>
          JSON Web Token is an open standard for securely transferring data within parties using a JSON object. <br>
          JWT is used for stateless authentication mechanisms for users and providers, means maintaining sessions on the client side instead of storing sessions on the server. <br>
          JWTs consist of three parts: header, payload, and signature. <br>
-          ● Header: Contains metadata about the type of token and the cryptographic algorithms used to secure the token. <br>
-          ● Payload: Contains the statements about the user and additional data. <br>
-          ● Signature: Verifies the integrity of the token and ensures that it has not been tampered with during transmission.  <br>
+          > Header: Contains metadata about the type of token and the cryptographic algorithms used to secure the token. <br>
+          > Payload: Contains the statements about the user and additional data. <br>
+          > Signature: Verifies the integrity of the token and ensures that it has not been tampered with during transmission.  <br>
          Jsonwebtoken library provide two crucial functions jwt.sign() and jwt.verify() for handling JWT in Node.js. <br>
-          ● jwt.sign(): This function is used to generate a new JWT token based on the provided payload and options. <br>
-          ● jwt.verify(): This function is used to verify and decode a JWT token to retrieve the original payload.
+          > jwt.sign(): This function is used to generate a new JWT token based on the provided payload and options. <br>
+           jwt.verify(): This function is used to verify and decode a JWT token to retrieve the original payload.
     </p>
 
-    <h3>14. What is Buffer in Nodejs?</h3>
+   <h3>20. What is Buffer in Nodejs?</h3>
     <p>
          A buffer is a region of memory that is used to store data temporarily in a computer. <br>
          In Node.js, buffers are used to store and manipulate binary data. <br>
@@ -194,7 +229,7 @@
           > Buffer.toString(): Converts a buffer to a string.
     </p>
 
-    <h3>15. What are Streaming in NodeJS...?</h3>
+   <h3>21. What are Streaming in NodeJS...?</h3>
     <p>
          Streaming is the process of reading or writing data in small, without loading the entire data set into memory at once. <br>
          This is especially important when working with large files or handling real-time data. <br>
@@ -206,7 +241,7 @@
         > Transform streams: Allow to modify or transform the data as it is read and written.
     </p> 
 
-    <h3>16. Name of some events, that fired by Streams...?</h3>
+   <h3>22. Name of some events, that fired by Streams...?</h3>
     <p>
          Streams in Node.js emit several events for handling various operations and scenarios. <br>
          Here are some of the common events fired by streams: <br>
@@ -216,7 +251,7 @@
         > close: Fired when the stream and its underlying resources have been closed.
     </p>
 
-    <h3>17. What is the differences between Microservice architechture and Monolithic architechture ?</h3>
+   <h3>23. What is the differences between Microservice architechture and Monolithic architechture ?</h3>
     <p>
          Microservices Architecture <br>
         > A microservices architecture is a modern approach to design an application with multi-tier architecture and independently deployable services. <br>
@@ -236,7 +271,7 @@
         > Best for small and simple application.
     </p>
 
-    <h3>18. What is EJS in Node...?</h3>
+   <h3>24. What is EJS in Node...?</h3>
     <p>
          EJS stands for Embedded JavaScript Templating. <br> 
          It is a popular templating engine for Node.js and web development. <br> 
@@ -246,18 +281,28 @@
          EJS templates can be used to generate HTML content, and Express can be used to handle routing.
     </p>
 
-    <h3>19. What is the importance of dotenv in NodeJs...?</h3>
+   <h3>25. What is the importance of dotenv in NodeJs...?</h3>
     <p>
          Dotenv helps keep sensitive information such as API keys, database passwords, and other secrets out of the code. <br>
          Dotenv makes it easy to manage environment variables in one place. <br>
          It allows to easily switch configurations between development, testing, and production environments by modifying the .env file. 
     </p>
     
-    <h3>20. What is GraphQl and how its important in programming language...?</h3>
+   <h3>26. What is GraphQl and how its important in programming language...?</h3>
     <p> 
          GraphQL is an open source query language that describes how a client should request information through an API. <br>
          It optimize an application by batching multiple requests into a single network query. <br>
          It allow clients to request only the data they require from the single end point. <br>
          It simplifies the API interactions and reduces number of network requests. <br>
          It provides more efficient, powerful, and flexible alternative to traditional RESTful APIs.
+    </p>
+    
+   <h3>27. What is Clustring in NodeJS...?</h3>
+    <p>
+         Clustering refers to a technique used to enhance the performance and scalability of applications by utilizing the capabilities of multi-core systems. <br>
+         With clustering, we can create multiple instances of the NodeJS process, known as workers, each run parallelly on a separate CPU core. <br>
+         By distributing the workload across these workers, applications can handle a higher volume of requests and utilize the available system resources more efficiently. <br>
+         How it works: <br>
+        > Master Process: This is the main process created when start Node.js application and responsible for creating and managing worker processes. <br>
+        > Worker/Child Process: These are clones of master process that run application code and share the same server port and handle incoming requests.
     </p>
