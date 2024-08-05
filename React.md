@@ -4,13 +4,13 @@
          React is a lightweight open source JavaScript library for building user interfaces(UI). <br>
          It was developed and maintained by meta formerly called Facebook. <br>
          Some Important Features that make different react from others: <br>
-        > Component based architecture <br>
-        > Single page application <br>
-        > Lightweight because of Virtual DOM <br>
-        > Allow HTML like code in JSX (JavaScript and XML) <br>
-        > Follow Unidirectional data flow <br>
-        > Cross platform <br>
-        > Open source snd free to use <br>
+        > Component based architecture: Reusability <br>
+        > Single page application: Single HTML Page <br>
+        > Virtual DOM: Lightweight <br>
+        > JSX (JavaScript and XML): Allow HTML like code <br>
+        > Follow Unidirectional data flow: Higher lavel component to lower level component <br>
+        > Cross platform: For Android, IOS, Linux <br>
+        > Open source: Free to use <br>
     </p>
     <h3>2. What are the differences between library and framework...?</h3>
     <p>
@@ -98,13 +98,15 @@
         > Defined as JavaScript functions. <br>
         > Accept props (properties) as an argument and return React elements.<br>
         > Do not have internal state or lifecycle methods. <br>
-        > More readable and concise syntax.<br> <br>
+        > Modern approach to build reusable components with less boilerplate code.<br>
+        > It emphasize simplicity, modularity, and flexibility.<br><br>
          Class Component: <br>
         > Also known as stateful components and can manage local state with this.state. <br>
         > Defined as JavaScript(ES6) classes that extend React.Component. <br>
         > Have a render method that returns React elements. <br>
         > Can have internal state and use lifecycle methods. <br>
-        > It verbose in nature.
+        > Traditional approach to build components with more boilerplate code. <br>
+        > Difficult to understand and debug and less flexibility.
     </p> 
     <h3>9. Adavantages of Function component in ReactJS...?</h3>
     <p>
@@ -117,7 +119,7 @@
     <h3>10. What is Virtual DOM and how it works in ReactJS...? Imp</h3>
     <p>
          The Virtual DOM is a lightweight representation of the Real DOM that kept in memory. <br>
-         When a component is first rendered, it creates a virtual representation of the UI called the Virtual DOM. <br>-
+         When a component is first rendered, it creates a virtual representation of the UI called the Virtual DOM. <br>
          The Virtual DOM is not directly modifying the Real DOM, changes are first made to the Virtual DOM by reconciliation process. <br>
          React uses a diffing algorithm during reconciliation to minimize the number of updates to the real DOM. <br> 
          Virtual DOM optimize the updates and improve the performance without reload the entire web page. <br>
@@ -150,8 +152,8 @@
     <h3>12. What is React Fiber...?</h3>
     <p>
          React Fiber is the new reconciliation algorithm. <br>
-         It was introduced in React 16 and is designed to enable asynchronous rendering and improve performance. <br>
-         Benefits of React Fiber: improve performance, smoother animations, responsive UIs and better flexibiity. <br>
+         It was introduced in React 16 version and is designed to enable asynchronous rendering. <br>
+         Importance of React Fiber: improve performance, smoother animations, responsive UIs and better flexibiity. <br>
          Some key features of React Fiber: <br>
         > Allow to render asynchronously. <br>
         > Prioritize different types of work. <br>
@@ -162,24 +164,24 @@
          The MVC is a design pattern in web development to organize the structure of an application. <br>
          The MVC pattern helps to improve code maintainability and reusability. <br>
          It has three inter-connected components with distinct role and responsibility. <br>
-        * Model: The Model represents the application's data and business logic. It is responsible for data storage, retrieval and manipulation. <br>
-        * View: The View is responsible for presenting the data to the user and rendering the user interface (UI). <br>
-        * Controller: It acts as an intermediary between Model and View. It receives user input from the View, processes that input and updates the View accordingly.
+        > Model: The Model represents the application's data and business logic. It is responsible for data storage, retrieval and manipulation. <br>
+        > View: The View is responsible for presenting the data to the user and rendering the user interface (UI). <br>
+        > Controller: It acts as an intermediary between Model and View. It receives user input from the View, processes that input and updates the View accordingly.
     </p>      
-    <h3 class="vvi">14. Explain the difference between Props and State...? Imp</h3>
+    <h3>14. Explain the difference between Props and State...? Imp</h3>
     <p>
          Props : <br>
-        > Props are the way to pass data from a parent component to a child component. <br>
+        > Props are the way to pass data from a higher level component to lower level component. <br>
         > Props(properties) are immutable in nature. <br>
-        > We access the props for read only. <br>
+        > We access the props for read or display only. <br>
         > Props are like the function parameter. <br><br>
          State : <br>
         > States are the current data of a component is managed within the component. <br>
-        > States are mutable, so we change and update the states. <br>
+        > States are mutable, so we change and update the states over time. <br>
         > States are like local variables declared in the function body. <br>
          Uses of State: Dynamic data storage, UI updates, User input handling, Component interaction, fetching data etc.
     </p>
-    <h3 class="vvi">15. What is Prop Drilling and how many ways can avoid prop drilling...? Imp</h3>    
+    <h3>15. What is Prop Drilling and how can avoid props drilling...? Imp</h3>    
     <p>
          Prop Drilling is the process of passing down data from parent component to lower level component through multiple layers of components. <br>
          It makes code harder to maintain, debug and to read, because props pass through multiple components unnecessarily. <br>   
@@ -208,26 +210,20 @@
         > Toggling state: Handling boolean flags that determine the visibility or behavior of elements or components. <br>
         > Tracking user interactions: Manage state that is directly controlled by user, such as button clicks, form submissions, and input changes.
     </p>
-    <h3>18. What is useEffect and when to use useEffect in ReactJS...? </h3>
+    <h3>18. What is useEffect and its uses in functional component in ReactJS...? Imp</h3>
     <p>
          useEffect is a built-in hook in React that allows to perform side effects in functional components. <br>
-         Side effects are actions that occur outside of the normal component and render itselft without event handling. <br>
-         Mostly using useEffect for HTTP Call, DOM manipulation, Browser Storage, Intervals and more. <br>
+         Side effects are the actions that occur outside of the normal component and render itself without event handling. <br>
+         Mostly used useEffect for HTTP Call, DOM manipulation, Browser Storage, Intervals and more. <br>
          It takes two arguments, first is effect function and another is dependency array(optional). <br>
          Syntax: useEffect(() => {effect function}, [dependencies]); <br>
+         Uses of useEffect(): <br><br>
+        > Without dependency: useEffect(() => {//execute after every render}); <br> 
+        > Empty dependency: useEffect(() => {//execute only once during the mounting phase}, []); componentDidMount. <br> 
+        > Specified dependency: useEffect(() => {//execute only when specified dependencies changed}, [x, y]); componentDidUpdate. <br> 
+        > Cleanup tasks: useEffect(() => { return() => {//like: clearInterval(intervalId)}}, []); componentWillUnmount<br>
     </p>
-    <h3 class="vvi">19. What is the uses of dependency array in useEffect hooks and how it effects life cycle component...? Imp</h3>
-    <p>
-         The dependency array is used to specify which values from the component's scope should be considered as dependencies. <br> 
-         If dependencies change between renders, the useEffect callback will be executed. <br> 
-         Empty dependency array [] indicates that the effect function execute only once during the mounting phase. <br> 
-         It prevent unnecessary executions of the effect and runs only when the specified dependencies change. <br>
-        > useEffect(() => {//execute after every render}); <br>
-        > useEffect(() => {//execute only once}, []); componentDidMount <br>
-        > useEffect(() => {//execute on mount and render changed value}, [x, y]); componentDidUpdate <br>
-        > useEffect(() => { return() => {//cleanup tasks}}); componentWillUnmount<br>
-    </p>  
-    <h3>20. What is the role useContext() hook in ReactJS...? Imp</h3>
+    <h3>19. What is the role useContext() hook in ReactJS...? Imp</h3>
     <p>
          UseContext hooks provides a way to pass data from parent to child components without passing props. <br>
          CreateContext() function returns an object with provider and consumer properties. <br>
@@ -236,15 +232,23 @@
          It avoid props drilling and access context values directly within deeply nested components. <br>
          By using useContext() we can make functionality like: Theme Switching(dark/light), Localization(language selection), Notification System and much more. 
     </p>
-    <h3 class="vvi">21. Difference between UseMemo and UseCallback in React hooks...? Imp</h3>
+    <h3>20. What is UseMemo and its importance in React...? Imp</h3>
     <p>
-         UseMemo(): <br>
-        > useMemo is used to memoize the value of a computation. <br>
-        > It takes a function and an array of dependencies as arguments to execute and memoized the value until the dependencies change. <br>
-         UseCallback(): <br>
-        > useCallback is used to memorise callback functions. <br>
-        > It takes a callback function and an array of dependencies and returned a memoized version of the function. <br>
-         Both hooks contribute to performance optimization by avoiding unnecessary calculations or re-renders in specific scenarios.
+         useMemo is a React hook that memoizes the computation value and only recalculates, when one of its dependencies changes. <br>
+         The main purpose of useMemo is to optimize performance by avoiding expensive calculations on every render. <br>
+         It should avoid for trivial computations, as it adds complexity without significant performance benefits. <br>
+         It takes a function and an array of dependencies as arguments to execute and memoized the value. <br>
+         Syntax: const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]); <br><br>
+    </p>
+    <h3>21. What is UseCallback and its importance in React...? Imp</h3>
+    <p>
+         useCallback is a react hook that returns a memoized version of a callback function and only changes, when one of its dependencies changes. <br>
+         The main purpose of useCallback is to optimize performance by preventing unnecessary re-creations of functions. <br>
+         It prevents unnecessary re-renders of child components, when a parent component passes a callback function as a prop to a child component. <br>
+         It maintain stable function reference. <br>
+         It should also avoid using for every function, as it adds complexity and might not provide significant performance benefits. <br>
+         It takes a callback function and an array of dependencies as arguments. <br>
+         const memoizedCallback = useCallback(() => {// Your callback logic}, [dependency1, dependency2, ...]); <br><br>
     </p>
     <h3>22. What is Redux and how it works in ReactJS...? Imp</h3>
     <p>
@@ -254,7 +258,7 @@
          Stages of Redux to manage state: <br>
         > Create Action(order): Actions are plain JavaScript objects with type and payload properties, that describe the changes in the state of application. <br>
         > Create Reducer(update): Reducer is a pure function that take the current state and action as arguments and return a new state in response to an action. <br>
-        > Create Store: Entire application contains the single store for holding states.
+        > Create Store: Entire application contains a single and centralized store for holding states.
     </p>
     <h3>23. What is Redux ToolKit in ReactJS...?</h3>
     <p>
@@ -267,7 +271,7 @@
         > createEntityAdapter: A utility for managing normalized state structures, often useful when dealing with relational data.
     </p>
 
-   <h3 class="vvi">24. Explain about useSelector and useDispatch in React-redux...? Imp</h3>
+   <h3>24. Explain about useSelector and useDispatch in React-redux...? Imp</h3>
     <p>
          Both are hooks provided by React Redux. <br>
          UseSelector allows component to subscribe to the redux store and access its updated state for display purpose. <br>
@@ -290,10 +294,10 @@
         > createAsyncThunk to make asynchronous requests. <br>
         > Functional implementation with Typescript and supports of Hooks.
     </p>
-    <h3 class="vvi">26. What is Component Life Cycle method in ReactJS...? Imp</h3>
+    <h3>26. What is Component Life Cycle method in ReactJS...? Imp</h3>
     <p>
          Lifecycle methods allow to perform actions at different stages in the life of a component. <br>
-         LCM is a complete process of creating a component, inserting it into the DOM, updating it, and finally removing it from the DOM. <br>
+         LCM is a complete process of creating a component, inserting into the DOM, updating it, and finally removing it from the DOM. <br>
          After introduction of React Hooks in React version 16.8, the use of class-based lifecycle methods is less common. <br>
          There are three phases of Life Cycle Method: <br> <br>
          Mounting Phase: <br>
@@ -307,13 +311,16 @@
         > This phase begins when a component is removed from the parent component's render() method and ends when the component is completely removed from the DOM. <br>
         > componentWillUnmount(): Invoked immediately before a component is unmounted and destroyed. Used for cleanup up subscriptions and removing event handlers.
     </p>
-   <h3 class="vvi">27. What is Higher-Order component and it's uses in ReactJS....? Imp</h3>
+   <h3>27. What is Higher-Order component and it's uses in ReactJS....? Imp</h3>
     <p>
-         A Higher-order component is a component which takes another component as an argument and adds extra features to component. <br>
-         HOCs are commonly used for handling authentication and authorization in React applications. <br>
-         It uses to encapsulate and reuse component logic across multiple components.
+         Higher-Order Component (HOC) is an advanced technique in React for reusing component logic. <br>
+         HOC takes another component as an argument and adds extra functionality to component. <br>
+         The main purpose of HOCs is to encapsulate and reuse common logic across multiple components. <br>
+         It avoids code duplication and keeps components focused on their primary responsibility. <br>
+         It also lead to complex component tree, making debugging difficult and wrapping too many HOCs can result in "wrapper hell. <br>
+         HOCs are commonly used for handling authentication, authorization, data fetching and conditional rendering. <br>
     </p>
-    <h3 class="vvi">28. How can optimize performance in a React application...? Imp</h3>
+    <h3>28. How can optimize performance in a React application...? Imp</h3>
     <p>
          Use React Profiler: Identify performance bottlenecks that need optimization. <br>
          Memoization with useMemo and useCallback: Prevent unnecessary recalculations and re-renders. <br>
@@ -328,7 +335,7 @@
          By using div tag to wrap the elements, that create extra node. <br>
          The shortest way to use fragment is <> </> symbol instead React.Fragment. 
     </p>
-    <h3 class="vvi">30. What is Controlled and UnControlled Components in React...? Imp</h3>
+    <h3>30. What is Controlled and UnControlled Components in React...? Imp</h3>
     <p>
          Controlled and Uncontrolled components used for handling form elements like input fields, checkboxes and radio buttons. <br>
          Controlled Component: <br>
@@ -340,7 +347,7 @@
         > Uncontrolled component use a ref keyword and manipulate the state by help of DOM. <br>
         > Uncontrolled components are simpler to write, but less flexible.
     </p>
-    <h3 class="vvi">31. What is useRef hook and how it works in ReactJS...? Imp</h3>
+    <h3>31. What is useRef hook and how it works in ReactJS...? Imp</h3>
     <p>
          The useRef is a hook that allows directly to access and interact with DOM elements in a functional component. <br>
          It returns a mutable object called a "ref" object for reference. <br>
@@ -355,7 +362,7 @@
          Rendering can happen multiple times, whenever the component's state changes. <br>
          Mounting is the broader process that encompasses rendering.
     </p>
-    <h3 class="vvi">33. What is Middlewares and explain about some important middlewares...?</h3>
+    <h3>33. What is Middlewares and explain about some important middlewares...?</h3>
     <p>
          Middleware is a way to extend the behavior of the Redux store. <br> 
          It allow to intercept actions before reach the reducer. <br>
@@ -365,27 +372,27 @@
         > Redux-logger: A simple middleware library that logs every action to the console for debugging. <br>
         > Redux-saga: Manages side effects and asynchronous operations in a more structured way.
     </p>
-    <h3 class="vvi">34. What is unidirectional data flow in ReactJS...?</h3>
+    <h3>34. What is unidirectional data flow in ReactJS...?</h3>
     <p>
          Unidirectional data flow is a pattern in React where data pass in one way direction. <br>
          In react mostly parent components can only pass data to child components and child component always receive the data. <br>
          It helps to write predictable and maintainable code. <br>
          It makes easier to debug application.
     </p>
-    <h3 class="vvi">35. What is Lifting state up in ReactJS...?</h3>
+    <h3>35. What is Lifting state up in ReactJS...?</h3>
     <p> 
          Lifting state up in React refers to the practice of moving state from a lower-level component to a higher-level component. <br> 
          It mostly used to share state and functionality between multiple components in a centralized and efficient way. <br>
          It promotes centralized state management, avoids prop drilling, encourage reusability and improve performance.
     </p>
-    <h3 class="vvi">36. What is Synthetic Events in React...?</h3>
+    <h3>36. What is Synthetic Events in React...?</h3>
     <p>
          In React, Synthetic events are a cross-browser wrapper around the browser's original events. <br>
          It ensure consistent behavior and handling of events across different browsers and devices. <br>
          Synthetic events have preventDefault() and stopPropagation() methods for controlling event behavior. <br>
          It simplify event handling, promote consistent behavior across browsers and contribute to better performance in event-driven applications.
     </p>
-    <h3 class="vvi">36. What is difference between Flux and Redux...?</h3>
+    <h3>36. What is difference between Flux and Redux...?</h3>
     <p>
          Redux and Flux are both used to manage the state of a React application. <br>
          Redux : <br>
