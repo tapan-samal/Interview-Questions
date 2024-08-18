@@ -133,9 +133,9 @@
        In AND operator, If the first operand is false, the remaining operands are not evaluated, and the result is false. <br>
        In OR operator, If the first operand is true, the remaining operands are not evaluated, and the result is true.
     </p>
-          ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+          /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>C. Data Types :</h2>
-    <h3>15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…?         Imp</h3>
+    <h3>15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…? Imp</h3>
     <p>
       Data Type: A data type determines the type of values that can be stored in a variable. <br />
       <br />
@@ -164,21 +164,23 @@
        Symbol: It is used to create unique and immutable values that can be used as identifiers for object properties and introduced             in ECMAScript 2015 (ES6).<br>
        Object: An object is a complex data type that represents a collection of key-value pairs. <br />
     </p>
-    <h3>17. What is NaN property in JavaScript…? Imp</h3>
+          
+   <h3>17. What is NaN property in JavaScript…? Imp</h3>
     <p>
        NaN stands for "Not-a-Number" and is a special value in JavaScript to indicate that a value is not a valid number. <br>
        NaN is returned when an arithmetic operation or a mathematical function fails to produce a meaningful result. <br>
        Typeof of NaN will return a number. <br>
        Use the isNaN() function to check if a value is NaN.
     </p>
-    <h3>18. Why the data type of null is an object even after primitive data type...?</h3>
+   
+   <h3>18. Why the data type of null is an object even after primitive data type...?</h3>
     <p>
        It is a bug in JavaScript that typeof null is an object.<br />
        It should not an object in the conventional sense, as a primitive value. <br />
        Actually, JavaScript uses a type tagging system in memory to classify different data types. <br />
        The type tag for null was erroneously set to the same value as objects, which is why typeof null reports "object."
     </p>
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h2>D. Function :</h2>
     <h3>19. What is function in JavaScript…?</h3>
     <p>
@@ -327,7 +329,7 @@
        This is particularly useful for functions that have heavy computation or involve repetitive calculations. <br>
        It doesn't repeat all the work, instead, retrieving the same information from cache and gives the answer quickly. 
     </p>
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
 <h2>E. Array & Objects :</h2>
     <h3>34. What in Array in JavaScript...?</h3>
@@ -523,7 +525,6 @@
     <p>
        prototype is a property of constructor functions that defines the methods and properties to be shared among instances. <br>
        __proto__ is an internal property of objects used to access their prototype and is generally not recommended for direct use. <br>
-      
     </p>
 
    <h3>52. Explain important String methods in JavaScript…?</h3>
@@ -577,7 +578,7 @@
        Object.freeze(objName): Freezes an object, preventing new properties from being added and existing properties from being                 removed or modified.
     </p>
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    <h2>F. Asynchronous :</h2>
     <h3>56. What are differences between Asynchronous and Synchronous operations in JavaScript...? Imp</h3>  
@@ -657,7 +658,7 @@
        It is useful in scenarios like create custom iterators, asynchronous programming and lazy evaluation.  
     </p>
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
     <h2>G. DOM and Events :</h2>
     <h3>63. What is DOM and it uses in JavaScript…? Imp</h3>
     <p>
@@ -776,7 +777,7 @@
       
     </p>
     
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    <h2>H. OOP (Object Oriented Programming) :</h2>
     <h3 class="vvi">73. What is OOP in JavaScript...?</h3>
@@ -814,7 +815,7 @@
       > The subclass can reuse and extend the functionality of the super class by using 'extends' keyword.
     </p>  
     
- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    <h2>ECMAScript 6</h2>
 
@@ -915,7 +916,7 @@
        The "use strict" directive is used to enable strict mode in code.
     </p>
 
-   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    <h2>Browser and Others :</h2>
 
@@ -1027,13 +1028,13 @@
       > Logging Errors: Log errors to a centralized logging system or console. This helps in tracking and diagnosing issues in a production environment.
     </p>
     
-    <h3>94. What is console and explain different methods of console...?</h3>
+   <h3>94. What is console and explain different methods of console...?</h3>
     <p>
        The console is an object that provides access to the browser's debugging console. <br />
        Console object is a property of window object. <br />
        Console Uses REPL, that is Read -> Evaluate -> Print -> Loop. <br /><br />
       
-      Some Important methods used in console are : <br />
+   Some Important methods used in console are : <br />
       > console.log(): Used to log messages to the console and often used for debugging and display variables values.<br />
       > console.error(): Used to log error messages to the console with a distinctive appearance. <br />
       > console.warn(): Warning messages with a distinctive appearance. <br />
@@ -1045,7 +1046,7 @@
       > console.dir(): Useful for inspecting the structure and properties of complex objects like arrays, objects or DOM elements.
     </p>  
 
-    <h3>95. What is IndexedDB and explain about the basic patterns...?</h3>
+   <h3>95. What is IndexedDB and explain about the basic patterns...?</h3>
     <p>
          IndexedDB is a web browser API, that allows web applications to store and retrieve large amounts of structured data locally. <br>
          It create and manage client-side databases asynchronously. <br>
@@ -1059,7 +1060,7 @@
         > Provide response with result.
     </p>
 
-    <h3>96. What are the difference between JavaScript and Java...?</h3>
+   <h3>96. What are the difference between JavaScript and Java...?</h3>
     <p>
        JavaScript : <br>
       > JavaScript is an object-oriented scripting language. <br>
@@ -1073,7 +1074,7 @@
       > Java is used for building operating systems, mobile apps (Android), enterprise-level server-side applications.
     </p>
 
-    <h3>97. Explain Static type vs Dynamic type...?</h3>
+   <h3>97. Explain Static type vs Dynamic type...?</h3>
     <p>
        JavaScript is a dynamic type language, where type can be changed.<br />
        C, C++ and Java are static type language, where types are strict.<br />
@@ -1082,7 +1083,7 @@
        TypeScript is designed by Microsoft.
     </p>
 
-    <h3>98. What is Git...?</h3>
+   <h3>98. What is Git...?</h3>
     <p>
        Git is a version control system, it helps us to track the changes made in our code/projects. <br>
        It is the most popular version control system in software development field. <br>
@@ -1092,7 +1093,7 @@
        Flow: GitHub repo => clone => changes => add => commit => push
     </p>
 
-    <h3>99. What is GitHub...?</h3>
+   <h3>99. What is GitHub...?</h3>
     <p>
        Github is a website used by developers to store and manage their codes/projects with the help of Git. <br>
        On GitHub, projects are stored in folder structure that is known as "repository" in sort called "repo".
