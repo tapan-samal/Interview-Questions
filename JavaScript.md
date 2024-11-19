@@ -1,13 +1,14 @@
-<h2>JavaScript Interview Questions</h2>
+<h1>JavaScript Interview Questions</h1>
 
+<h2>A. JavaScript Basic :</h2>
 <h3>1. What is JavaScript ...?</h3>
     <p>
-       JavaScript is a scripting language for converting static pages to interactive and dynamic web pages. <br />
-       It is commonly used for adding functionality to websites, enhancing user interfaces, and developing web applications. <br>
+       JavaScript is a scripting language for converting static pages to interactive and dynamic web pages. <br>
+       It is commonly used for adding functionality to websites, enhancing user interfaces and developing web applications. <br>
        It is a versatile programming language for both client-side(front-end) and server-side(back-end) development. <br>
-       JavaScript was invented by Brendan Eich in 1995. <br> <br>
        Dynamic language means the data types of variables can change during runtime, it may also lead to runtime errors. <br>
-       JavaScript Engine : A JavaScript engine is a crucial component in web browsers where code is executed. Example: V8(Chrome),             Spider-Monkey(Firefox), JavaScript-Core(Safari).
+       JavaScript Engine : A JavaScript engine is a crucial component in web browsers where code is executed. Example: V8(Chrome), Spider-Monkey(Firefox),                     JavaScript-Core(Safari). <br>
+       JavaScript was invented by Brendan Eich in 1995. <br>
     </p>
     <h3>2. What is JavaScript used for...?</h3>
     <p>
@@ -55,8 +56,9 @@
        ES6 in 2015 (Biggest update in the history of JavaScript) -> tc39 decide JavaScript's features. <br />
        ES7 : ES2015 -> ES8 : ES2017.
     </p>
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-     <h2>B. Variables and Operators :</h2>
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+   <h2>B. Variables and Operators :</h2>
     <h3>8. What is Variable in JavaScript...?</h3>
     <p>
        In JavaScript, A Variable is simply the name of storage loaction, which used to store and manipulate data.<br />
@@ -133,8 +135,9 @@
        In AND operator, If the first operand is false, the remaining operands are not evaluated, and the result is false. <br>
        In OR operator, If the first operand is true, the remaining operands are not evaluated, and the result is true.
     </p>
-          /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    <h2>C. Data Types :</h2>
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   
+   <h2>C. Data Types :</h2>
     <h3>15. What is data types in JavaScript and Explain the differences between primitive and Non-Primitive data types…? Imp</h3>
     <p>
       Data Type: A data type determines the type of values that can be stored in a variable. <br />
@@ -161,7 +164,7 @@
        Undefined: Represents a variable that has been declared but not assigned a value explicitly. <br />
        Null: Represents an intentional absence of any object value. The type of null is object. <br>
        BigInt: It represent and manipulate integers larger than the maximum safe integer and introduced in ECMAScript 2020.<br> 
-       Symbol: It is used to create unique and immutable values that can be used as identifiers for object properties and introduced             in ECMAScript 2015 (ES6).<br>
+       Symbol: It is used to create unique and immutable values that can be used as identifiers for object properties and introduced in ECMAScript 2015 (ES6).<br>
        Object: An object is a complex data type that represents a collection of key-value pairs. <br />
     </p>
           
@@ -181,7 +184,8 @@
        The type tag for null was erroneously set to the same value as objects, which is why typeof null reports "object."
     </p>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    <h2>D. Function :</h2>
+    
+   <h2>D. Function :</h2>
     <h3>19. What is function in JavaScript…?</h3>
     <p>
        A function is a reuseable block of code that perform a specific task and return a value. <br />
@@ -230,7 +234,7 @@
        Implication of first-class functions: <br>
       > Functions as Values: Functions can be assigned to variables and stored in data structures. <br>
       > Functions as Arguments: Functions can pass as arguments. Commonly used in higher-order functions and callback patterns. <br>
-      > Functions as Return values: Functions can be returned from other functions, allowing for the creation of closures and the             ability to encapsulate state.
+      > Functions as Return values: Functions can be returned from other functions, allowing for the creation of closures and the ability to encapsulate state.
     </p>
     <h3>25. What is Pure Function and what are the possible side-effect in JavaScript...? Imp</h3>
     <p>
@@ -266,7 +270,7 @@
        The closure can access variables and functions from its parent function, even after the outer function has completed its execution.<br />
        The closure preserves the outer scope reference inside its inner scope. <br />
        Closures are especially useful for preserving data privacy and creating functions with encapsulated state.<br />
-        Data Encapsulation : Closures allow to create private variables and encapsulate data within a function, protecting it from             being accessed or modified from outside the function.
+       Data Encapsulation : Closures allow to create private variables and encapsulate data within a function, protecting it from being accessed or modified from outside the function.
     </p>
     <h3>29. What are the differences between Laxical Scope and Closure in JavScript...? Imp</h3>
     <p>
@@ -287,9 +291,9 @@
        Some common methods and concepts related to working with APIs in JavaScript: <br><br>
        Fetch Method: <br>
       > The fetch() is a modern API function that provides an interface for fetching(sending/receiving) data from resorces. <br />
-      > Fetch() is a global method for network(https) request and returning a promise which is fulfilled once the response is                     available. <br />
+      > Fetch() is a global method for network(https) request and returning a promise which is fulfilled once the response is available. <br />
       > A fetch() promise only rejects when a network error is encountered.<br>
-      > It uses request[method(get, post, put, delete), header, body] and respose[response.json(), response.text(), response.status,             response.ok] objects. <br>
+      > It uses request[method(get, post, put, delete), header, body] and respose[response.json(), response.text(), response.status,     response.ok] objects. <br>
       > Syntax: let promise = fetch(url, [option]).then(response).catch(error); <br><br>
        Axios Method: <br>
       > Axios is a popular third-party library for making HTTP requests without using json method. <br> 
@@ -331,7 +335,7 @@
     </p>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-<h2>E. Array & Objects :</h2>
+   <h2>E. Array & Objects :</h2>
     <h3>34. What in Array in JavaScript...?</h3>
     <p>
        An Array is a data structure that allows to store and manipulate a collection of values. <br />
@@ -343,7 +347,7 @@
        Arrays are denoted by square bracket [].
     </p>  
     
-<h3>35. What is object in JavaScript...?</h3>
+   <h3>35. What is object in JavaScript...?</h3>
     <p>
        An object is a complex data type that represents a collection of key-value pairs. <br />
        It is used to store multiple values, that a combination of values and functions. <br />
@@ -474,16 +478,17 @@
 
    <h3>46. Explain the difference betwen shallow copy and deep copy in JavaScript…? Imp</h3>
     <p>
-       Shallow Copy : <br>
-       A shallow copy creates a new object or array, but it does not create copies of nested objects or arrays. <br>
-       Changes made to the nested objects or arrays in the copy are reflected in the original, and vice versa. <br>
-       Shallow copying is generally faster than deep copy because it only involves copying references. <br>
-       Shallow copy using : Object.assign({}, originalObject). <br><br>
-       Deep Copy : <br>
-       A deep copy creates a new object or array along with copies of all nested objects or arrays. <br>
-       Changes made to the nested objects or arrays in the copy do not affect the original. <br>
-       Deep copying is necessary when we want complete independence between the original and the clone. <br>
-       Deep copy using: JSON.parse(JSON.stringify(originalObject)).
+       Shallow Copy :
+         A shallow copy creates a new object or array, without copy the nested objects or arrays.
+         It only copies the top level properties.
+         Changes made to the nested objects or arrays in the copy are reflected in the original, and vice versa.
+         Shallow copying is generally faster than deep copy because it only involves copying references.
+         Shallow copy using : Object.assign({}, sourceObject), spread operator(...), Array.slice().      
+         Deep Copy :
+         A deep copy creates a new object or array along with copies of all nested objects or arrays.
+         Changes made to the nested objects or arrays in the copy do not affect the original.
+         Deep copying is necessary when we want complete independence between the original and the clone.
+         Deep copy using: JSON.parse(JSON.stringify(originalObject)) and structuredClone().
     </p>
 
    <h3>47. What is Set Object in JavaScript…? Imp</h3>
@@ -505,15 +510,40 @@
       > Inside Object, return the object property and value. <br>
       > Inside DOM, reference to HTML element.
     </p>  
-
-   <h3>49. What is Prototype in JavaScript ...?</h3>
+    
+   <h3>48. What is "this" keyword and its purposes in JavaScript...? Imp</h3>
     <p>
-       Every object in JavaScript has a built-in property, which is called its prototype. <br>
-       The prototype is a fundamental concept that allows objects to inherit properties and methods from other objects. <br>
-       It's a way to share and reuse functionality among objects.
+       "this" keyword refers to the current execution context or scope. <br />
+       It clearify the confusion between the key and the parameter. <br />
+       It is commonly used in constructors to assign the values to object properties. <br>
+       Some use cases of this keyword: <br />
+      > In global scope, It return window object means global object. <br>
+      > Inside Function, this keyword represents undefined during strict mode. But in non-strict mode replaced to global object. <br>  
+      > Inside Object, return the object property and value. <br>
+      > Inside DOM, reference to HTML element.
+    </p>  
+
+   <h3>49. What is Constructor function and how it differences from normal function...?</h3>
+    <p>
+       A constructor function is used to create objects, typically initialize an object with specific properties and methods. <br> 
+       By convention, constructor functions start with PascalCase and invoked using the "new" keyword. <br>
+       When called with new, a constructor function creates a new instance of object and assigns this to refer to that object. <br> <br>
+       Some key differences between constructor function and normal function: <br>
+      > Regular functions perform operation and return value, while constructor functions create and initialize objects. <br>
+      > Regular functions are called directly (greet()), whereas constructor functions are invoked using new (new Person()). <br>
+      > In regular function, this refers to the context in which the function was called. Where in constructor function, this refers to the new object being created.
     </p>
 
-   <h3>50. What is a Prototype chain in JavaScript...?</h3>
+   <h3>50. What is Prototype in JavaScript ...?</h3>
+    <p>
+       Every object in JavaScript has a built-in property, which is called its prototype. <br>
+       It may be either null or references another object. <br>
+       The prototype is a fundamental concept that allows objects to inherit properties and methods from other objects. <br>
+       It's a way to share and reuse functionality among objects. <br>
+       __proto__ is an internal property of objects used to access their prototype and is generally not recommended for direct use. <br>
+    </p>
+
+   <h3>51. What is a Prototype chain in JavaScript...?</h3>
     <p>
       > The prototype chain is a mechanism that allows objects to inherit properties and methods from other objects through their prototype objects.<br />
       > Every object has a property called __proto__ or [Prototype]. <br />
@@ -521,12 +551,6 @@
       > This process continues until it reaches the end of the prototype chain or finds the desired property/method.
     </p>  
     
-   <h3>51. What is the difference between prototype and __proto__ in JavaScript...?</h3>
-    <p>
-       prototype is a property of constructor functions that defines the methods and properties to be shared among instances. <br>
-       __proto__ is an internal property of objects used to access their prototype and is generally not recommended for direct use. <br>
-    </p>
-
    <h3>52. Explain important String methods in JavaScript…?</h3>
     <p>
        String.length(): Returns the length of a string.  <br>
@@ -543,63 +567,82 @@
 
    <h3>53. Explain some important Array methods in JavaScript…?</h3>
     <p>
-       Array.push(): Adds elements to the end of an array. <br>
-       Array.pop(): Removes the last element from the end of an array. <br>
-       Array.unshift(): Adds one or more elements to the beginning of an array. <br>
-       Array.shift(): Removes the first element from the beginning of an array. <br>
-       Array.concat(): Create new array by combining arrays. <br>
-       Array.join(): Join all elements of an array into a single string and allows to specify a separator. <br>
-       Array.toString(): Converts an array to a string representation. <br>
-       Array.sort(): Sort the elements in alphabetic/ascending order in an array. <br>
-       Array.reverse(): Reverse the order of elements in an array. <br>
-       Array.slice(): Return a subset of new array from starting index to end index(end index excluded). <br>
-       Array.splice():  Used to add, remove or replace the elements in an array(startIndex, deleteCount, ...itemsAdd).<br>
-       Array.indexOf(): Returns the index of specified element in an array. <br>
-       Array.find(): Return the first element that satisfies the condition and if not return undefined. <br>
-       Array.filter(): Return an array of elements that satisfies the condition.
+       array.push(): Add new elements to the end of an array and changes the length. <br>
+       array.pop(): Remove the last element of an array and returns the removed element. <br>
+       array.unshift(): Add elements to the beginning of an array and changes the length. <br>
+       array.shift(): Removes the first element of an array and returns the shifted element. <br>
+       delete array[index]: Deletes the element from an array without changing length. <br>
+       array1.concat(array2): Create new array by combining the arrays. <br>
+       array.join(): Return a new string by concatenating all the elements of an array and allows to specify a separator. <br>
+       array.toString(): Return a string with array values separated by commas. <br>
+       array.sort(): Sort the elements in alphabetic/ascending order in an array. <br>
+       array.reverse(): Reverse the order of elements and overwrites the source array. <br>
+       array.slice(startIndex, endIndex): Return a subset of new array from starting index to end index(excluded) and not modify source array. <br>
+       array.splice(startIndex, deleteCount, ...addItems): Used to add, remove or replace the elements and return deleted element and modify source array.<br>
+       array.indexOf(): Returns first index position of specified element in an array, otherwise return -1. <br>
+       array.lastIndexOf(): Returns last index position of specified element in an array, otherwise return -1. <br>
+       array.find(): Return the first element that satisfied the condition, otherwise return undefined. <br>
+       array.flat(Infinity): Return new array by flattening a nested array. <br>
+       Array.isArray(array): Return true if object is array, otherwise return false. <br>
+       array.includes(): Return true if array contains specified value, otherwise return false. <br> 
+       array.every(): Check all the elements satisfy the condition and return boolean value. <br> 
+       array.some(): Check atlest one element satisfy the condition and return boolean value. <br> 
+       array.fill(): Replace the value from startIndex to endIndex. <br> 
+       array.forEach(): Loop and modified the original array with updated elements. <br> 
+       array.map(): Loop and Return a new array with updated elements. <br>
+       array.filter(): Loop and filtered the elements as per the condition with a new array. <br>
+       array.reduce(): Loop and accumulate the elements into a single value as per condition with new array. <br>
     </p>
 
    <h3>54. Explain some important Math methods in JavaScript…?</h3>
     <p>
-       Math.random(): Returns a pseudo-random number between 0 and 1 (inclusive of 0, but not 1). <br>
+       Math.random(): Returns a random number between 0 and 1 (inclusive of 0, exclusive 1). <br>
        Math.round(): Rounds a number to the nearest integer. <br>
        Math.ceil(): Rounds a number up to the nearest integer. <br>
        Math.floor(): Rounds a number down to the nearest integer. <br>
        Math.max(): Returns the largest numbers. <br>
-       Math.min(): Returns the smallest numbers. 
+       Math.min(): Returns the smallest numbers. <br>
+       Math.abs(): Returns the absolute value of a number, remove negative sign. <br>
+       Math.sqrt(): Calculates the square root of a number. <br> 
+       Math.pow(): Calculates the power of a number.
     </p>
 
    <h3>55. Explain some important methods of Object on JavaScript…?</h3>
     <p>
-       Object.keys(objName): Returns an array of a given object's own enumerable property names. <br>
-       Object.values(objName): Returns an array of a given object's own enumerable property values. <br>
-       Object.entries(objName): Returns an array of a given object's own enumerable property [key, value] pairs. <br>
-       Object.assign(objName): Copies the values of all enumerable properties from one or more source objects to a target object. <br>
-       Object.freeze(objName): Freezes an object, preventing new properties from being added and existing properties from being                 removed or modified.
+       Object.create(): Creates a new object with the specified prototype object and properties. <br>
+       Object.keys(objName): Return keys of an object. <br>
+       Object.values(objName): Return values of an object. <br>
+       Object.is(obj1, obj2): Compare the value of objects and return true or false . <br>
+       Object.entries(objName): Returns an array containing object's property [key, value] pairs. <br>
+       Object.fromEntries(objName): Returns a new object from an iterable of [key, value] pairs. Revers of Object.entries(). <br>
+       Object.assign({}, sourceObj): Clone a object with shallow copy. <br>
+       Object.freeze(objName): Making an object completely immutable. Not allowed to add, delete, modify. <br>
+       Object.seal(objName): Making an object partially mutable. Only modification is allowed.
     </p>
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    <h2>F. Asynchronous :</h2>
     <h3>56. What are differences between Asynchronous and Synchronous operations in JavaScript...? Imp</h3>  
     <p>
-      Synchronous : <br />
-       JavaScript is a single-threaded and synchronous by default. <br>
-       Synchronous is a process of executing the code one after another in a sequential order. <br />
-       This operation block the main program flow untill the current task is completed. <br />
-       Synchronous operations are predictable and straightforward because they occur in order they are written.<br /><br />
-         Asynchronous : <br />
-       Asynchronous operations allow the program to executing multiple tasks parallelly without waiting for the current task to                 complete. <br />
-       Asynchronous operation is essential for resposive web applications and avoid time consuming. <br />
-       JavaScript provides mechanisms like callbacks, setTimeout, setInterval, promises and Async/await with asynchronous code. <br /><br />
+       Synchronous : <br />
+      > JavaScript is a single-threaded and synchronous by default. <br>
+      > Synchronous is a process of executing the code one after another in a sequential order. <br />
+      > This operation block the main program flow untill the current task is completed. <br />
+      > Synchronous operations are predictable and straightforward because they occur in order they are written.<br /><br />
+     Asynchronous : <br />
+      > Asynchronous operations allow the program to executing multiple tasks parallelly without waiting for the current task to complete. <br />
+      > Asynchronous operation is essential for resposive web applications and avoid time consuming. <br />
+      > JavaScript provides mechanisms like callbacks, setTimeout, setInterval, promises and Async/await with asynchronous code. <br /><br />
     </p>  
 
    <h3>57. What is Callback Function and it's uses in real application in JavaScript...? Imp</h3>
     <p>
        A callback function is a function that passed into another function as an argument.<br />
-       It is invoked inside the outer function to complete the task. <br />
+       It is invoked inside the main function to complete the task. <br />
        Callback functions are a fundamental concept in asynchronous programming, allowing to work with events, timers, fetch API and more.<br /><br>
-       Uses of Callback Function: <br />
+
+    Uses of Callback Function: <br />
       > Iteration(forEach, map, filter, reduce) <br />
       > Event handling <br />
       > Asynchronous operations(setTimeout, setInterval) <br />
@@ -608,16 +651,18 @@
        Callback Hell : The term Callback Hell is used to describe a situation where multiple nested callbacks make the code difficult to read and
       maintain during asynchronous operations.
     </p>
-
+        
    <h3>58. What is Promises in JavaScript...? Imp</h3>
     <p>
        A Promise is an object in JavaScript, which represents the eventual completion or failure of an asynchronous operations. <br />
        It is an alternative approach for callbacks by reducing the callback hell and writing the cleaner code. <br>
+       Promises are created using the "Promise" constructor, which takes a callback function with two arguments, resolve and reject. <br>
        It increses the readability and maintainabilty of the code. <br> 
        Promise can be in one of 3 states : pending(Initial State), resolved(Operation Successful) or rejected(Operation Failed). <br />
+       While a Promise object is pending, the result is undefined, When fulfilled, the result is a value and When rejected, the result is an error object. <br>
        Use of promise in real applications: API Calls, File Handling, Data Fetching, Event Handling and Animations. <br> 
-       Promises are created using the "Promise" constructor, which takes a callback function with two arguments, resolve and reject. <br>
-       Syntax : const promise = new Promise((resolve, reject) => { //Asynchronous operations //If successful, call resolve(value) //If failed, call reject(error)}); <br>
+       Syntax : const myPromise = new Promise((resolve, reject) => { //If successful, call resolve(value) //If failed, call reject(error)}); <br>
+       Promise provides then() and catch() methods for handling results and errors. <br>
        Promise.all() method is used to handle multiple promises concurrently. <br>
        Promise Chaining : The process of executing a sequence of asynchronous tasks one after another using promises(multiple .then()) is known as Promise chaining.
     </p>
@@ -653,13 +698,15 @@
    <h3>62. What is Generator function in JavaScript…? Imp</h3>
     <p>
        A generator function in JavaScript is a special type of function, that allow to control the flow of excution. <br>
-       It has the ability to pause and resume the flow of execution at certain points. <br>
-       Generator functions are defined using function syntax and use "yield" keyword to produce a sequence of values. <br>
-       It is useful in scenarios like create custom iterators, asynchronous programming and lazy evaluation.  
+       It has the ability to pause and resume the flow of execution at different points. <br>
+       Generator function is defined using the function* syntax and returns an object with two properties: value(yield value) and done(true/false). <br>
+       The "yield" keyword is used within the function to pause execution and next() method is called to resumes execution. <br>
+       It is useful in scenarios like create custom iterators, asynchronous programming, lazy evaluation and working with infinite sequences.  
     </p>
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
-    <h2>G. DOM and Events :</h2>
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+   <h2>G. DOM and Events :</h2>
     <h3>63. What is DOM and it uses in JavaScript…? Imp</h3>
     <p>
        DOM stands for Document Object Model. The document object represents the whole HTML document. <br>
@@ -750,7 +797,7 @@
        The Event loop is a fundamental mechanism in JavaScript for executing code asynchronously. <br> 
        It allows JavaScript to perform non-blocking operations despite being single-threaded. <br>
        The event loop continuously checks the call stack and the callback(macrotask) queue. <br>
-       When call stack is empty, the event loop takes the first function from the queue and pushes it to call stack for execution. <br>
+       When call stack is empty, the event loop pushes function from the event queue to call stack for execution. <br>
        After completing execution, the call stack removed on last-in-first-out (LIFO) principles. <br> 
        The event loop is responsible for making JavaScript responsive and interactive. <br> <br>
        In event loop, another task queue also created called microtask queue, the tasks like promises and MutationObserver. <br> 
@@ -773,14 +820,35 @@
        Throttling is a technique in JavaScript used to control the frequent execution of functions and runs only once every specified time interval. <br>
        It ensures that a function is called at most once within a specified time period, even the function is triggered multiple times. <br>
        It improves performance by reducing the number of function calls, making the application more efficient and responsive. <br>
-      
-      
     </p>
-    
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   <h3>73. What is AbortController in JavaScript…?</h3>
+    <p>
+       The AbortController in JavaScript is a powerful API that allows to control and abort asynchronous operations before complete. <br>
+       It is especially useful when users navigates away from a page, cancels a form submission, or wants to stop a long-running process. <br>
+       A method called abort() that triggers the cancellation signal or operation. <br>
+       AbortController can implement in two by onclick event and setTimeout after certain milliseconds. <br>
+       By utilizing AbortController, can enhance the responsiveness and user experience on web applications.
+    </p>
+
+   <h3>74. How to secure frontend applcation...?</h3>
+    <p>
+       Securing a frontend application is crucial to protect user data, prevent malicious attacks and maintain the integrity of the app. <br> 
+       There are several best practices and techniques to improve security : <br>
+       Use HTTPS: Always serve application over HTTPS to ensure that all data between the client and server is encrypted. <br>
+       Avoid Storing Data on Browser: Do not store sensitive information such as tokens, passwords or personal data in localStorage, sessionStorage or cookies. <br> 
+       Input Validation and Sanitization: Always ensure that user-provided data meets expected formats and remove special characters to prevent vulnerabilities like Cross-Site Scripting. <br> 
+       Content Security Policy: CSP is an HTTP response header that enhances site's security by specifying which sources of content are trusted. <br> 
+       Authentication and Authorization: Implement robust authentication mechanisms to verify user identity and implement role-based or permission-based access control. <br> 
+       Strict Security Headers: Utilize HTTP security headers like X-Content-Type-Options, X-Frame-Options, and Referrer-Policy to enhance security. <br>  
+       Avoid Exposing Sensitive Data: Never expose sensitive information, such as API keys or user credentials, in frontend code. <br> 
+       Third-Party Dependencies: Use trusted third-Party libraries or services and update regularly. 
+    </p>
+
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    <h2>H. OOP (Object Oriented Programming) :</h2>
-    <h3 class="vvi">73. What is OOP in JavaScript...?</h3>
+    <h3>75. What is OOP in JavaScript...?</h3> Imp
     <p>
        OOP stands for Object-Oriented Programming. <br />
        OOP is a programming paradigm that uses objects and classes to organize and structure the code. <br />
@@ -793,7 +861,7 @@
       > Polymorphim: Polymorphism allows objects of different types to be treated as objects of a common type.
     </p>
     
-   <h3>74. What is happens behind the scenes when the "new" keyword is used in JavaScript…?</h3>  
+   <h3>76. What is happens behind the scenes when the "new" keyword is used in JavaScript…?</h3>  
     <p>
       > The new keyword initiates the creation of new object in JavaScript. <br />
       > The new object gets linked to the prototype property of the constructor function. <br />
@@ -801,7 +869,7 @@
       > After the constructor function has been called, if it does not return a non-primitive value, then the newly created object is returned.
     </p>  
     
-   <h3>75. What is class in JavaScript...?</h3>
+   <h3>77. What is class in JavaScript...?</h3>
     <p>
        A Class is a template for creating objects with similar properties and methods. <br />
        ECMAScript 2015, also known as ES6, introduced JavaScript Classess.<br />
@@ -809,17 +877,17 @@
        A Constructor is a special type of method within classes that are automatically called when an object is created using new keyword.
     </p>  
 
-   <h3>76. What is Class inheritance in JavaScript...?</h3>
+   <h3>78. What is Class inheritance in JavaScript...?</h3>
     <p>
       > Class inheritance in JavaScript allows to create a subclass that inherits properties and methods from a base class or supper class. <br />
       > The subclass can reuse and extend the functionality of the super class by using 'extends' keyword.
     </p>  
     
- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    <h2>ECMAScript 6</h2>
 
-   <h3>77. What is ECMAScript(ES) and explain about important versions of ES introduced in JavaScript…?</h3>
+   <h3>79. What is ECMAScript(ES) and explain about important versions of ES introduced in JavaScript…?</h3>
     <p>
        The name "ECMAScript" is derived from the organization that standardizes the specification, the European Computer Manufacturers Association (ECMA). <br>
        ECMAScript provides the rules, guidelines and functionality that developers and browser vendors must follow to implement the scripting language. <br>
@@ -828,7 +896,7 @@
        The last and updated versionof ECMAScript is ES12(ECMAScript 2021).
     </p>
     
-   <h3 >78. Explain some important features introduced in ES6...?</h3>
+   <h3>80. Explain some important features introduced in ES6...?</h3>
     <p>
        ES6 (ECMAScript 2015) a different versions of the ECMAScript standard with several new features and improvements. <br>
        ES6 make JavaScript code more readable, maintainable, and expressive. <br> 
@@ -842,7 +910,7 @@
       > ES6 introduced the spread operator to spread the contents and rest operator to collects the remaining infinite arguments into an array.
     </p>
     
-   <h3 class="vvi">79. What are the differences between var, let and const…? Imp</h3>
+   <h3>81. What are the differences between var, let and const…? Imp</h3>
     <p>
        var: <br />
        The var keyword is used to declared a variable with function scope or global scope. <br />
@@ -859,7 +927,7 @@
        Variables declared with const are also hoisted, but not initialized.
     </p>
 
-   <h3 class="vvi">80. What is Temporal Dead Zone in JavaScript…? Imp</h3>
+   <h3>82. What is Temporal Dead Zone in JavaScript…? Imp</h3>
     <p>
        The Temporal Dead Zone(TDZ) refers to a specific behavior related to the hoisting of variables declared with the let and const keywords. <br>
        When we declare a variable using var, it gets hoisted to the top of its scope and return undefined. <br> 
@@ -867,7 +935,7 @@
        The TDZ is the time between entering the scope where the variable is declared and the actual initialization of the variable. 
     </p>
 
-   <h3 class="vvi">81. What are Template Literals and String Interpolation in JavaScript...?</h3>
+   <h3>83. What are Template Literals and String Interpolation in JavaScript...?</h3>
     <p>
        Template literals, introduced in ES6, provide a convenient way to concatenation strings in JavaScript by using backticks``. <br>
        Template literals allow Inject variables & functions, Multiline strings, Expression evaluation, use conditional statement and use quotations inside. <br>
@@ -877,7 +945,7 @@
       > Tagged Templates: Template literals can be tagged with a function and receives the literals and interpolated values as arguments.
     </p>
   
-   <h3 class="vvi">82. What are the differences between Spread Operator and Rest Operator in JavaScript…? Imp</h3>  
+   <h3>84. What are the differences between Spread Operator and Rest Operator in JavaScript…? Imp</h3>  
     <p>
        Spread Operator and Rest Operator introduced in ES6. <br>
        Both parameter, denoted by "...". <br>
@@ -892,7 +960,7 @@
       > Rest operator always keep at the end of parameter. <br> 
     </p>  
 
-   <h3 class="vvi">83. What is the difference between Arrow function and Regular function in JavaScript…? Imp</h3>
+   <h3>85. What is the difference between Arrow function and Regular function in JavaScript…? Imp</h3>
     <p>
        Arrow functions and Regular functions in JavaScript have some key differences in their syntax, behavior, and use cases. <br /><br />
        Arrow Function : <br />
@@ -909,25 +977,24 @@
       > Regular functions can be used as constructor functions with new keyword and allow to create objects.
     </p>
 
-   <h3 class="vvi">84. What is a strict mode in javascript...? Imp</h3>
+   <h3>86. What is a strict mode in javascript...? Imp</h3>
     <p>
        Strict Mode is introduced in ES5 that allows a program in a “strict” operating context. <br />
        It enhance the language by catching errors in advance, preventing global variables, restrict the use of reserved keywords and prohibit duplicate name etc.<br />
        The "use strict" directive is used to enable strict mode in code.
     </p>
 
-   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    <h2>Browser and Others :</h2>
-
-   <h3>85. What is Browser Object Model(BOM)...?</h3>
+   <h3>87. What is Browser Object Model(BOM)...?</h3>
     <p>
       > The Browser Object Model (BOM) allows JavaScript to "talk to" the browser. <br />
       > It consists of the objects navigator, history, screen, location and document which are children of the window.<br />
       > There are no official standards for the Browser Object Model (BOM). .
     </p>
     
-   <h3>86. What is Call Stack and Heap memory in JavaScript...?</h3>
+   <h3>88. What is Call Stack and Heap memory in JavaScript...?</h3>
     <p>
       JavaScript uses automatic memory management through a mechanism called the "heap" and "call stack." <br />
        Call Stack : <br />
@@ -941,7 +1008,7 @@
       > Heap allocating memory for new objects and releasing memory when objects are no longer referenced or needed.<br />
     </p>
 
-   <h3>87. What is Web Storage and its uses...?</h3>
+   <h3>89. What is Web Storage and its uses...?</h3>
     <p>
        The Web Storage is used to store data locally within the browser. <br>
        There are two types of web storage: Local Storage and Session Storage. <br>
@@ -953,24 +1020,24 @@
       > Storing client side Tokens.
     </p>
     
-   <h3 class="vvi">88. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
+   <h3>90. What are the differences between Local storage and Session Storage in HTML5…? Imp</h3>
     <p>
        Local storage and Session storage are two web storage by HTML5 that allow to store data by the users locally. <br />
        They are similar in many ways but have some few key differences: <br /><br />
        Local Storage: <br>
       > Data stored in localStorage is accessible across multiple windows and tabs of same origin(domain). <br />
-      > Data stored in localStorage persists even after the browser is closed or reopened. <br>
+      > Data stored in localStorage persists even after the browser is closed or reopened, there is no expiration time. <br>
       > Data remains available in local storage until manually cleared by the user or removed programmatically. <br />
       > Local Storage offers a larger storage limit compared to Session Storage. <br /><br />
        Session Storage: <br>
-      > Data stored in sessionStorage is specific to a particular browsing session and accessible only within the same window. <br>
+      > Data stored in sessionStorage is specific to a particular browsing session and accessible only within the same window or tab. <br>
       > Data stored in sessionStorage is cleared automatically, when browser window or tab is closed. <br />
       > Data stored in sessionStorage is temporary and available only for the duration of the browsing session. <br />
       > Session Storage has a smaller storage limit compared to Local Storage. <br>
       > Session storage may be a better option for projects that handle sensitive information.
     </p>
     
-   <h3>89. Explain about different methods applying to Local storage and Sessionstorage...?</h3>
+   <h3>91. Explain about different methods applying to Local storage and Sessionstorage...?</h3>
     <p>
        Methods of Local Storage : <br />
       > localStorage.setItem(key, value): Stores a key-value pair in local storage. <br />
@@ -981,15 +1048,15 @@
        In Session Storage also the same methods, like local storage, only the 'local' keyword will replace to 'session'.
     </p>
     
-   <h3 class="vvi">90. What is a Cookie...?</h3>
+   <h3>92. What is a Cookie...?</h3>
     <p>
-       Cookies are the small piece of data that is stored in the user's browser. <br />
+       Cookies are the small piece of data that can store in the user's browser. <br />
        Cookies are saved as key/value pairs. <br />
-       It is commonly used by websites to remember information about the user's browsing activity, preferences, and interactions with site. <br>
+       Commonly used by websites to analyze and remember the information about the user's browsing activity, preferences, and interactions with site. <br>
        Types: Session cookies are romoved when close the browser, and Persistent cookies are stored for a longer period.
     </p>
 
-   <h3 class="vvi">91. What is Debugging in JavaScript...?</h3>
+   <h3>93. What is Debugging in JavaScript...?</h3>
     <p>
        Debugging is the process of testing, finding and fixing errors, bugs or unexpected behaviour in code. <br />
        Programming code might contain syntax errors or logical errors or reference errors or type error etc. <br />
@@ -998,25 +1065,25 @@
        The debugger keyword use to stops execution of JavaScript and allowing to inspect the program's state.
     </p>    
     
-   <h3>92. Explain code execution process in JavaScript...?</h3>
+   <h3>94. What is Web workers and it's type in JavaScript...?</h3>
     <p>
-       Code execution follows a two-phase process: the creation phase (hoisting) and the execution phase. <br />
-       These phases are part of the JavaScript runtime's process for handling code. <br /><br /> 
-       Creation Phase (Hoisting): <br />
-      > During the creation phase, the JavaScript engine scans the code and sets up the following: <br />
-      > Variable declared names are registered in the current scope, are initialized with the value undefined. <br />
-      > Function declarations are also hoisted to the top of their containing scope. <br />
-      > However, the assignments (the actual values) of variables are not hoisted, only the declarations. <br /><br />
-       Execution Phase: <br />
-      > After the creation phase, the JavaScript engine proceeds to the execution phase, where it executes the code from top to bottom. <br />
-      > Variables are assigned their actual values during the execution phase. <br />
-      > Functions declared during the creation phase are available for execution. <br />
-      > Variables declared with let and const, do not exhibit the same hoisting behavior with var, but they are still subject to the two-phase process. <br />
-      > The JavaScript engine maintains a stack of execution contexts, called the "call stack." When a function is called, a new execution context is
-      pushed onto the stack. When the function completes, its execution context is popped off the stack.
+       A Web Worker is a JavaScript thread that runs in the background, separate from the main thread. <br>
+       It doesn't have access to the DOM, which keeps isolated from affecting the UI. <br>
+       It can communicate with the main thread through postMessage. <br>
+       3 Types of web workers::  <br>
+       Dedicated Web Worker: <br>
+      > A Dedicated Web Worker is created and used by a single script. <br>
+      > Useful for tasks specific to a particular part of the application(one-to-one). <br>
+       Shared Web Worker: <br>
+      > A Shared Web Worker can be shared across multiple scripts, even if running in different windows or tabs of the same origin. <br> 
+      > Useful for scenarios where need to share data across multiple instances of the application(one-to-many). <br>
+       Service Worker: <br>
+      > Service Worker is a special type of worker that acts as a proxy between web application and the network. <br>
+      > It allows to intercept network requests and serve cached responses. <br>
+      > It play a central role in Progressive Web Apps (PWAs), enabling offline support and push notifications.
     </p>
     
-   <h3>93. Explain about Exception/Error handling and best practices for handling error in JavaScript…?</h3>
+   <h3>95. Explain about Exception/Error handling and best practices for handling error in JavaScript…?</h3>
     <p>
        Error handling in JavaScript is the process of dealing with errors that may occur during the execution of a program. <br>
        Errors can happen for various reasons, such as incorrect user input, network issues, or unexpected runtime conditions. <br> 
@@ -1028,13 +1095,13 @@
       > Logging Errors: Log errors to a centralized logging system or console. This helps in tracking and diagnosing issues in a production environment.
     </p>
     
-   <h3>94. What is console and explain different methods of console...?</h3>
+   <h3>96. What is console and explain different methods of console...?</h3>
     <p>
        The console is an object that provides access to the browser's debugging console. <br />
        Console object is a property of window object. <br />
        Console Uses REPL, that is Read -> Evaluate -> Print -> Loop. <br /><br />
       
-   Some Important methods used in console are : <br />
+    Some Important methods used in console are : <br />
       > console.log(): Used to log messages to the console and often used for debugging and display variables values.<br />
       > console.error(): Used to log error messages to the console with a distinctive appearance. <br />
       > console.warn(): Warning messages with a distinctive appearance. <br />
@@ -1046,7 +1113,7 @@
       > console.dir(): Useful for inspecting the structure and properties of complex objects like arrays, objects or DOM elements.
     </p>  
 
-   <h3>95. What is IndexedDB and explain about the basic patterns...?</h3>
+   <h3>97. What is IndexedDB and explain about the basic patterns...?</h3>
     <p>
          IndexedDB is a web browser API, that allows web applications to store and retrieve large amounts of structured data locally. <br>
          It create and manage client-side databases asynchronously. <br>
@@ -1060,7 +1127,7 @@
         > Provide response with result.
     </p>
 
-   <h3>96. What are the difference between JavaScript and Java...?</h3>
+   <h3>98. What are the difference between JavaScript and Java...?</h3>
     <p>
        JavaScript : <br>
       > JavaScript is an object-oriented scripting language. <br>
@@ -1074,7 +1141,7 @@
       > Java is used for building operating systems, mobile apps (Android), enterprise-level server-side applications.
     </p>
 
-   <h3>97. Explain Static type vs Dynamic type...?</h3>
+   <h3>99. Explain Static type vs Dynamic type...?</h3>
     <p>
        JavaScript is a dynamic type language, where type can be changed.<br />
        C, C++ and Java are static type language, where types are strict.<br />
@@ -1083,18 +1150,54 @@
        TypeScript is designed by Microsoft.
     </p>
 
-   <h3>98. What is Git...?</h3>
+   <h3>100. Explain about Git and GitHub...?</h3>
     <p>
        Git is a version control system, it helps us to track the changes made in our code/projects. <br>
-       It is the most popular version control system in software development field. <br>
-       It is free and open source software. <br>
+       It is open source and most popular version control system in software development field. <br>
        It is fast and scalable, can be used in large project. <br>
        It is use to track the history of code and help to collaborate. <br>
-       Flow: GitHub repo => clone => changes => add => commit => push
-    </p>
-
-   <h3>99. What is GitHub...?</h3>
-    <p>
+       Flow: GitHub repo => init => clone => add . => commit -m "..." => push <br>
        Github is a website used by developers to store and manage their codes/projects with the help of Git. <br>
        On GitHub, projects are stored in folder structure that is known as "repository" in sort called "repo".
+    </p>
+    
+   <h3>101. Explain about important git commands...?</h3>
+    <p>
+       git config --global user.name "Your Name": Set your Git username. <br>
+       git config --global user.email "your_email@example.com": Set your Git email. <br>
+       git config --global --list: Show all global configurations.  <br>
+       git init: Initialize a new Git repository in the current directory. <br>
+       git clone <repository-url>: Clone a repository from remote to local machine. <br>
+       git status: Check the status of working directory. <br>
+       git add <file>: Stage a specific file for commit. <br>
+       git add .: Stage all changed files in the current directory for commit. <br>
+       git commit -m "commit message": Commit staged changes with a message. <br>
+       git commit -am "commit message": Add and commit all tracked files with a single command. <br>
+       git log: View commit history. <br>
+       git branch: List all branches. <br>
+       git branch <branch-name>: Create a new branch. <br>
+       git checkout <branch-name>: Switch to another branch. <br>
+       git checkout -b <branch-name>: Create and switch to a new branch. <br>
+       git branch -d <branch-name>: Delete a branch. <br>
+       git branch -D <branch-name>: Force delete a branch. <br>
+       git merge <branch-name>: Merge a branch into the current branch. <br>
+       git rebase <branch-name>: Moves the changes from one branch to another branch. <br>
+       git stash: Allows to temporarily save changes in working directory without committing. <br> 
+       git fetch <remote>: Fetch changes from a remote repository without merging. <br>
+       git pull <remote> <branch>: Fetch and merge changes from a remote branch. <br>
+       git push <remote> <branch>: Push changes to a remote branch. <br>
+       Git Fetch: Download changes from the remote repository to local repository, but does not merge them into working directory. <br>
+    </p>
+
+   <h3>102. Waht is CDN and it's advantages...?</h3>
+    <p>
+       A Content Delivery Network is a network of geographically distributed servers designed to deliver web content to users based on their geographic location. <br>
+       Advantages of Using a CDN in JavaScript: <br>
+      > Improved Performance and reduce load times <br>
+      > Load Balancing and Scalability <br>
+      > Enhanced Availability and Reliability <br>
+      > Lower Bandwidth Costs <br>
+      > Optimized Caching <br>
+      > Improved Security <br>
+      > SEO Benefits
     </p>
